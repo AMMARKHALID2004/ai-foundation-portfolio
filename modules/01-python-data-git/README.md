@@ -2,7 +2,7 @@
 
 Guide priority: **Essential**. Planning estimate: 1–2 weeks; shorten verified areas.
 
-Current status: **Partially evidenced: data libraries reported complete; other objectives unconfirmed**. Start/finish dates: unknown. Supervisor review: pending. This folder is a scaffold.
+Current status: **Partially evidenced: data libraries reported complete; other objectives unconfirmed**. Start/finish dates: unknown. Supervisor review: pending. Existing Python, NumPy, Pandas, plotting, data-loading/cleaning and EDA work is now available in [completed-work](../../completed-work/README.md). This module folder records the remaining diagnostic and evidence tasks.
 
 ## Learning objectives
 

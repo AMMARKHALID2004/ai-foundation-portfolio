@@ -2,9 +2,9 @@
 
 ## 1. Package what you already know
 
-Use your existing NumPy/Pandas/plotting notebooks as evidence; do not repeat full beginner courses. Pick representative notebooks, restart the kernel and run all cells, replace absolute dataset paths, add setup and dataset provenance, and write one short independent extension and reflection. Record actual learning dates if known; otherwise leave them unknown.
+Your existing notebooks are now imported in [completed-work](../completed-work/README.md). Use them as evidence; do not repeat full beginner courses. Pick representative notebooks, restart the kernel and run all cells, replace absolute dataset paths, add setup and dataset provenance, and write one short independent extension and reflection. Record actual learning dates if known; otherwise leave them unknown.
 
-The reviewed ColumnTransformer notebook shows prior train/test splitting, imputation, one-hot and ordinal encoding. Its manual train and test arrays use different feature orders. Keep the same order and explain why equal shapes do not guarantee equivalent features. Use a relative dataset path, `random_state`, and an unseen-category policy. A supplied correction is assistance; explain and reproduce it yourself.
+The reviewed ColumnTransformer notebook shows prior train/test splitting, imputation, one-hot and ordinal encoding. Its previous manual train and test arrays used different feature orders; that correction is now merged. Keep the same order and explain why equal shapes do not guarantee equivalent features. The merged notebook already uses a relative dataset path, `random_state`, and an unseen-category policy. A supplied correction is assistance; explain and reproduce it yourself.
 
 ## 2. Bridge from ColumnTransformer to Pipeline
 

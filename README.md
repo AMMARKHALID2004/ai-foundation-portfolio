@@ -6,6 +6,8 @@ Common foundation portfolio for Muhammad Ammar Khalid's FYP preparation, followi
 
 As reported on **2026-10-15**, NumPy, Pandas, Seaborn, and Matplotlib study is complete; scikit-learn study has reached **ColumnTransformer**. Existing GitHub repositories contain related notebooks. This records prior work without assuming the complete ML or PyTorch foundation is finished. Originality, reproducibility, learning reflections, and supervisor sign-off still need review.
 
+**Your completed material:** [browse the imported work](completed-work/README.md).
+
 **Start here:** [next tasks](docs/NEXT_STEPS.md), [roadmap](docs/ROADMAP.md), and [progress tracker](docs/PROGRESS.md).
 
 ## Structure
@@ -21,32 +23,37 @@ As reported on **2026-10-15**, NumPy, Pandas, Seaborn, and Matplotlib study is c
 | `modules/07-deep-learning-practice` | Student-written MLP/CNN loops and error analysis |
 | `modules/08-evaluation-optional` | Optional dedicated evaluation study; apply evaluation in projects |
 | `practice/sklearn-pipelines` | Bridge from ColumnTransformer to an end-to-end ML workflow |
+| `completed-work` | Imported notebooks, Python exercises, data-handling/EDA and preprocessing work from 14 existing repositories |
 | `templates` | Module evidence, experiments, reflection, dataset and model cards |
 | `docs` | Planning, progress, portfolio links and submission checklist |
 | `blueprints` | Plans for one future specialization repo and a separate capstone |
 
-## Setup
+## Setup: Anaconda + Jupyter Notebook
 
-Use Python 3.11 or newer and work from this repository's root.
+The primary workflow uses **Anaconda**, **Jupyter Notebook**, and **uv**. Work from this repository's root:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-python practice/sklearn-pipelines/example.py
-python -m jupyter lab
+conda env create -f environment.yml
+conda activate fyp-ai
+uv pip install -r requirements.txt
+python -m ipykernel install --user --name fyp-ai --display-name "FYP AI (Anaconda)"
+python scripts/fetch_learning_data.py
+python -m notebook
 ```
 
-The example generates synthetic data locally and needs no downloads or API keys. Its printed score demonstrates execution only; it is not an FYP result or evidence of student completion. Open `practice/sklearn-pipelines/exercise.ipynb` to do your own extension. For only the verified example runtime, use `python -m pip install -r requirements-example-lock.txt` on Python 3.12. Verification scope is recorded in [VERIFICATION.md](docs/VERIFICATION.md).
+The optional data-download step uses GitHub CLI to retrieve original lesson assets locally, verifies their hashes and keeps them out of Git. You can skip it for the synthetic Pipeline starter.
 
-`requirements.txt` defines the starter environment. After validating your own experiment, save the exact environment with `python -m pip freeze > requirements-lock.txt` and record the Python version. PyTorch is intentionally deferred until its module; follow the official installation selector for your hardware then.
+In Jupyter Notebook, select the **FYP AI (Anaconda)** kernel. If the environment already exists, activate it and continue from dependency installation.
+
+**pip alternative:** replace `uv pip install -r requirements.txt` with `python -m pip install -r requirements.txt`. Both use the same dependency file. [Environment instructions](docs/ENVIRONMENT.md) also cover uv/venv and pip/venv, optional EDA libraries, and saving exact package versions.
+
+Run `python practice/sklearn-pipelines/example.py` for the synthetic Pipeline starter. It needs no dataset downloads or API keys; its score is a teaching result, not FYP performance. Complete `practice/sklearn-pipelines/exercise.ipynb` independently. The verified smaller runtime is in `requirements-example-lock.txt` (Python 3.12). See [verification](docs/VERIFICATION.md) for the actual checks and their limits.
 
 ## Evidence and working habits
 
 For each module, provide a README with objectives and actual dates, original source/notebooks, an environment file, measured results with interpretation, and a reflection. Add a repository/folder link and supervisor review to [PROGRESS.md](docs/PROGRESS.md). Commit meaningful increments as you learn.
 
-Existing topic repos remain linked in [GITHUB_EVIDENCE.md](docs/GITHUB_EVIDENCE.md). Do not relabel copied tutorials or generated starters as original implementations. Attribute courses and dataset sources; publish only permitted independent work. Keep restricted graded solutions, private data, credentials and API keys out of Git.
+Your previous work is imported in [completed-work](completed-work/README.md), with source links, cleared notebook outputs, attribution and a record of portability edits. Dataset assets are fetched locally from the originals. Original topic repos remain linked in [GITHUB_EVIDENCE.md](docs/GITHUB_EVIDENCE.md). Do not relabel copied tutorials or generated starters as original implementations. Attribute courses and dataset sources; publish only permitted independent work. Keep restricted graded solutions, private data, credentials and API keys out of Git.
 
 ## Foundation completion gate
 

@@ -1,6 +1,6 @@
 # Existing GitHub evidence
 
-Account: [AMMARKHALID2004](https://github.com/AMMARKHALID2004). Inventory inspected on **2026-10-15**. The ColumnTransformer notebook source was read; other entries are based on repository file inventories. This is not a full execution, originality review, or supervisor sign-off.
+Account: [AMMARKHALID2004](https://github.com/AMMARKHALID2004). Existing work imported on **2026-10-15** from 14 source repositories. [Browse the actual files](../completed-work/README.md), [notebook index](NOTEBOOK_INDEX.md), and [source manifest](import-manifest.json). This does not replace originality review or supervisor sign-off.
 
 | Area | Existing repository | Observed work | Next evidence task |
 | --- | --- | --- | --- |
@@ -13,21 +13,14 @@ Account: [AMMARKHALID2004](https://github.com/AMMARKHALID2004). Inventory inspec
 | EDA project | [EDA-Project](https://github.com/AMMARKHALID2004/EDA-Project) | Cleaning, EDA and bivariate notebooks | State problem, data source, findings and limitations |
 | scikit-learn | [Machine-Learning](https://github.com/AMMARKHALID2004/Machine-Learning) | Scaling, encoding, power transformation and ColumnTransformer | Correct portability and manual feature order; add Pipeline practice next |
 
-These links acknowledge prior learning without moving notebooks or making their completion dates up. The complete refresh module also requires Python/OOP, environments, command-line and Git skills; those are not established by these file inventories alone.
+Snapshots now live in this portfolio, retaining the original repo links, saved outputs and attribution; actual completion dates remain unknown. The complete refresh module also requires Python/OOP, environments, command-line and Git skills; those are not established by these file inventories alone.
 
-## ColumnTransformer review notes
+## ColumnTransformer corrections now applied
 
-File: [Column Transformer.ipynb](https://github.com/AMMARKHALID2004/Machine-Learning/blob/master/Column%20Transformer/Column%20Transformer.ipynb).
-
-- Dataset loading uses an absolute local path. A repo-relative dataset location is needed for reproduction.
-- Manual training features are concatenated as **age, cough, gender/city, fever**, while manual test features are **age, fever, gender/city, cough**. Equal array shapes conceal this semantic mismatch.
-- The split has no fixed random seed. The target-training variable is named `t_train`; `y_train` would make intent clearer.
-- One-hot encoding does not define how unseen categories should be handled.
-- A displayed shape expression repeats the test array instead of showing train and test.
-- The ColumnTransformer section correctly fits on training data and transforms test data. A Pipeline is the next extension for adding a model and cross-validation.
+The original [ColumnTransformer PR](https://github.com/AMMARKHALID2004/Machine-Learning/pull/1) is merged, and the corrected notebook is included in [the imported preprocessing work](../completed-work/sklearn-preprocessing/Column%20Transformer/Column%20Transformer.ipynb). It uses a relative CSV path, a fixed stratified split, consistent manual feature order, an unseen-category policy and the corrected train/test shape expression. Its code cells were executed successfully from both supported folders. Pipeline practice is the next independent extension.
 
 ## Review and publishing status
 
-The separate [ai-foundation-portfolio repository](https://github.com/AMMARKHALID2004/ai-foundation-portfolio) follows the supervisor's preferred foundation structure. Existing topic notebooks remain in their original repositories and are linked here.
+The separate [ai-foundation-portfolio repository](https://github.com/AMMARKHALID2004/ai-foundation-portfolio) follows the supervisor's preferred foundation structure. Imported snapshots are in `completed-work/`; the original repositories also retain their work. The five original portfolio updates have been merged.
 
-Use [GITHUB_CHANGES.md](GITHUB_CHANGES.md) for actual publication and draft pull request status. A draft pull request does not change the default branch; integration requires merging it. The supplied setup is not completed coursework or supervisor approval.
+Use [GITHUB_CHANGES.md](GITHUB_CHANGES.md) for publication and merge status. The supplied setup is not completed coursework or supervisor approval.

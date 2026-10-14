@@ -8,19 +8,19 @@ Status vocabulary: **Reported complete**, **In progress**, **Not confirmed**, **
 
 | Topic | Learning status | Start | Finish | Repository / folder | Evidence reviewed |
 | --- | --- | --- | --- | --- | --- |
-| NumPy | Reported complete | Unknown | Unknown | [Numpy](https://github.com/AMMARKHALID2004/Numpy) | File inventory seen; independent work and supervisor review pending |
-| Pandas | Reported complete | Unknown | Unknown | [Pandas](https://github.com/AMMARKHALID2004/Pandas) | File inventory seen; execution/reflection/review pending |
-| Matplotlib | Reported complete | Unknown | Unknown | [Matplotlib](https://github.com/AMMARKHALID2004/Matplotlib) | File inventory seen; figures/interpretation/review pending |
-| Seaborn | Reported complete | Unknown | Unknown | [Seaborn](https://github.com/AMMARKHALID2004/Seaborn) | File inventory seen; figures/interpretation/review pending |
-| scikit-learn through ColumnTransformer | Reported complete to this point | Unknown | Unknown | [ColumnTransformer notebook](https://github.com/AMMARKHALID2004/Machine-Learning/blob/master/Column%20Transformer/Column%20Transformer.ipynb) | Source inspected; reproducibility fixes proposed; supervisor review pending |
+| NumPy | Reported complete | Unknown | Unknown | [Imported NumPy](../completed-work/numpy/SOURCE.md) | Existing notebooks imported; independent work and supervisor review pending |
+| Pandas | Reported complete | Unknown | Unknown | [Imported Pandas](../completed-work/pandas/SOURCE.md) | Existing notebooks imported; execution/reflection/review pending |
+| Matplotlib | Reported complete | Unknown | Unknown | [Imported Matplotlib](../completed-work/matplotlib/SOURCE.md) | Existing notebooks imported; figures/interpretation/review pending |
+| Seaborn | Reported complete | Unknown | Unknown | [Imported Seaborn](../completed-work/seaborn/SOURCE.md) | Existing notebooks imported; figures/interpretation/review pending |
+| scikit-learn through ColumnTransformer | Reported complete to this point | Unknown | Unknown | [Imported preprocessing](../completed-work/sklearn-preprocessing/SOURCE.md) | Corrected source imported; reproducibility fixes merged; supervisor review pending |
 
 ## Guide modules
 
-Local folder links below identify intended evidence locations. The folders are currently scaffolds, not completed implementations. When publishing, they become clickable repository folder links; add the final standalone repository URL after creation.
+Local folder links below identify intended evidence locations. Future module folders remain scaffolds, while prior work is now in [completed-work](../completed-work/README.md). The published repo is [ai-foundation-portfolio](https://github.com/AMMARKHALID2004/ai-foundation-portfolio).
 
 | Module | Status | Start | Finish | Repository / folder | Evidence reviewed |
 | --- | --- | --- | --- | --- | --- |
-| 1 Python/data/Git refresh | In progress: data-library study credited; remaining objectives unconfirmed | Unknown | — | [Module 1](../modules/01-python-data-git/README.md), [existing repos](GITHUB_EVIDENCE.md) | Partial inventory; supervisor review pending |
+| 1 Python/data/Git refresh | In progress: data-library study credited; remaining objectives unconfirmed | Unknown | — | [Module 1](../modules/01-python-data-git/README.md), [existing repos](GITHUB_EVIDENCE.md) | Python/data/library snapshots imported; diagnostic and supervisor review pending |
 | Personalized Pipeline bridge | Not started | — | — | [Practice](../practice/sklearn-pipelines/README.md) | Supplied starter only |
 | 2 ML Specialization Course 1 | Not confirmed | — | — | [Module 2](../modules/02-supervised-ml/README.md) | No original linear/logistic regression reviewed |
 | 3 ML Specialization Course 2 | Not confirmed | — | — | [Module 3](../modules/03-advanced-ml/README.md) | No qualifying comparison reviewed |
@@ -40,7 +40,7 @@ Local folder links below identify intended evidence locations. The folders are c
 | Classical ML comparison of at least three models | Pending | Module 3 |
 | PyTorch MLP and CNN with own loops | Pending | Module 7 |
 | Error-analysis report | Pending | Use templates/error-analysis.md |
-| Evidence for every completed guide module | Partial prior work linked | Review setup, originality, results and reflection |
+| Evidence for every completed guide module | Existing work imported from 14 source repos | Review setup, originality, results and reflection |
 
 ## Supervision log
 

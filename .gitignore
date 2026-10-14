@@ -18,3 +18,61 @@ artifacts/
 *.ckpt
 *.joblib
 *.pkl
+
+# Imported lesson assets stay local; obtain them from their original repositories.
+/completed-work/python/advanced/File Handling/Test.txt
+/completed-work/python/advanced/File Handling/test2.txt
+/completed-work/python/generators-decorators/generators/file.txt
+/completed-work/pandas/Datasets/PSL.csv
+/completed-work/pandas/Datasets/batsman_runs_ipl.csv
+/completed-work/pandas/Datasets/bollywood.csv
+/completed-work/pandas/Datasets/courses.csv
+/completed-work/pandas/Datasets/deliveries.csv
+/completed-work/pandas/Datasets/diabetes.csv
+/completed-work/pandas/Datasets/expense_data.csv
+/completed-work/pandas/Datasets/imdb-top-1000.csv
+/completed-work/pandas/Datasets/ipl-matches.csv
+/completed-work/pandas/Datasets/kohli_ipl.csv
+/completed-work/pandas/Datasets/matches.csv
+/completed-work/pandas/Datasets/movies.csv
+/completed-work/pandas/Datasets/reg-month1.csv
+/completed-work/pandas/Datasets/reg-month2.csv
+/completed-work/pandas/Datasets/students.csv
+/completed-work/pandas/Datasets/subs.csv
+/completed-work/pandas/Datasets/time-series_confirm.csv
+/completed-work/pandas/Datasets/time-series_death.csv
+/completed-work/pandas/Datasets/titanic.csv
+/completed-work/matplotlib/Datasets/batsman_season_record.csv
+/completed-work/matplotlib/Datasets/batter.csv
+/completed-work/matplotlib/Datasets/big-array.npy
+/completed-work/matplotlib/Datasets/fours-sixes.csv
+/completed-work/matplotlib/Datasets/gayle-175.csv
+/completed-work/matplotlib/Datasets/results.csv
+/completed-work/matplotlib/Datasets/sharma-kohli.csv
+/completed-work/matplotlib/Datasets/vk.csv
+/completed-work/data-loading/Batsman Runs.csv
+/completed-work/data-loading/IPL Matches 2008-2020.csv
+/completed-work/data-loading/aug_train.csv
+/completed-work/data-loading/batter_heatmap.html
+/completed-work/data-loading/ipl.json
+/completed-work/data-loading/movie_titles_metadata.tsv
+/completed-work/data-loading/pandas_practice_data.txt
+/completed-work/data-loading/pandas_practice_dataset.xlsx
+/completed-work/data-loading/rideshare.db
+/completed-work/data-loading/test.csv
+/completed-work/data-loading/test.xlsx
+/completed-work/data-loading/train.json
+/completed-work/data-loading/zomato.csv
+/completed-work/data-cleaning/adverse_reactions.csv
+/completed-work/data-cleaning/clinical_trials.xlsx
+/completed-work/data-cleaning/patients.csv
+/completed-work/data-cleaning/treatments.csv
+/completed-work/data-cleaning/treatments_cut.csv
+/completed-work/data-cleaning/untidy.png
+/completed-work/eda/Comprehensive_EDA_Reference_Guide.docx
+/completed-work/sklearn-preprocessing/Column Transformer/Datasets/covid_toy.csv
+/completed-work/sklearn-preprocessing/Normalization/Datasets/wine_data.csv
+/completed-work/sklearn-preprocessing/One hot encoder/Datasets/cars.csv
+/completed-work/sklearn-preprocessing/Ordinal Encoding/Datasets/customer.csv
+/completed-work/sklearn-preprocessing/Power Transformer/Dataset/concrete_data.csv
+/completed-work/sklearn-preprocessing/Standardization (Z-score Normalization)/Datasets/Social_Network_Ads.csv

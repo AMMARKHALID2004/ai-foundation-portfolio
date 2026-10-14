@@ -4,4 +4,13 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-jupyterlab
+scipy
+notebook
+ipykernel
+openpyxl
+plotly
+requests
+charset-normalizer
+sqlalchemy
+pymysql
+lxml

@@ -1,21 +1,21 @@
 # GitHub integration
 
-The separate [ai-foundation-portfolio repository](https://github.com/AMMARKHALID2004/ai-foundation-portfolio) is **published** on `main`. It follows the supervisor's preferred separate-repository structure and links the student's existing learning work.
+The [AI foundation portfolio](https://github.com/AMMARKHALID2004/ai-foundation-portfolio) is published on `main`. It follows the supervisor's preferred separate foundation repository and now contains imported snapshots of prior learning work.
 
-## Existing-repository updates
+## Original repository updates — merged
 
-| Repository | Review link | Status |
-| --- | --- | --- |
-| Machine-Learning | [PR #1](https://github.com/AMMARKHALID2004/Machine-Learning/pull/1) | Ready for review; open, not merged |
-| Numpy | [PR #1](https://github.com/AMMARKHALID2004/Numpy/pull/1) | Draft; open, not merged |
-| Pandas | [PR #1](https://github.com/AMMARKHALID2004/Pandas/pull/1) | Draft; open, not merged |
-| Matplotlib | [PR #1](https://github.com/AMMARKHALID2004/Matplotlib/pull/1) | Draft; open, not merged |
-| Seaborn | [PR #1](https://github.com/AMMARKHALID2004/Seaborn/pull/1) | Draft; open, not merged |
+| Repository | Pull request | Status | Merge commit |
+| --- | --- | --- | --- |
+| Machine-Learning | [PR #1](https://github.com/AMMARKHALID2004/Machine-Learning/pull/1) | Merged | `fdc57eb` |
+| Numpy | [PR #1](https://github.com/AMMARKHALID2004/Numpy/pull/1) | Merged | `e05b96d` |
+| Pandas | [PR #1](https://github.com/AMMARKHALID2004/Pandas/pull/1) | Merged | `26f59fd` |
+| Matplotlib | [PR #1](https://github.com/AMMARKHALID2004/Matplotlib/pull/1) | Merged | `be79ccd` |
+| Seaborn | [PR #1](https://github.com/AMMARKHALID2004/Seaborn/pull/1) | Merged | `7af9f64` |
 
-Each update adds a README with notebook links, setup instructions, prior-learning status and evidence checklist, plus starter requirements and ignore rules. Machine-Learning also includes verified ColumnTransformer portability, split and feature-order corrections. Existing notebook locations, datasets and tracked checkpoints are retained.
+The student explicitly approved these merges on 2026-10-15. Each merge used its verified 40-character head commit reference; GitHub subsequently confirmed the MERGED state. The changes add README/setup/evidence documentation and ignore rules, with tested ColumnTransformer corrections in Machine-Learning.
 
-The pull requests were checked for intended files, target branches, open state and exact commit references. Their default branches have not changed. Merging requires the student's explicit approval after automatic approval review stopped the initial merge attempt. No merge succeeded.
+## Consolidated foundation work
 
-Initial connector writes returned 403. Refreshing the existing terminal GitHub authorization allowed publishing the foundation repo and creating these review branches/PRs. The earlier browser file-commit attempt failed; the complete folder structure was subsequently uploaded successfully through Git.
+[Completed work](../completed-work/README.md) imports 55 notebooks and 134 existing notebook/source files from 14 repositories, with original links, source commits, attribution and an integrity/portability manifest. Historical results and dataset assets stay in the original repositories. The original repositories remain available independently. Scikit-learn work is credited through ColumnTransformer; imports do not claim the remaining ML/PyTorch outputs are finished.
 
-No student completion dates, supervisor review, future track choice or capstone results have been invented. The supplied setup and runnable example do not complete the student's learning modules.
+The primary setup is now Anaconda + Jupyter Notebook with uv installation. pip alternatives remain in the README and [environment instructions](ENVIRONMENT.md). Workspace/repository instructions record these preferences. Repository work uses GitHub CLI and Git.
