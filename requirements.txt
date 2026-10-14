@@ -1,0 +1,7 @@
+# Starter dependencies; exact validated versions belong in requirements-lock.txt.
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+jupyterlab
