@@ -13,7 +13,7 @@ Account: [AMMARKHALID2004](https://github.com/AMMARKHALID2004). Existing work im
 | EDA project | [EDA-Project](https://github.com/AMMARKHALID2004/EDA-Project) | Cleaning, EDA and bivariate notebooks | State problem, data source, findings and limitations |
 | scikit-learn | [Machine-Learning](https://github.com/AMMARKHALID2004/Machine-Learning) | Scaling, encoding, power transformation and ColumnTransformer | Correct portability and manual feature order; add Pipeline practice next |
 
-Snapshots now live in this portfolio, retaining the original repo links, saved outputs and attribution; actual completion dates remain unknown. The complete refresh module also requires Python/OOP, environments, command-line and Git skills; those are not established by these file inventories alone.
+Snapshots now live in this portfolio, retaining the original repo links and attribution, with historical outputs kept in the source repositories; actual completion dates remain unknown. The complete refresh module also requires Python/OOP, environments, command-line and Git skills; those are not established by these file inventories alone.
 
 ## ColumnTransformer corrections now applied
 
