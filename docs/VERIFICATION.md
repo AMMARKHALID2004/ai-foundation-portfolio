@@ -16,6 +16,8 @@ Example smoke-run metrics: CV F1 mean **0.8964**, standard deviation **0.0503**,
 
 The exact core example dependency set is in `requirements-example-lock.txt`. The broader plotting/JupyterLab environment in `requirements.txt` and other historical notebooks have not all been validated. PyTorch/track/capstone work has not been implemented or claimed complete.
 
-## GitHub limits
+## GitHub publication
 
-Account and repository reads succeeded. Creating a review branch and tree was denied with GitHub **403: Resource not accessible by integration**; no successful remote writes or pull requests exist yet. The GitHub plugin is installed, but its installation listing was empty. The terminal login token was invalid, and the in-app browser requires sign-in. Prepared uploads remain local until usable write access is established.
+Initial connector writes were denied and the terminal login was expired. The existing GitHub CLI authorization was subsequently refreshed, and the separate foundation repo was created through the signed-in browser. Final publication and pull request links are recorded in [GITHUB_CHANGES.md](GITHUB_CHANGES.md).
+
+Five existing-repository patches were checked against their observed baselines. Other historical notebooks have not all been executed; their README additions state this limit explicitly.

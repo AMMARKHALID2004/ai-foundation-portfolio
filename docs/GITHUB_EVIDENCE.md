@@ -28,6 +28,6 @@ File: [Column Transformer.ipynb](https://github.com/AMMARKHALID2004/Machine-Lear
 
 ## Review and publishing status
 
-The independent local foundation repo can later be published as `ai-foundation-portfolio`, the supervisor's preferred name. The GitHub connector exposes changes to existing repos but does not expose creation of a new repository; its current connection also rejected writes. A `fyp-foundation/` mirror is prepared locally for a future review branch in `Machine-Learning`. It has not been uploaded and is a transitional location, not a selected specialization or capstone repo.
+The separate [ai-foundation-portfolio repository](https://github.com/AMMARKHALID2004/ai-foundation-portfolio) follows the supervisor's preferred foundation structure. Existing topic notebooks remain in their original repositories and are linked here.
 
-Use [GITHUB_CHANGES.md](GITHUB_CHANGES.md) for integration status. No GitHub changes or pull requests have succeeded. Record actual PR links after upload and do not call changes merged until they are merged.
+Use [GITHUB_CHANGES.md](GITHUB_CHANGES.md) for actual publication and draft pull request status. A draft pull request does not change the default branch; integration requires merging it. The supplied setup is not completed coursework or supervisor approval.
