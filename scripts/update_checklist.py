@@ -10,6 +10,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from track_learning import ROOT, MODULES, Tracker, now, read_json, save_json, write
+from playlist_catalog import render_playlist
 
 
 def parse_checklist(body):
@@ -76,6 +77,7 @@ def sync_checklist(body, root=ROOT):
     save_json(tracker.root / 'tracking/checklist-status.json', {'issue': issue_url, 'modules': counts}, tracker.changed)
     write(tracker.root / 'tracking/CHECKLIST.md', body.rstrip() + '\n', tracker.changed)
     tracker.render()
+    render_playlist(tracker, tasks)
     # Update topic counts without inventing study dates or supervisor approval.
     row_names = {
         'refresh': '1 Python/data/Git refresh', 'pipeline': 'Personalized Pipeline bridge',
@@ -88,6 +90,8 @@ def sync_checklist(body, root=ROOT):
     if progress.exists():
         lines = progress.read_text().splitlines()
         for module, label in row_names.items():
+            if not counts[module]['total']:
+                continue
             status = f'Checklist: {counts[module]["complete"]}/{counts[module]["total"]} topics checked'
             for index, line in enumerate(lines):
                 if line.startswith(f'| {label} |'):

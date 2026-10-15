@@ -1,28 +1,32 @@
 # My next steps
 
-## 1. Check my earlier work
+I follow the CampusX playlist in [my verified lesson index](../machine-learning/README.md). I reported videos 1–31 complete on 2026-10-15. Video 31 is Power Transformer. I have not recorded the actual dates when I studied them.
 
-I have studied NumPy, Pandas, Matplotlib, and Seaborn. I have studied scikit-learn through ColumnTransformer. I use [my earlier notebooks](../completed-work/README.md) as evidence. I choose one or two notebooks for each topic. I run them with the **FYP AI (Anaconda)** kernel. I add data sources, run instructions, and a short explanation of what I did myself. I record an actual study date only when I know it.
+## My next lesson: video 032
 
-The [ColumnTransformer notebook](../completed-work/sklearn-preprocessing/SOURCE.md) has corrected feature order and a relative data path. I explain why train and test features must use the same order. I reproduce the corrected steps myself before I claim that I understand them.
+1. I watch [Binning and Binarization](https://www.youtube.com/watch?v=kKWsJGKcMvo&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=32).
+2. I open [my blank practice notebook](../machine-learning/03-feature-engineering/notebooks/video-032-binning-and-binarization.ipynb).
+3. I select the **FYP AI (Anaconda)** kernel. I add my own code and observations.
+4. I restart the kernel and run my cells. I state my source, split, and limits.
+5. I save and push my notebook. I tick **Video 032** in [my checklist](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1).
+6. I wait for Actions to update my index. I read the new reflection and experiment forms.
 
-## 2. Do the Pipeline exercise
+## Continue in playlist order
 
-1. I run `python practice/sklearn-pipelines/example.py` from the repository root.
-2. I read how the example splits data before it fits preprocessing.
-3. I complete [exercise.ipynb](../practice/sklearn-pipelines/exercise.ipynb) with my own code.
-4. I explain how fitting preprocessing before a split can leak information.
-5. I record my metric, one useful figure, a limit, and a reflection.
-6. I follow [the portfolio workflow](WORKFLOW.md) to add evidence and update my status.
+| Videos | What I do next |
+| --- | --- |
+| 033–034 | Handle mixed variables, dates, and times |
+| 035–040 | Handle missing data and compare imputation methods |
+| 041–045 | Study outliers and feature construction |
+| 046–049 | Study dimensionality reduction and PCA |
+| 050 onward | Follow regression, classification, ensembles, clustering, and tuning in the index |
 
-The [scikit-learn Pipeline guide](https://scikit-learn.org/stable/modules/compose.html) and [common pitfalls guide](https://scikit-learn.org/stable/common_pitfalls.html) are references.
+## Use my earlier work
 
-## 3. Check Course 1, then complete missing work
+I open related notebooks from the section tables. Those links are evidence to review. They do not claim that I wrote new work for every video. I keep the source notes intact.
 
-I check whether I can explain linear regression, logistic regression, loss, gradient descent, scaling, and regularization. My preprocessing work alone does not prove these skills. I write my own implementations and explanations in [Module 2](../modules/02-supervised-ml/README.md). I use course material as a reference and identify it.
+I have reported Pipeline, Function Transformer, and Power Transformer lessons complete as part of videos 1–31. My existing independent Pipeline exercise stays unchecked until I finish that exercise myself.
 
-Next, I study Course 2. I compare at least three models with a stated evaluation method in [Module 3](../modules/03-advanced-ml/README.md). I then continue with PyTorch. I can defer optional Course 3. I use sound evaluation in every required project, even if I defer the optional evaluation module.
+## Prepare my independent ML evidence
 
-## 4. Prepare for my supervisor
-
-I bring [my tracker](PROGRESS.md), the Pipeline exercise, and my Course 1 work to the meeting. I ask my supervisor to review the evidence. I record the actual review date and agreed next action. I select a specialization only after I complete the PyTorch foundation and discuss my FYP topic.
+I use [my projects folder](../machine-learning/projects/README.md) for my own regression implementations and a comparison of at least three models. I link my measured results. I record supervisor review only after it happens. I focus on the ML playlist for now.

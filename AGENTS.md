@@ -9,3 +9,5 @@
 - Preserve prior completed work and source attribution. Record source repository/commit and any portability edits when importing notebooks.
 - Preserve historical notebook results in their original repositories. Public imported copies have cleared outputs; supporting assets stay ignored locally and are fetched with the GitHub CLI helper. Do not invent study dates, original contributions, module completion or supervisor approval.
 - The student explicitly authorized merging the five portfolio updates on 2026-10-15. Do not ask again for those merges or routine fixes within the same authorized repository-organization task.
+
+- My active study path is the CampusX ML playlist in `tracking/campusx-playlist.json`. I reported videos 1–31 complete on 2026-10-15; video 31 is Power Transformer and video 32 is Binning and Binarization. Use verified playlist positions. Route new ML work to the 12 `machine-learning/` sections. Keep video completion separate from independent exercises and supervisor approval. Leave deep learning, CV, and later specialization content for future work.

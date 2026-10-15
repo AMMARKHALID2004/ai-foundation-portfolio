@@ -6,7 +6,7 @@ I use this page each time I finish a lesson, exercise, or module. I use short se
 
 ## 1. Find the correct folder
 
-I check [the roadmap](ROADMAP.md) and [the next-steps page](NEXT_STEPS.md). I put new work in the matching folder under `modules/` or `practice/`. I keep earlier source copies in `completed-work/` with their source notes.
+I check [the roadmap](ROADMAP.md) and [the next-steps page](NEXT_STEPS.md). For the CampusX playlist, I use the matching section under `machine-learning/`. Each section has `notebooks/`, `notes/`, and `results/`. I start the filename with the playlist number, such as `video-032-binning-and-binarization.ipynb`. I keep earlier source copies in `completed-work/` with their source notes.
 
 If I finish work in another GitHub repository, I link its exact file or commit in [PROGRESS.md](PROGRESS.md). I can also add my own explanation or extension in the matching module folder. I identify tutorial code and other authors' work.
 
@@ -36,12 +36,12 @@ I check the changed files before I commit:
 git status --short
 git diff --check
 gh auth status
-git add practice/sklearn-pipelines/exercise.ipynb practice/sklearn-pipelines/README.md docs/PROGRESS.md
-git commit -m "Record Pipeline exercise"
+git add machine-learning/03-feature-engineering/notebooks/video-032-binning-and-binarization.ipynb
+git commit -m "Add my video 032 binning practice"
 git push origin main
 ```
 
-The `git add` paths are an example for the Pipeline exercise. I replace them with the files I changed. I add my code, result note, and reflection when they are ready. I check `git status --short` again after the push. I use GitHub CLI for repository and pull request work.
+The `git add` path is an example for video 032. I replace them with the files I changed. I add my code, result note, and reflection when they are ready. I check `git status --short` again after the push. I use GitHub CLI for repository and pull request work.
 
 ## Example: I finish the Pipeline exercise
 
@@ -51,6 +51,4 @@ I do not mark Course 1 or the three-model comparison complete from this exercise
 
 ## What I do next
 
-After ColumnTransformer, I do the Pipeline exercise. I then check Course 1 concepts and write my own linear and logistic regression. Next, I study Course 2 and compare at least three models. I move to PyTorch Basics, the beginner videos, and my own MLP/CNN training loops. Course 3 and the separate evaluation study are optional.
-
-After the PyTorch foundation, I select one specialization with my supervisor. I use a separate repository for the selected track and another repository for the capstone. [The roadmap](ROADMAP.md) shows the full order.
+I continue at video 032: Binning and Binarization. I then follow the verified playlist order in [my ML index](../machine-learning/README.md). I keep my existing Pipeline exercise as independent practice. I use [my next steps](NEXT_STEPS.md) for the exact actions.

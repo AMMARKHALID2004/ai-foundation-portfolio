@@ -4,31 +4,38 @@ I am Muhammad Ammar Khalid. I use this repository to record my FYP preparation. 
 
 ## Where I am now
 
-I reported on **2026-10-15** that I had completed NumPy, Pandas, Matplotlib, and Seaborn. I had studied scikit-learn through **ColumnTransformer**. My earlier notebooks are in [completed-work](completed-work/README.md). The dates when I studied each topic are unknown.
+I follow [CampusX: 100 Days of Machine Learning](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH). On **2026-10-15**, I reported **videos 1–31 complete**. Video 31 is Power Transformer. My actual study dates are unknown.
 
-I still need to check my evidence and add my own explanations. My supervisor has not reviewed these modules yet. I do not mark the full ML or PyTorch foundation complete.
+I have also completed NumPy, Pandas, Matplotlib, and Seaborn. My earlier notebooks remain in [completed-work](completed-work/README.md), with their source notes. My playlist index links the relevant notebooks.
 
-**My next task:** [move from ColumnTransformer to Pipeline](docs/NEXT_STEPS.md). I use [the progress tracker](docs/PROGRESS.md) to record each finished task. [How I add new work](docs/WORKFLOW.md) gives the exact steps.
+**My next lesson:** [video 032 — Binning and Binarization](https://www.youtube.com/watch?v=kKWsJGKcMvo&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=32).
 
-**Update my progress:** [tick a topic in my GitHub checklist](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1). GitHub Actions updates my tracker and module records.
+**[Open my playlist folders and progress](machine-learning/README.md).** I use [my next steps](docs/NEXT_STEPS.md) to continue. I focus on machine learning now. My later guide plans remain available for future use.
 
-## Repository map
+**[Tick my completed lesson](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1).** GitHub Actions updates my lesson index, section counts, and learning records. My video ticks and independent project evidence stay separate. Supervisor review remains pending.
+
+## My active repository map
 
 | Folder | What I put there |
 | --- | --- |
-| `modules/01-python-data-git` | My Python and data evidence, plus a short diagnostic |
-| `modules/02-supervised-ml` | My Course 1 notes and original linear/logistic regression |
-| `modules/03-advanced-ml` | My Course 2 work and comparison of at least three models |
-| `modules/04-unsupervised-optional` | My optional Course 3 work, if I choose it |
-| `modules/05-pytorch-basics` | My PyTorch Basics work |
-| `modules/06-pytorch-video-practice` | My independent practice from the beginner videos |
-| `modules/07-deep-learning-practice` | My MLP, CNN, training loops, and error analysis |
-| `modules/08-evaluation-optional` | My optional evaluation study |
-| `practice/sklearn-pipelines` | My next exercise after ColumnTransformer |
-| `completed-work` | Copies of my earlier notebooks and source files from 14 repositories |
-| `templates` | Forms I use to record experiments, results, and reflections |
-| `docs` | My plan, progress, evidence links, and instructions |
-| `blueprints` | Plans for my future specialization and capstone repositories |
+| `machine-learning/01-foundations` | Videos 001–014: ML basics and project planning |
+| `machine-learning/02-data-and-eda` | Videos 015–022: data sources and EDA |
+| `machine-learning/03-feature-engineering` | Videos 023–045: preprocessing, missing data, and outliers |
+| `machine-learning/04-dimensionality-reduction` | Videos 046–049: dimensionality and PCA |
+| `machine-learning/05-regression` | Videos 050–069: regression, gradients, and regularization |
+| `machine-learning/06-logistic-regression` | Videos 070–081: logistic regression and metrics |
+| `machine-learning/07-naive-bayes` | Videos 082–090: probability and Naive Bayes |
+| `machine-learning/08-neighbors-and-svm` | Videos 091–096: KNN and SVM |
+| `machine-learning/09-decision-trees` | Videos 097–100: decision trees |
+| `machine-learning/10-ensembles` | Videos 101–127: voting, forests, boosting, and stacking |
+| `machine-learning/11-clustering` | Videos 128–132: clustering |
+| `machine-learning/12-imbalance-and-tuning` | Videos 133–134: imbalanced data and Optuna |
+| `machine-learning/projects` | My original ML implementations and model comparison |
+| `completed-work` | My earlier source snapshots and attribution |
+| `practice/sklearn-pipelines` | Independent practice for video 029 |
+| `docs` and `templates` | My instructions, evidence forms, and supervisor records |
+
+Each lesson section has `notebooks/`, `notes/`, and `results/`. A checked lesson also has a generated record in that section's `learning/` folder. I keep the original `modules/` and `blueprints/` plans for my supervisor's wider guide.
 
 ## Set up Anaconda and Jupyter Notebook
 
@@ -43,11 +50,11 @@ python scripts/fetch_learning_data.py
 python -m notebook
 ```
 
-I select the **FYP AI (Anaconda)** kernel in Jupyter Notebook. If `fyp-ai` already exists, I activate it. I then start at the `uv pip install` command. The data command is optional for the Pipeline exercise.
+I select the **FYP AI (Anaconda)** kernel in Jupyter Notebook. If `fyp-ai` already exists, I activate it. I then start at the `uv pip install` command. I run the data command only when I need the earlier lesson datasets.
 
 **pip option:** I can use `python -m pip install -r requirements.txt` instead of `uv pip install -r requirements.txt`. Both commands use the same package list. [Environment instructions](docs/ENVIRONMENT.md) explain other setup options.
 
-I can run `python practice/sklearn-pipelines/example.py` to see a complete example. Its data is synthetic. The example score is not my FYP result. I then complete [my Pipeline exercise](practice/sklearn-pipelines/exercise.ipynb) myself.
+I open [my video 032 exercise](machine-learning/03-feature-engineering/notebooks/video-032-binning-and-binarization.ipynb) in Jupyter Notebook. It is a blank scaffold. I add my own code and observations.
 
 ## Record my work
 
@@ -57,12 +64,11 @@ When I finish a task, I save my notebook or code in its module folder. I record 
 
 My copied notebooks have clear source links and attribution. Their public copies have empty outputs. My original repositories retain their earlier results.
 
-## Foundation completion checks
+## My ML evidence checks
 
 - [ ] I explain and implement linear and logistic regression myself.
 - [ ] I compare at least three classical ML models with a stated evaluation method.
-- [ ] I write PyTorch training and validation loops for an MLP and a CNN.
 - [ ] I examine model errors and explain possible improvements.
-- [ ] I give my supervisor reproducible evidence for each completed module.
+- [ ] I give my supervisor reproducible evidence for my ML work.
 
-I choose one specialization after the PyTorch foundation. I use [the roadmap](docs/ROADMAP.md) and [track plans](blueprints/README.md) when I reach that point.
+I keep the original wider foundation requirements in [the guide map](docs/GUIDE_MAPPING.md). Watching this playlist does not confirm those requirements or supervisor approval.

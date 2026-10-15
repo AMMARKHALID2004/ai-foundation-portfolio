@@ -36,6 +36,54 @@
     "evaluation": {
       "complete": 0,
       "total": 1
+    },
+    "ml-foundations": {
+      "complete": 14,
+      "total": 14
+    },
+    "ml-data": {
+      "complete": 8,
+      "total": 8
+    },
+    "ml-features": {
+      "complete": 9,
+      "total": 23
+    },
+    "ml-pca": {
+      "complete": 0,
+      "total": 4
+    },
+    "ml-regression": {
+      "complete": 0,
+      "total": 20
+    },
+    "ml-logistic": {
+      "complete": 0,
+      "total": 12
+    },
+    "ml-bayes": {
+      "complete": 0,
+      "total": 9
+    },
+    "ml-neighbors-svm": {
+      "complete": 0,
+      "total": 6
+    },
+    "ml-trees": {
+      "complete": 0,
+      "total": 4
+    },
+    "ml-ensembles": {
+      "complete": 0,
+      "total": 27
+    },
+    "ml-clustering": {
+      "complete": 0,
+      "total": 5
+    },
+    "ml-tuning": {
+      "complete": 0,
+      "total": 2
     }
   }
 }

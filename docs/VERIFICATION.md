@@ -50,3 +50,11 @@ The dataset helper passed a real GitHub CLI download and hash check using a smal
 - Thirteen tests pass, including ticking, unticking, repeat runs, new topics, removed topics, and preserved reflection notes and supervisor reviews.
 - The checklist starts with only my five previously reported completed topics checked.
 - Check counts update automatically. Study dates and supervisor approval are not inferred.
+
+## CampusX ML structure update — 2026-10-15
+
+I use a 134-video playlist manifest verified from the public YouTube playlist page and its continuation. I use playlist positions, video IDs, and original titles. I reported videos 1–31 complete. My actual study dates remain unknown.
+
+My 12 ML sections link related earlier notebooks. I keep those source copies unchanged. My video 032 notebook is a blank exercise, with no measured results. My Anaconda environment is unchanged.
+
+The tracker tests check catalog coverage, notebook links, next-lesson selection, new lesson routing, repeat updates, unticking, preservation of my notes, and separation from independent exercises. The existing tracker tests still check manual review and date preservation. The test suite has 16 tests.

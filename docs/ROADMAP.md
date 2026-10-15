@@ -1,39 +1,26 @@
-# My learning roadmap
+# My current machine learning roadmap
 
-I recorded this plan on **2026-10-15 (Asia/Karachi)**. I have not set weekly study hours or an FYP deadline. I use this page for the order of work. I do not treat the estimates as promised finish dates.
+I chose [CampusX: 100 Days of Machine Learning](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) for my current ML study. I reported videos 1–31 complete on 2026-10-15. The verified playlist has 134 videos. I use its playlist positions rather than the Day labels.
 
-## Use my earlier learning
+I follow [my playlist index](../machine-learning/README.md). It shows the current counts, next lesson, section folders, and related earlier notebooks. I do not set a completion date without a study schedule.
 
-I reported NumPy, Pandas, Matplotlib, and Seaborn complete. I reached ColumnTransformer in scikit-learn. I check representative notebooks and add my own explanations. I use a short diagnostic to find any gaps in Python, OOP, environments, and Git. I do not repeat a full beginner course when I can show the skill.
+| Order | My work | Playlist positions |
+| --- | --- | --- |
+| 1 | Foundations and project planning | 001–014 |
+| 2 | Data collection and EDA | 015–022 |
+| 3 | Feature engineering and preprocessing | 023–045 |
+| 4 | Dimensionality reduction and PCA | 046–049 |
+| 5 | Regression, gradient descent, and regularization | 050–069 |
+| 6 | Logistic regression and classification metrics | 070–081 |
+| 7 | Probability and Naive Bayes | 082–090 |
+| 8 | KNN and SVM | 091–096 |
+| 9 | Decision trees | 097–100 |
+| 10 | Ensemble methods and boosting | 101–127 |
+| 11 | Clustering | 128–132 |
+| 12 | Imbalanced data and tuning | 133–134 |
 
-## Complete the common foundation
+I continue at **video 032: Binning and Binarization**. I save my own notebooks in each section. I tick a video after I finish it. GitHub Actions updates my records.
 
-| Order | What I do | Guide estimate | Evidence I add |
-| --- | --- | --- | --- |
-| 1 | Check Python, data libraries, and Git | 1–2 weeks in the guide | Earlier work, a new extension, setup, and Git history |
-| Bridge | Move from ColumnTransformer to Pipeline | A few focused sessions in my plan | My own Pipeline exercise and leakage explanation |
-| 2 | Study ML Course 1 | 3 weeks in the guide | My own linear/logistic regression and explanations |
-| 3 | Study ML Course 2 | 6–8 weeks in the guide | Neural-network concepts and a three-model comparison |
-| 4 | Study Course 3 if I choose it | 3 weeks in the guide | My optional clustering or related experiments |
-| 5 | Study PyTorch Basics | 1–2 weeks in the guide | Tensor, data, autograd, training, and save/load work |
-| 6 | Practice with the PyTorch beginner videos | 1–2 weeks in the guide | My own reproductions and debugging notes |
-| 7 | Build an MLP and a CNN | 2 weeks in the guide | My own loops, results, and error analysis |
-| 8 | Study evaluation as a separate module if I choose it | 1 week in the guide | An optional evaluation audit |
+I also prepare independent regression implementations and a three-model comparison in [projects](../machine-learning/projects/README.md). My checked videos do not complete these projects automatically.
 
-I study loss, gradients, matrix shapes, and probability when I need them. I use sound evaluation in my required projects, even if I skip the separate evaluation module. I update [my tracker](PROGRESS.md) after each task. [My workflow](WORKFLOW.md) shows how I add the evidence.
-
-The guide gives about 14–19 weeks for the full foundation. I have already studied some topics. I will know my remaining time better after I check the evidence and set a schedule.
-
-## Choose one specialization after PyTorch
-
-| Track | What I study | Guide estimate | Future repository |
-| --- | --- | --- | --- |
-| Computer Vision | CS231n and Hugging Face CV; selected fast.ai work is optional | 12–16 weeks | `computer-vision-specialization` |
-| LLMs | Hugging Face LLM core chapters 1–7 and 9, plus selected Full Stack LLM Bootcamp work | 12–18 weeks | `llm-specialization` |
-| AI Agents | First Hugging Face LLM chapters 1–5 and 9; then HF Agents, MCP, and selected Microsoft lessons | 10–14 weeks after LLM prerequisites | `ai-agents-specialization` |
-
-I have not selected a track. I will discuss my FYP problem with my supervisor after I complete the PyTorch foundation. If I choose Agents, I will test whether a multi-agent design improves a simpler design.
-
-## Complete my capstone
-
-I plan to use a separate `fyp-ai-capstone` repository. I will define the problem, collect permitted data, implement a baseline, and measure results. I will then write my report and prepare a demo. I use [the capstone plan](../blueprints/capstone.md) and [submission checklist](SUBMISSION_CHECKLIST.md).
+My supervisor's wider plan stays in [the guide map](GUIDE_MAPPING.md), the existing `modules/`, and `blueprints/`. I focus on machine learning now. I have not recorded supervisor approval to replace required courses with this playlist.

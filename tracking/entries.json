@@ -103,5 +103,470 @@
     "status": "Reported complete (checklist)",
     "last_recorded": "2026-10-15T19:46:46+05:00",
     "origin": "checklist"
+  },
+  {
+    "id": "691bc068d5609cc7",
+    "topic": "Video 001 — What is Machine Learning? | 100 Days of Machine Learning",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-001-what-is-machine-learning-100-days-of-machine--691bc068d5609cc7",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=1"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "0a82fa3a97d3a0ab",
+    "topic": "Video 002 — AI Vs ML Vs DL for Beginners in Hindi",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-002-ai-vs-ml-vs-dl-for-beginners-in-hindi-0a82fa3a97d3a0ab",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=1v3_AQ26jZ0&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=2"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "2c82f058163bfbba",
+    "topic": "Video 003 — Types of Machine Learning for Beginners | Types of Machine learning in Hindi | Types of ML in Depth",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-003-types-of-machine-learning-for-beginners-types-2c82f058163bfbba",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=81ymPYEtFOw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=3"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "4b7dc603bfab7d18",
+    "topic": "Video 004 — Batch Machine Learning | Offline Vs Online Learning | Machine Learning Types",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-004-batch-machine-learning-offline-vs-online-lear-4b7dc603bfab7d18",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=nPrhFxEuTYU&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=4"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "33bdeb78559c6478",
+    "topic": "Video 005 — Online Machine Learning | Online Learning | Online Vs Offline Machine Learning",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-005-online-machine-learning-online-learning-onlin-33bdeb78559c6478",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=3oOipgCbLIk&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=5"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "069f7a297f3cac7c",
+    "topic": "Video 006 — Instance-Based Vs Model-Based Learning | Types of Machine Learning",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-006-instance-based-vs-model-based-learning-types--069f7a297f3cac7c",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=ntAOq1ioTKo&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=6"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "c7acb64d8134a0a6",
+    "topic": "Video 007 — Challenges in Machine Learning | Problems in Machine Learning",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-007-challenges-in-machine-learning-problems-in-ma-c7acb64d8134a0a6",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=WGUNAJki2S4&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=7"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "26a1bc57f73c3941",
+    "topic": "Video 008 — Application of Machine Learning | Real Life Machine Learning Applications",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-008-application-of-machine-learning-real-life-mac-26a1bc57f73c3941",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=UZio8TcTMrI&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=8"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "d6952f430376281c",
+    "topic": "Video 009 — Machine Learning Development Life Cycle | MLDLC in Data Science",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-009-machine-learning-development-life-cycle-mldlc-d6952f430376281c",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=iDbhQGz_rEo&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=9"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "dd113ffc8162c362",
+    "topic": "Video 010 — Data Engineer Vs Data Analyst Vs Data Scientist Vs ML Engineer | Data Science Job Roles",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-010-data-engineer-vs-data-analyst-vs-data-scienti-dd113ffc8162c362",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=93rKZs0MkgU&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=10"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "a55286989aca51b3",
+    "topic": "Video 011 — What are Tensors | Tensor In-depth Explanation | Tensor in Machine Learning",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-011-what-are-tensors-tensor-in-depth-explanation--a55286989aca51b3",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=vVhD2EyS41Y&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=11"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "c0084577bfb7ec24",
+    "topic": "Video 012 — Installing Anaconda For Data Science | Jupyter Notebook for Machine Learning | Google Colab for ML",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-012-installing-anaconda-for-data-science-jupyter--c0084577bfb7ec24",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=82P5N2m41jE&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=12"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "14c4f60db1444f94",
+    "topic": "Video 013 — End to End Toy Project | Day 13 | 100 Days of Machine Learning",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-013-end-to-end-toy-project-day-13-100-days-of-mac-14c4f60db1444f94",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=dr7z7a_8lQw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=13"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "0c152761cd02f83f",
+    "topic": "Video 014 — How to Frame a Machine Learning Problem | How to plan a Data Science Project Effectively",
+    "module": "ml-foundations",
+    "folder": "machine-learning/01-foundations/learning/video-014-how-to-frame-a-machine-learning-problem-how-t-0c152761cd02f83f",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=A9SezQlvakw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=14"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "aa49edb8d8c0488c",
+    "topic": "Video 015 — Working with CSV files | Day 15 | 100 Days of Machine Learning",
+    "module": "ml-data",
+    "folder": "machine-learning/02-data-and-eda/learning/video-015-working-with-csv-files-day-15-100-days-of-mac-aa49edb8d8c0488c",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=a_XrmKlaGTs&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=15"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "33716d1b0e1db260",
+    "topic": "Video 016 — Working with JSON/SQL | Day 16 | 100 Days of Machine Learning",
+    "module": "ml-data",
+    "folder": "machine-learning/02-data-and-eda/learning/video-016-working-with-json-sql-day-16-100-days-of-mach-33716d1b0e1db260",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=fFwRC-fapIU&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=16"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "c43ffa9f2e844a98",
+    "topic": "Video 017 — Fetching Data From an API | Day 17 | 100 Days of Machine Learning",
+    "module": "ml-data",
+    "folder": "machine-learning/02-data-and-eda/learning/video-017-fetching-data-from-an-api-day-17-100-days-of--c43ffa9f2e844a98",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=roTZJaxjnJc&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=17"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "7bb208147e7d55ae",
+    "topic": "Video 018 — Fetching data using Web Scraping | Day 18 | 100 Days of Machine Learning",
+    "module": "ml-data",
+    "folder": "machine-learning/02-data-and-eda/learning/video-018-fetching-data-using-web-scraping-day-18-100-d-7bb208147e7d55ae",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=8NOdgjC1988&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=18"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "dfafa5ee56107c09",
+    "topic": "Video 019 — Understanding Your Data | Day 19 | 100 Days of Machine Learning",
+    "module": "ml-data",
+    "folder": "machine-learning/02-data-and-eda/learning/video-019-understanding-your-data-day-19-100-days-of-ma-dfafa5ee56107c09",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=mJlRTUuVr04&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=19"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "338917a9e30d8b87",
+    "topic": "Video 020 — EDA using Univariate Analysis | Day 20 | 100 Days of Machine Learning",
+    "module": "ml-data",
+    "folder": "machine-learning/02-data-and-eda/learning/video-020-eda-using-univariate-analysis-day-20-100-days-338917a9e30d8b87",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=4HyTlbHUKSw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=20"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "1f5d683e2f8802af",
+    "topic": "Video 021 — EDA using Bivariate and Multivariate Analysis | Day 21 | 100 Days of Machine Learning",
+    "module": "ml-data",
+    "folder": "machine-learning/02-data-and-eda/learning/video-021-eda-using-bivariate-and-multivariate-analysis-1f5d683e2f8802af",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=6D3VtEfCw7w&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=21"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "2d845de4257cf71b",
+    "topic": "Video 022 — Pandas Profiling | Day 22 | 100 Days of Machine Learning",
+    "module": "ml-data",
+    "folder": "machine-learning/02-data-and-eda/learning/video-022-pandas-profiling-day-22-100-days-of-machine-l-2d845de4257cf71b",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=E69Lg2ZgOxg&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=22"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "7cc4fe7e2b57e0f5",
+    "topic": "Video 023 — What is Feature Engineering | Day 23 | 100 Days of Machine Learning",
+    "module": "ml-features",
+    "folder": "machine-learning/03-feature-engineering/learning/video-023-what-is-feature-engineering-day-23-100-days-o-7cc4fe7e2b57e0f5",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=sluoVhT0ehg&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=23"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "adda34c0dd011c92",
+    "topic": "Video 024 — Feature Scaling - Standardization | Day 24 | 100 Days of Machine Learning",
+    "module": "ml-features",
+    "folder": "machine-learning/03-feature-engineering/learning/video-024-feature-scaling-standardization-day-24-100-da-adda34c0dd011c92",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=1Yw9sC0PNwY&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=24"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "6256b763927a3460",
+    "topic": "Video 025 — Feature Scaling - Normalization | MinMaxScaling | MaxAbsScaling | RobustScaling",
+    "module": "ml-features",
+    "folder": "machine-learning/03-feature-engineering/learning/video-025-feature-scaling-normalization-minmaxscaling-m-6256b763927a3460",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=eBrGyuA2MIg&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=25"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "4952b0bc7709a9b7",
+    "topic": "Video 026 — Encoding Categorical Data | Ordinal Encoding | Label Encoding",
+    "module": "ml-features",
+    "folder": "machine-learning/03-feature-engineering/learning/video-026-encoding-categorical-data-ordinal-encoding-la-4952b0bc7709a9b7",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=w2GglmYHfmM&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=26"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "bbfd8e8622221686",
+    "topic": "Video 027 — One Hot Encoding | Handling Categorical Data | Day 27 | 100 Days of Machine Learning",
+    "module": "ml-features",
+    "folder": "machine-learning/03-feature-engineering/learning/video-027-one-hot-encoding-handling-categorical-data-da-bbfd8e8622221686",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=U5oCv3JKWKA&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=27"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "920ed0e913648e24",
+    "topic": "Video 028 — Column Transformer in Machine Learning | How to use ColumnTransformer in Sklearn",
+    "module": "ml-features",
+    "folder": "machine-learning/03-feature-engineering/learning/video-028-column-transformer-in-machine-learning-how-to-920ed0e913648e24",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=5TVj6iEBR4I&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=28"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "5216b8a94fdcf712",
+    "topic": "Video 029 — Machine Learning Pipelines A-Z | Day 29 | 100 Days of Machine Learning",
+    "module": "ml-features",
+    "folder": "machine-learning/03-feature-engineering/learning/video-029-machine-learning-pipelines-a-z-day-29-100-day-5216b8a94fdcf712",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=xOccYkgRV4Q&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=29"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "400e0f50e462e4ab",
+    "topic": "Video 030 — Function Transformer | Log Transform | Reciprocal Transform | Square Root Transform",
+    "module": "ml-features",
+    "folder": "machine-learning/03-feature-engineering/learning/video-030-function-transformer-log-transform-reciprocal-400e0f50e462e4ab",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=cTjj3LE8E90&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=30"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "35a158206771e034",
+    "topic": "Video 031 — Power Transformer | Box - Cox Transform | Yeo - Johnson Transform",
+    "module": "ml-features",
+    "folder": "machine-learning/03-feature-engineering/learning/video-031-power-transformer-box-cox-transform-yeo-johns-35a158206771e034",
+    "first_recorded": "2026-10-15T21:08:38+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=lV_Z4HbNAx0&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=31"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T21:08:38+05:00",
+    "origin": "checklist"
   }
 ]

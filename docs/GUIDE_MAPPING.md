@@ -26,3 +26,9 @@ Personal additions: a ColumnTransformer → Pipeline bridge, credit for previous
 - [Google ML Crash Course — optional evaluation module](https://developers.google.com/machine-learning/crash-course)
 
 The guide's publishing rules require original permitted work and appropriate attribution. Course certificates do not replace evidence. Scaffolded examples and blank templates are not completed modules.
+
+## My current ML study resource
+
+I chose [CampusX: 100 Days of Machine Learning](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) for my current ML study. I use [the verified playlist structure](../machine-learning/README.md). My report covers videos 1–31, through Power Transformer.
+
+I link my own linear/logistic regression and three-model comparison to the original ML module requirements. Playlist completion does not confirm Coursera course completion, supervisor approval, or the wider foundation requirements. I keep the original guide mapping above. I defer later tracks while I focus on ML.

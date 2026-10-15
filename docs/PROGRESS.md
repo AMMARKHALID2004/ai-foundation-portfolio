@@ -6,6 +6,12 @@ I use these statuses: **Reported complete**, **In progress**, **Evidence added**
 
 When I finish new work, I follow [my update steps](WORKFLOW.md). I add a file link, my result, and an actual date if known. I record supervisor feedback in the log below. I read [NEXT_STEPS.md](NEXT_STEPS.md) to find the next task.
 
+## My active ML playlist
+
+I follow [CampusX: 100 Days of Machine Learning](../machine-learning/README.md). On 2026-10-15, I reported **videos 1–31 complete**, through Power Transformer. My actual study dates are unknown. My next lesson at that report is video 032: Binning and Binarization.
+
+I open [my live playlist index](../machine-learning/README.md) for the current lesson counts. The automatic activity table below also shows each ML section. My video ticks do not complete independent exercises or supervisor review. My earlier guide module table remains a separate record.
+
 ## Prior learning credit
 
 | Topic | Learning status | Start | Finish | Repository / folder | Evidence reviewed |
@@ -67,5 +73,17 @@ I use [my learning log](LEARNING_LOG.md) to open each record.
 | PyTorch video practice | 0 / 2 | 0 |
 | MLP and CNN practice | 0 / 3 | 0 |
 | Optional evaluation study | 0 / 1 | 0 |
+| ML foundations and project planning | 14 / 14 | 14 |
+| Data collection and EDA | 8 / 8 | 8 |
+| Feature engineering and preprocessing | 9 / 23 | 9 |
+| Dimensionality reduction and PCA | 0 / 4 | 0 |
+| Linear regression, gradients, and regularization | 0 / 20 | 0 |
+| Logistic regression and classification metrics | 0 / 12 | 0 |
+| Probability and Naive Bayes | 0 / 9 | 0 |
+| KNN and support vector machines | 0 / 6 | 0 |
+| Decision trees | 0 / 4 | 0 |
+| Ensembles and boosting | 0 / 27 | 0 |
+| Clustering | 0 / 5 | 0 |
+| Imbalanced data and hyperparameter tuning | 0 / 2 | 0 |
 
 <!-- learning-tracker:end -->

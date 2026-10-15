@@ -26,6 +26,11 @@ MODULES = {
     'deep-learning': ('modules/07-deep-learning-practice', 'MLP and CNN practice'),
     'evaluation': ('modules/08-evaluation-optional', 'Optional evaluation study'),
 }
+PLAYLIST_PATH = ROOT / 'tracking/campusx-playlist.json'
+if PLAYLIST_PATH.exists():
+    _playlist = json.loads(PLAYLIST_PATH.read_text(encoding='utf-8'))
+    MODULES.update({section['key']: (section['folder'], section['title'])
+                    for section in _playlist['sections']})
 BEGIN = '<!-- learning-tracker:start -->'
 END = '<!-- learning-tracker:end -->'
 
