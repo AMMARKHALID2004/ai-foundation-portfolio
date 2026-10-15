@@ -2,7 +2,7 @@
 
 Guide priority: **Essential**. Planning estimate: 1–2 weeks; shorten verified areas.
 
-My status: **Checklist: 4/6 topics checked**. I reported the data libraries complete. I still need to check the other objectives. I have not recorded my study dates. My supervisor has not reviewed this module. My earlier work is in [completed-work](../../completed-work/README.md). I will put my new diagnostic and evidence here.
+My status: **Checklist: 6/6 topics checked**. I reported the data libraries complete. I still need to check the other objectives. I have not recorded my study dates. My supervisor has not reviewed this module. My earlier work is in [completed-work](../../completed-work/README.md). I will put my new diagnostic and evidence here.
 
 ## Learning objectives
 

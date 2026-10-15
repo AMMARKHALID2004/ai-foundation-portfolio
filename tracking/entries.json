@@ -73,5 +73,35 @@
     "status": "Reported complete (checklist)",
     "last_recorded": "2026-10-15T13:31:03+05:00",
     "origin": "checklist"
+  },
+  {
+    "id": "60e98d410c6ce255",
+    "topic": "My independent data-cleaning and EDA exercise",
+    "module": "refresh",
+    "folder": "modules/01-python-data-git/learning/my-independent-data-cleaning-and-eda-exercise-60e98d410c6ce255",
+    "first_recorded": "2026-10-15T19:46:46+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T19:46:46+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "a273aafa090312fc",
+    "topic": "My Python and Git diagnostic",
+    "module": "refresh",
+    "folder": "modules/01-python-data-git/learning/my-python-and-git-diagnostic-a273aafa090312fc",
+    "first_recorded": "2026-10-15T19:46:46+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T19:46:46+05:00",
+    "origin": "checklist"
   }
 ]

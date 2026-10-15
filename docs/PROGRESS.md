@@ -22,7 +22,7 @@ The folder links below show where I will put my evidence. Some module folders ha
 
 | Module | Status | Start | Finish | Repository / folder | Evidence reviewed |
 | --- | --- | --- | --- | --- | --- |
-| 1 Python/data/Git refresh | Checklist: 4/6 topics checked | Unknown | — | [Module 1](../modules/01-python-data-git/README.md), [existing repos](GITHUB_EVIDENCE.md) | My earlier work is linked; diagnostic and supervisor review pending |
+| 1 Python/data/Git refresh | Checklist: 6/6 topics checked | Unknown | — | [Module 1](../modules/01-python-data-git/README.md), [existing repos](GITHUB_EVIDENCE.md) | My earlier work is linked; diagnostic and supervisor review pending |
 | Personalized Pipeline bridge | Checklist: 1/3 topics checked | — | — | [Practice](../practice/sklearn-pipelines/README.md) | Supplied starter only |
 | 2 ML Specialization Course 1 | Checklist: 0/4 topics checked | — | — | [Module 2](../modules/02-supervised-ml/README.md) | My original linear/logistic regression has not been reviewed |
 | 3 ML Specialization Course 2 | Checklist: 0/3 topics checked | — | — | [Module 3](../modules/03-advanced-ml/README.md) | My three-model comparison has not been reviewed |
@@ -58,7 +58,7 @@ I use [my learning log](LEARNING_LOG.md) to open each record.
 
 | Module | Checked topics | Learning records |
 | --- | --- | --- |
-| Python and data libraries | 4 / 6 | 4 |
+| Python and data libraries | 6 / 6 | 6 |
 | ColumnTransformer and Pipeline | 1 / 3 | 1 |
 | Supervised ML | 0 / 4 | 0 |
 | Advanced ML and model comparison | 0 / 3 | 0 |

@@ -10,8 +10,8 @@ I can add a new checkbox under a module heading. I keep the module keys at the s
 - [x] [Pandas](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/blob/main/completed-work/pandas/SOURCE.md)
 - [x] [Matplotlib](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/blob/main/completed-work/matplotlib/SOURCE.md)
 - [x] [Seaborn](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/blob/main/completed-work/seaborn/SOURCE.md)
-- [ ] My independent data-cleaning and EDA exercise
-- [ ] My Python and Git diagnostic
+- [x] My independent data-cleaning and EDA exercise
+- [x] My Python and Git diagnostic
 
 ## pipeline — Preprocessing and Pipeline
 
