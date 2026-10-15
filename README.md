@@ -51,7 +51,7 @@ I can run `python practice/sklearn-pipelines/example.py` to see a complete examp
 
 When I finish a task, I save my notebook or code in its module folder. I record the data source, run steps, results, and limits. I write what I learned. I update [PROGRESS.md](docs/PROGRESS.md), then commit and push my changes. [WORKFLOW.md](docs/WORKFLOW.md) shows each step and an example.
 
-My copied notebooks have clear source links and attribution. Their public copies have empty outputs. My original repositories retain their earlier results. I do not claim that a tutorial or supplied starter is my own implementation. I keep credentials and private data out of Git.
+My copied notebooks have clear source links and attribution. Their public copies have empty outputs. My original repositories retain their earlier results.
 
 ## Foundation completion checks
 
