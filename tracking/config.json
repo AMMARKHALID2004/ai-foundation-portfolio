@@ -1,60 +1,48 @@
 {
   "repositories": [
     {
-      "repository": "AMMARKHALID2004/Python_OOP",
-      "module": "refresh"
-    },
-    {
-      "repository": "AMMARKHALID2004/Python-Revision",
-      "module": "refresh"
-    },
-    {
-      "repository": "AMMARKHALID2004/Advance-Python",
-      "module": "refresh"
-    },
-    {
-      "repository": "AMMARKHALID2004/generators-and-decorators",
-      "module": "refresh"
-    },
-    {
       "repository": "AMMARKHALID2004/Numpy",
-      "module": "refresh"
+      "module": "numpy"
     },
     {
       "repository": "AMMARKHALID2004/Numpy-100-Problems",
-      "module": "refresh"
+      "module": "numpy"
     },
     {
       "repository": "AMMARKHALID2004/Pandas",
-      "module": "refresh"
+      "module": "pandas"
     },
     {
       "repository": "AMMARKHALID2004/Matplotlib",
-      "module": "refresh"
+      "module": "matplotlib"
     },
     {
       "repository": "AMMARKHALID2004/Seaborn",
-      "module": "refresh"
+      "module": "seaborn"
     },
     {
       "repository": "AMMARKHALID2004/Working-with-different-files",
-      "module": "refresh"
+      "module": "ml-data"
     },
     {
       "repository": "AMMARKHALID2004/Data-Cleaning",
-      "module": "refresh"
+      "module": "ml-cleaning"
     },
     {
       "repository": "AMMARKHALID2004/EDA",
-      "module": "refresh"
+      "module": "ml-eda"
     },
     {
       "repository": "AMMARKHALID2004/EDA-Project",
-      "module": "refresh"
+      "module": "ml-eda"
     },
     {
       "repository": "AMMARKHALID2004/Machine-Learning",
-      "module": "pipeline"
+      "module": "ml-preprocessing"
+    },
+    {
+      "repository": "AMMARKHALID2004/Cricket-Match-Win-Probability-Predictor",
+      "module": "ml-projects"
     }
   ],
   "file_modules": {}

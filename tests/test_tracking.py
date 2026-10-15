@@ -22,7 +22,7 @@ class TrackingTests(unittest.TestCase):
         for name in ('reflection', 'experiment'):
             (self.root / f'templates/{name}.md').write_text(f'# My {name}\nTO FILL\n')
         (self.root / 'tracking/config.json').write_text(json.dumps({'repositories': [
-            {'repository': 'AMMARKHALID2004/Numpy', 'module': 'refresh'}]}))
+            {'repository': 'AMMARKHALID2004/Numpy', 'module': 'numpy'}]}))
 
     def tearDown(self):
         self.temp.cleanup()
@@ -34,11 +34,11 @@ class TrackingTests(unittest.TestCase):
         return path
 
     def test_baseline_new_file_changed_file_and_repeat_scan(self):
-        self.file('modules/01-python-data-git/notebooks/old.py')
+        self.file('numpy/notebooks/old.py')
         tracker = tracking.Tracker(self.root)
         tracker.sync()
         self.assertEqual(tracker.events, 0)
-        path = self.file('modules/01-python-data-git/notebooks/new.py')
+        path = self.file('numpy/notebooks/new.py')
         tracker = tracking.Tracker(self.root)
         tracker.sync()
         self.assertEqual(tracker.events, 1)
@@ -83,18 +83,18 @@ class TrackingTests(unittest.TestCase):
         tracker.sync()
         self.assertEqual(tracker.pending, ['learning-inbox/lesson.ipynb'])
         self.assertEqual(tracker.entries, [])
-        notebook['metadata']['learning_tracker'] = {'module': 'course1'}
+        notebook['metadata']['learning_tracker'] = {'module': 'ml-regression'}
         path.write_text(json.dumps(notebook))
         before = path.read_bytes()
         tracker = tracking.Tracker(self.root)
         tracker.sync()
-        self.assertEqual(tracker.entries[0]['module'], 'course1')
+        self.assertEqual(tracker.entries[0]['module'], 'ml-regression')
         self.assertEqual(path.read_bytes(), before)
 
     def test_manual_note_updates_same_local_record_and_keeps_real_date(self):
         tracker = tracking.Tracker(self.root)
-        entry = tracker.add('Pipeline', 'pipeline', source={'local':'practice/sklearn-pipelines/work.ipynb'}, identity='local:practice/sklearn-pipelines/work.ipynb', fingerprint='abc')
-        tracker.add('Pipeline', 'pipeline', note='I fitted preprocessing inside each fold.', learned_on='2026-10-15', source={'local':'practice/sklearn-pipelines/work.ipynb'}, identity='local:practice/sklearn-pipelines/work.ipynb')
+        entry = tracker.add('Pipeline', 'ml-preprocessing', source={'local':'machine-learning/preprocessing/work.ipynb'}, identity='local:machine-learning/preprocessing/work.ipynb', fingerprint='abc')
+        tracker.add('Pipeline', 'ml-preprocessing', note='I fitted preprocessing inside each fold.', learned_on='2026-10-15', source={'local':'machine-learning/preprocessing/work.ipynb'}, identity='local:machine-learning/preprocessing/work.ipynb')
         tracker.render()
         tracker.save()
         self.assertEqual(len(tracker.entries), 1)
@@ -103,13 +103,13 @@ class TrackingTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             tracker.add('Something', None)
         with self.assertRaises(ValueError):
-            tracker.add('Pipeline', 'pipeline', learned_on='2026-02-30')
+            tracker.add('Pipeline', 'ml-preprocessing', learned_on='2026-02-30')
         with self.assertRaises(ValueError):
             tracking.inside(self.root, '../outside.ipynb')
 
     def test_unknown_dates_markdown_text_and_public_repo_constraint(self):
         tracker = tracking.Tracker(self.root)
-        entry = tracker.add('Topic | <script> [link]', 'refresh', note='I tried an example.\nNext: arrays.')
+        entry = tracker.add('Topic | <script> [link]', 'numpy', note='I tried an example.\nNext: arrays.')
         tracker.render()
         self.assertIsNone(entry['learned_on'])
         rendered = (self.root / entry['folder'] / 'README.md').read_text()
@@ -121,7 +121,7 @@ class TrackingTests(unittest.TestCase):
             tracking.github_files('other-owner/private-repo')
 
     def test_unrouted_github_file_is_retried_after_explicit_assignment(self):
-        config = {'repositories': [{'repository': 'AMMARKHALID2004/Machine-Learning', 'module': 'pipeline'}]}
+        config = {'repositories': [{'repository': 'AMMARKHALID2004/Machine-Learning', 'module': 'ml-preprocessing'}]}
         path = self.root / 'tracking/config.json'
         path.write_text(json.dumps(config))
         with patch.object(tracking, 'github_files', return_value=('a'*40, {})):
@@ -131,24 +131,24 @@ class TrackingTests(unittest.TestCase):
             tracker.sync(github=True)
             self.assertEqual(tracker.events, 0)
             self.assertEqual(tracker.pending, ['AMMARKHALID2004/Machine-Learning:lesson.ipynb'])
-            config['file_modules'] = {'AMMARKHALID2004/Machine-Learning:lesson.ipynb': 'course1'}
+            config['file_modules'] = {'AMMARKHALID2004/Machine-Learning:lesson.ipynb': 'ml-regression'}
             path.write_text(json.dumps(config))
             tracker = tracking.Tracker(self.root)
             tracker.sync(github=True)
-            self.assertEqual(tracker.entries[0]['module'], 'course1')
+            self.assertEqual(tracker.entries[0]['module'], 'ml-regression')
 
     def test_manual_inbox_assignment_survives_next_scan(self):
         path = 'learning-inbox/lesson.py'
         self.file(path)
         tracker = tracking.Tracker(self.root)
-        tracker.add('My linear regression', 'course1', note='I learned how the loss changes.',
+        tracker.add('My linear regression', 'ml-regression', note='I learned how the loss changes.',
                     source={'local': path}, identity=f'local:{path}')
         tracker.save()
         tracker = tracking.Tracker(self.root)
         tracker.sync()
         self.assertEqual(tracker.pending, [])
         self.assertEqual(len(tracker.entries), 1)
-        self.assertEqual(tracker.entries[0]['module'], 'course1')
+        self.assertEqual(tracker.entries[0]['module'], 'ml-regression')
 
 
 if __name__ == '__main__':

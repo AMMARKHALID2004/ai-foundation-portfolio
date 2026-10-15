@@ -1,58 +1,23 @@
-# My progress tracker
+# My learning progress
 
-I recorded my starting status on **2026-10-15 (Asia/Karachi)**. I have not recorded my earlier study dates. I enter a date only when I can confirm it.
+I track only my data libraries and machine learning. My checked topics record my own completion report. They do not confirm an independent project result or supervisor approval. I enter actual study dates only when I know them.
 
-I use these statuses: **Reported complete**, **In progress**, **Evidence added**, **Not confirmed**, **Not started**, **Optional / deferred**, and **Complete — reviewed**. A file link shows where my work is. It does not prove that my supervisor reviewed it. I use **Complete — reviewed** only after that review.
+I have completed NumPy, Pandas, Matplotlib, and Seaborn. My ML study covers foundations, data collection, EDA, and preprocessing through power transformations. My earlier data-cleaning exercise and Python/Git diagnostic remain recorded as reported complete.
 
-When I finish new work, I follow [my update steps](WORKFLOW.md). I add a file link, my result, and an actual date if known. I record supervisor feedback in the log below. I read [NEXT_STEPS.md](NEXT_STEPS.md) to find the next task.
+The automatic section below shows my current counts. I open [my learning log](LEARNING_LOG.md) for each record. [My source record](IMPORTED_WORK.md) links my existing work.
 
-## My active ML playlist
+## My study dates and supervisor review
 
-I follow [CampusX: 100 Days of Machine Learning](../machine-learning/README.md). On 2026-10-15, I reported **videos 1–31 complete**, through Power Transformer. My actual study dates are unknown. My next lesson at that report is video 032: Binning and Binarization.
+| Topic | Actual study date | Evidence / result | Supervisor review |
+| --- | --- | --- | --- |
+| Data libraries | Unknown | Imported notebooks | Pending |
+| ML foundations and preprocessing | Unknown | Imported notebooks and my learning report | Pending |
+| Independent Pipeline exercise | Unknown | Blank exercise; my result is pending | Pending |
+| Cricket prediction project | Unknown | Existing source imported; reproduction is pending | Pending |
 
-I open [my live playlist index](../machine-learning/README.md) for the current lesson counts. The automatic activity table below also shows each ML section. My video ticks do not complete independent exercises or supervisor review. My earlier guide module table remains a separate record.
+## My supervision log
 
-## Prior learning credit
-
-| Topic | Learning status | Start | Finish | Repository / folder | Evidence reviewed |
-| --- | --- | --- | --- | --- | --- |
-| NumPy | Reported complete | Unknown | Unknown | [Imported NumPy](../completed-work/numpy/SOURCE.md) | Existing notebooks imported; independent work and supervisor review pending |
-| Pandas | Reported complete | Unknown | Unknown | [Imported Pandas](../completed-work/pandas/SOURCE.md) | Existing notebooks imported; execution/reflection/review pending |
-| Matplotlib | Reported complete | Unknown | Unknown | [Imported Matplotlib](../completed-work/matplotlib/SOURCE.md) | Existing notebooks imported; figures/interpretation/review pending |
-| Seaborn | Reported complete | Unknown | Unknown | [Imported Seaborn](../completed-work/seaborn/SOURCE.md) | Existing notebooks imported; figures/interpretation/review pending |
-| scikit-learn through ColumnTransformer | Reported complete to this point | Unknown | Unknown | [Imported preprocessing](../completed-work/sklearn-preprocessing/SOURCE.md) | Corrected source imported; reproducibility fixes merged; supervisor review pending |
-
-## Guide modules
-
-The folder links below show where I will put my evidence. Some module folders have only a plan. My earlier work is in [completed-work](../completed-work/README.md). My published repository is [ai-foundation-portfolio](https://github.com/AMMARKHALID2004/ai-foundation-portfolio).
-
-| Module | Status | Start | Finish | Repository / folder | Evidence reviewed |
-| --- | --- | --- | --- | --- | --- |
-| 1 Python/data/Git refresh | Checklist: 6/6 topics checked | Unknown | — | [Module 1](../modules/01-python-data-git/README.md), [existing repos](GITHUB_EVIDENCE.md) | My earlier work is linked; diagnostic and supervisor review pending |
-| Personalized Pipeline bridge | Checklist: 1/3 topics checked | — | — | [Practice](../practice/sklearn-pipelines/README.md) | Supplied starter only |
-| 2 ML Specialization Course 1 | Checklist: 0/4 topics checked | — | — | [Module 2](../modules/02-supervised-ml/README.md) | My original linear/logistic regression has not been reviewed |
-| 3 ML Specialization Course 2 | Checklist: 0/3 topics checked | — | — | [Module 3](../modules/03-advanced-ml/README.md) | My three-model comparison has not been reviewed |
-| 4 Course 3 — optional | Checklist: 0/1 topics checked | — | — | [Module 4](../modules/04-unsupervised-optional/README.md) | — |
-| 5 PyTorch Basics | Checklist: 0/3 topics checked | — | — | [Module 5](../modules/05-pytorch-basics/README.md) | — |
-| 6 PyTorch Beginner Series | Checklist: 0/2 topics checked | — | — | [Module 6](../modules/06-pytorch-video-practice/README.md) | — |
-| 7 Deep-learning practice | Checklist: 0/3 topics checked | — | — | [Module 7](../modules/07-deep-learning-practice/README.md) | — |
-| 8 Evaluation study — optional | Checklist: 0/1 topics checked | — | — | [Module 8](../modules/08-evaluation-optional/README.md) | Apply evaluation to required projects regardless |
-| Primary specialization | Unselected | — | — | [Selection plans](../blueprints/README.md) | Select after PyTorch; supervisor approval pending |
-| Capstone | Not confirmed | — | — | [Capstone plan](../blueprints/capstone.md) | Proposal approval pending |
-
-## Minimum outputs
-
-| Output | Status | Evidence / supervisor note |
-| --- | --- | --- |
-| Original linear and logistic regression | Pending | Module 2 |
-| Classical ML comparison of at least three models | Pending | Module 3 |
-| PyTorch MLP and CNN with own loops | Pending | Module 7 |
-| Error-analysis report | Pending | Use templates/error-analysis.md |
-| Evidence for every completed guide module | I have imported earlier work from 14 source repos | I still need to check setup, originality, results, and reflection |
-
-## Supervision log
-
-| Meeting date | Evidence presented | Supervisor initials / review date | Agreed next action |
+| Meeting date | Evidence presented | Supervisor review date | Agreed next action |
 | --- | --- | --- | --- |
 | To be entered | | | |
 
@@ -64,26 +29,22 @@ I use [my learning log](LEARNING_LOG.md) to open each record.
 
 | Module | Checked topics | Learning records |
 | --- | --- | --- |
-| Python and data libraries | 6 / 6 | 6 |
-| ColumnTransformer and Pipeline | 1 / 3 | 1 |
-| Supervised ML | 0 / 4 | 0 |
-| Advanced ML and model comparison | 0 / 3 | 0 |
-| Optional unsupervised ML | 0 / 1 | 0 |
-| PyTorch Basics | 0 / 3 | 0 |
-| PyTorch video practice | 0 / 2 | 0 |
-| MLP and CNN practice | 0 / 3 | 0 |
-| Optional evaluation study | 0 / 1 | 0 |
-| ML foundations and project planning | 14 / 14 | 14 |
-| Data collection and EDA | 8 / 8 | 8 |
-| Feature engineering and preprocessing | 9 / 23 | 9 |
-| Dimensionality reduction and PCA | 0 / 4 | 0 |
-| Linear regression, gradients, and regularization | 0 / 20 | 0 |
-| Logistic regression and classification metrics | 0 / 12 | 0 |
-| Probability and Naive Bayes | 0 / 9 | 0 |
-| KNN and support vector machines | 0 / 6 | 0 |
-| Decision trees | 0 / 4 | 0 |
-| Ensembles and boosting | 0 / 27 | 0 |
-| Clustering | 0 / 5 | 0 |
-| Imbalanced data and hyperparameter tuning | 0 / 2 | 0 |
+| NumPy | 1 / 1 | 1 |
+| Pandas | 1 / 1 | 1 |
+| Matplotlib | 1 / 1 | 1 |
+| Seaborn | 1 / 1 | 1 |
+| ML foundations | 5 / 5 | 5 |
+| Data collection | 2 / 2 | 2 |
+| Data cleaning | 1 / 1 | 1 |
+| Exploratory data analysis | 3 / 3 | 3 |
+| Preprocessing and feature engineering | 7 / 13 | 7 |
+| Dimensionality reduction | 0 / 1 | 0 |
+| Regression | 0 / 4 | 0 |
+| Classification | 0 / 4 | 0 |
+| Decision trees | 0 / 1 | 0 |
+| Ensemble methods | 0 / 3 | 0 |
+| Clustering | 0 / 1 | 0 |
+| Model selection and evaluation | 0 / 3 | 0 |
+| Independent ML projects | 0 / 2 | 0 |
 
 <!-- learning-tracker:end -->

@@ -16,7 +16,7 @@ python -m notebook
 
 The `environment.yml` file creates a Python 3.12 environment. I select **FYP AI (Anaconda)** in Jupyter Notebook. If `fyp-ai` already exists, I activate it and start with the `uv pip install` command. I can also register a different study environment with its own kernel name.
 
-I get data for earlier lessons with `python scripts/fetch_learning_data.py`. I can skip this command for the Pipeline starter. The script retrieves files from the original repositories and checks their hashes. It does not add them to Git.
+I get data for earlier lessons with `python scripts/fetch_learning_data.py`. I can skip this command when I use my own data. The script retrieves files from the original repositories and checks their hashes. It does not add them to Git.
 
 ## pip option
 
@@ -52,7 +52,7 @@ On Windows PowerShell, I use `.venv\Scripts\Activate.ps1` to activate the enviro
 
 ## Optional packages and earlier lessons
 
-Some earlier EDA lessons use ydata-profiling, PyGWalker, or AutoViz. One generator example uses OpenCV. I install these packages only when I need them:
+Some earlier EDA lessons use ydata-profiling, PyGWalker, or AutoViz. I install these packages only when I need them:
 
 ```bash
 conda activate fyp-ai
@@ -63,8 +63,12 @@ I can use `python -m pip install -r requirements-optional.txt` instead. Some ear
 
 ## Record my environment
 
-I record Python and package versions with each experiment. I open each notebook from its folder when it uses relative data paths. I restart the kernel and run all required cells before I report a result. I can run `python practice/sklearn-pipelines/example.py` from the repository root to check the core setup.
+I record Python and package versions with each experiment. I open each notebook from its folder when it uses relative data paths. I restart the kernel and run all required cells before I report a result. I can run `python machine-learning/preprocessing/exercises/pipeline/example.py` from the repository root to check the core setup.
 
 On 2026-10-15, my installed Anaconda base had Python 3.14.6, NumPy 2.5.3, Pandas 3.0.6, scikit-learn 1.9.0, Matplotlib 3.11.0, Seaborn 0.13.2, and Notebook 7.5.7. The `environment.yml` file requests Python 3.12 for a new `fyp-ai` environment.
 
 References: [uv environment discovery](https://docs.astral.sh/uv/pip/environments/), [conda environments](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html), and [IPython kernel registration](https://ipython.readthedocs.io/en/stable/install/kernel_install.html).
+
+## My existing project dependencies
+
+The cricket project retains its own dependency files. Its source asks for Python 3.14 or later. I use a separate project environment that meets that requirement. I keep the main library study environment unchanged. I read the project SOURCE.md for its data and model requirements.

@@ -10,8 +10,6 @@ on:
       - '.github/workflows/learning-checklist.yml'
       - 'scripts/update_checklist.py'
       - 'scripts/track_learning.py'
-      - 'scripts/playlist_catalog.py'
-      - 'tracking/campusx-playlist.json'
       - 'tracking/checklist-issue.json'
       - 'templates/**'
       - 'tests/**'

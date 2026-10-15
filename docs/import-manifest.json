@@ -1,572 +1,19 @@
 {
   "import_date": "2026-10-15",
+  "structure_updated_on": "2026-10-15",
   "repositories": [
-    {
-      "repository": "Python_OOP",
-      "url": "https://github.com/AMMARKHALID2004/Python_OOP",
-      "source_commit": "deb9062010602a940b4b8473e9bc5792fbfddba0",
-      "destination": "completed-work/python/oop",
-      "files": [
-        {
-          "path": "Abstraction/Main.py",
-          "source_sha256": "2508349d94afd0c257c5653b1f42857ab2af0edb166cdeec961d16997570d592",
-          "imported_sha256": "2508349d94afd0c257c5653b1f42857ab2af0edb166cdeec961d16997570d592",
-          "modifications": []
-        },
-        {
-          "path": "Abstraction/Polygon.py",
-          "source_sha256": "621a8809cdb44fb1785ce07dcc4863a252a9b333da2568e8fb776ad204e7101c",
-          "imported_sha256": "621a8809cdb44fb1785ce07dcc4863a252a9b333da2568e8fb776ad204e7101c",
-          "modifications": []
-        },
-        {
-          "path": "Abstraction/Rectangle.py",
-          "source_sha256": "8abb6579fdff030528f7a0d226098f6c724f844cfa616876b9a9e54453ff1822",
-          "imported_sha256": "8abb6579fdff030528f7a0d226098f6c724f844cfa616876b9a9e54453ff1822",
-          "modifications": []
-        },
-        {
-          "path": "Abstraction/Triangle.py",
-          "source_sha256": "de48b434dd281ebb148552f0198def47ee7adc3a8768dd26cfd88725d8f63c60",
-          "imported_sha256": "de48b434dd281ebb148552f0198def47ee7adc3a8768dd26cfd88725d8f63c60",
-          "modifications": []
-        },
-        {
-          "path": "Aggregation and Composition/Main.py",
-          "source_sha256": "91e230ae3f4d65dd8430607663e81f2cbafab838fadaca7e61a5341b0e15bb01",
-          "imported_sha256": "91e230ae3f4d65dd8430607663e81f2cbafab838fadaca7e61a5341b0e15bb01",
-          "modifications": []
-        },
-        {
-          "path": "Aggregation and Composition/Specialization.py",
-          "source_sha256": "af2b411c48bafe896558f2db28218611861b2e53c3af6c78cad1d2ffa861ea47",
-          "imported_sha256": "af2b411c48bafe896558f2db28218611861b2e53c3af6c78cad1d2ffa861ea47",
-          "modifications": []
-        },
-        {
-          "path": "Aggregation and Composition/Student.py",
-          "source_sha256": "0eba649c855aa8f8276553195df6759a9a886cc9c181694ddb983b003fdc9ff1",
-          "imported_sha256": "0eba649c855aa8f8276553195df6759a9a886cc9c181694ddb983b003fdc9ff1",
-          "modifications": []
-        },
-        {
-          "path": "Aggregation and Composition/Teacher.py",
-          "source_sha256": "f82e8e1dff67dfa29b75131c6a3f52d60ee7a64fc1d54f5fc94565b24932035a",
-          "imported_sha256": "f82e8e1dff67dfa29b75131c6a3f52d60ee7a64fc1d54f5fc94565b24932035a",
-          "modifications": []
-        },
-        {
-          "path": "Bill Payment Scenario/Bill.py",
-          "source_sha256": "0ed9ab5285e42fd5764a68fd446611b5619bb0f0770ae321b0e3915cd0f22d26",
-          "imported_sha256": "0ed9ab5285e42fd5764a68fd446611b5619bb0f0770ae321b0e3915cd0f22d26",
-          "modifications": []
-        },
-        {
-          "path": "Bill Payment Scenario/Card.py",
-          "source_sha256": "3494fdb34d686a199765675bfa243b83ab12871a01b7cfef381dad4093aa7b4c",
-          "imported_sha256": "3494fdb34d686a199765675bfa243b83ab12871a01b7cfef381dad4093aa7b4c",
-          "modifications": []
-        },
-        {
-          "path": "Bill Payment Scenario/Cash.py",
-          "source_sha256": "6853b0e0ecd2ea0c6466c4a1efe3c180e659ed391658016022588c914e8c7797",
-          "imported_sha256": "6853b0e0ecd2ea0c6466c4a1efe3c180e659ed391658016022588c914e8c7797",
-          "modifications": []
-        },
-        {
-          "path": "Car.py",
-          "source_sha256": "26a786c4c9e5437a5550a068baba7ae63e7d06c9a0b410a64a73d3e6b0e8a576",
-          "imported_sha256": "26a786c4c9e5437a5550a068baba7ae63e7d06c9a0b410a64a73d3e6b0e8a576",
-          "modifications": []
-        },
-        {
-          "path": "Collection Objects/Customer.py",
-          "source_sha256": "8de740851bd80c5bdd7d12d9a8aa73cdfda0857282192ca2d3a9f79b6e924e4a",
-          "imported_sha256": "8de740851bd80c5bdd7d12d9a8aa73cdfda0857282192ca2d3a9f79b6e924e4a",
-          "modifications": []
-        },
-        {
-          "path": "Copy_of_session9_oop_part3.ipynb",
-          "source_sha256": "b188eacd161dc07d0945fea935e1c07bfe165f40491a4dbfa781ef10ef8a8f47",
-          "imported_sha256": "2fea380ff535b80b0f5654414f0d5993aaa2b1e80d0ab0afc42ea3e932e10e88",
-          "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
-          ]
-        },
-        {
-          "path": "Custom_Datatype/Fraction.py",
-          "source_sha256": "872f117b4b0a46f2c4a8bdad1b49e11c9dabfbe32cfab85192da569ffc11dcea",
-          "imported_sha256": "872f117b4b0a46f2c4a8bdad1b49e11c9dabfbe32cfab85192da569ffc11dcea",
-          "modifications": []
-        },
-        {
-          "path": "Custom_Datatype/Test.py",
-          "source_sha256": "dbf08421836e76853cbbd20d3eda3291086d31c07d67d8485301e7888aa03935",
-          "imported_sha256": "dbf08421836e76853cbbd20d3eda3291086d31c07d67d8485301e7888aa03935",
-          "modifications": []
-        },
-        {
-          "path": "Encapsulation/Bank.py",
-          "source_sha256": "ae8910d9c57541f97d35bcd76ad054096ec3bf50971c14dae8310fa0072521ac",
-          "imported_sha256": "ae8910d9c57541f97d35bcd76ad054096ec3bf50971c14dae8310fa0072521ac",
-          "modifications": []
-        },
-        {
-          "path": "Encapsulation/Main.py",
-          "source_sha256": "9eb1889bda9220db38d32864c407baad4e024bbb4a245cadcb64e34b11a43137",
-          "imported_sha256": "9eb1889bda9220db38d32864c407baad4e024bbb4a245cadcb64e34b11a43137",
-          "modifications": []
-        },
-        {
-          "path": "Flexible Dictionary/FlexibleDictionary.py",
-          "source_sha256": "bb026cd25647d60304d0dab29909380f33de0c807daf3e27bad94ea89a68da30",
-          "imported_sha256": "bb026cd25647d60304d0dab29909380f33de0c807daf3e27bad94ea89a68da30",
-          "modifications": []
-        },
-        {
-          "path": "Inheritance/Phone.py",
-          "source_sha256": "f5f23ab3adf2ba51fac10b7ead74bae7e68335f3ea3d5796148bd7dd54e06eb4",
-          "imported_sha256": "f5f23ab3adf2ba51fac10b7ead74bae7e68335f3ea3d5796148bd7dd54e06eb4",
-          "modifications": []
-        },
-        {
-          "path": "Inheritance/Smartphone.py",
-          "source_sha256": "40c9bcd376e82c47a76154da8e9d7d1950c56b7fb5e2c6b55f202b96349214b0",
-          "imported_sha256": "40c9bcd376e82c47a76154da8e9d7d1950c56b7fb5e2c6b55f202b96349214b0",
-          "modifications": []
-        },
-        {
-          "path": "Main.py",
-          "source_sha256": "0e92beb49a85c9d3572252825a5fdb8567b58ab0f26746d039b6ab9446b36d37",
-          "imported_sha256": "0e92beb49a85c9d3572252825a5fdb8567b58ab0f26746d039b6ab9446b36d37",
-          "modifications": []
-        },
-        {
-          "path": "Pass by Reference/Customer.py",
-          "source_sha256": "06c65a52dfa28bae31adb06587580befa25134b84a090a0343c1ea5ec76f3636",
-          "imported_sha256": "06c65a52dfa28bae31adb06587580befa25134b84a090a0343c1ea5ec76f3636",
-          "modifications": []
-        },
-        {
-          "path": "Static Methods and Static Variables/Student.py",
-          "source_sha256": "b777ad3a0ddf040886c51c9569bfcb75ad809961188d73016942c395c85d296d",
-          "imported_sha256": "b777ad3a0ddf040886c51c9569bfcb75ad809961188d73016942c395c85d296d",
-          "modifications": []
-        },
-        {
-          "path": "Tasks/Task 1/Bus.py",
-          "source_sha256": "0c2926e89986973d39cdcc03ba7ce112722f71a2a9603b259da0a55210ccf451",
-          "imported_sha256": "0c2926e89986973d39cdcc03ba7ce112722f71a2a9603b259da0a55210ccf451",
-          "modifications": []
-        },
-        {
-          "path": "Tasks/Task 1/Main.py",
-          "source_sha256": "4fc958241d18e1a0c7bea97efbef2b5cd95469a616d4e91d983f4ea76c6e837e",
-          "imported_sha256": "4fc958241d18e1a0c7bea97efbef2b5cd95469a616d4e91d983f4ea76c6e837e",
-          "modifications": []
-        },
-        {
-          "path": "Tasks/Task 1/Vehicle.py",
-          "source_sha256": "008009830b414540deeca39238cd98185cdd57f916237aa8cbc8af85245c5d92",
-          "imported_sha256": "008009830b414540deeca39238cd98185cdd57f916237aa8cbc8af85245c5d92",
-          "modifications": []
-        },
-        {
-          "path": "Tasks/Task 2/Location.py",
-          "source_sha256": "159a99ad536e2946ffaf035cef4aa0a357cfdd3b6a78623657277e7b08bb34b2",
-          "imported_sha256": "159a99ad536e2946ffaf035cef4aa0a357cfdd3b6a78623657277e7b08bb34b2",
-          "modifications": []
-        },
-        {
-          "path": "Tasks/Task 2/Main.py",
-          "source_sha256": "ff66361cd85d8f21b8891bc52399318a30eb225e59310db6ac46bd3ae6952bc2",
-          "imported_sha256": "ff66361cd85d8f21b8891bc52399318a30eb225e59310db6ac46bd3ae6952bc2",
-          "modifications": []
-        },
-        {
-          "path": "Tasks/Task 2/Point.py",
-          "source_sha256": "fdab184d02e09f54fa54e296f56c2146f9a8f27d44bf7af858976ec90ac44cf6",
-          "imported_sha256": "fdab184d02e09f54fa54e296f56c2146f9a8f27d44bf7af858976ec90ac44cf6",
-          "modifications": []
-        }
-      ],
-      "excluded_files": [
-        ".idea/.gitignore",
-        ".idea/PythonProject.iml",
-        ".idea/inspectionProfiles/profiles_settings.xml",
-        ".idea/misc.xml",
-        ".idea/modules.xml",
-        ".idea/vcs.xml",
-        "Abstraction/__pycache__/Polygon.cpython-313.pyc",
-        "Abstraction/__pycache__/Rectangle.cpython-313.pyc",
-        "Abstraction/__pycache__/Triangle.cpython-313.pyc",
-        "Aggregation and Composition/__pycache__/Specialization.cpython-313.pyc",
-        "Aggregation and Composition/__pycache__/Student.cpython-313.pyc",
-        "Aggregation and Composition/__pycache__/Teacher.cpython-313.pyc",
-        "Custom_Datatype/__pycache__/Fraction.cpython-314.pyc",
-        "Encapsulation/__pycache__/Bank.cpython-314.pyc",
-        "Inheritance/__pycache__/Phone.cpython-313.pyc",
-        "Tasks/Task 1/__pycache__/Bus.cpython-313.pyc",
-        "Tasks/Task 1/__pycache__/Vehicle.cpython-313.pyc",
-        "Tasks/Task 2/__pycache__/Location.cpython-313.pyc",
-        "Tasks/Task 2/__pycache__/Point.cpython-313.pyc",
-        "__pycache__/Car.cpython-313.pyc",
-        "__pycache__/Car.cpython-314.pyc"
-      ],
-      "external_data_assets": []
-    },
-    {
-      "repository": "Python-Revision",
-      "url": "https://github.com/AMMARKHALID2004/Python-Revision",
-      "source_commit": "395db1c6db8b54dd284eb9559178b02a4737043e",
-      "destination": "completed-work/python/revision",
-      "files": [
-        {
-          "path": "Python Revision.ipynb",
-          "source_sha256": "7a2657518b0f6c7af1888b3c87c18b809715eb2a4e2bad68065971f8035d6c42",
-          "imported_sha256": "5ce139de2ba4c13cc62c1edc41e4999f7d20587212aa36ae13bfdee9467bea03",
-          "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
-          ]
-        }
-      ],
-      "excluded_files": [
-        ".ipynb_checkpoints/Python Revision-checkpoint.ipynb"
-      ],
-      "external_data_assets": []
-    },
-    {
-      "repository": "Advance-Python",
-      "url": "https://github.com/AMMARKHALID2004/Advance-Python",
-      "source_commit": "aa717f90b9a56b07f19ef13cfb118c6363649f49",
-      "destination": "completed-work/python/advanced",
-      "files": [
-        {
-          "path": "File Handling/File Handling.ipynb",
-          "source_sha256": "80adea1e9fc2abb5f15bc4f56e85673ccf2b49de03b93c8705d0381fe723ed7e",
-          "imported_sha256": "e48d82a9242a40f033e6b766e35e88f3841c4d45edb4f13456106ff783a2549e",
-          "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
-          ]
-        },
-        {
-          "path": "File Handling/Untitled.ipynb",
-          "source_sha256": "1a2569f26d7a57e6d5f9f20cf95dc726a3497697a747c985c59d4789430db53d",
-          "imported_sha256": "264a0bc34d4159bdfc4d7cf86f96e1e78ae3102a917c3389587758ef0fff2d12",
-          "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
-          ]
-        },
-        {
-          "path": "Generators/generators-demo.ipynb",
-          "source_sha256": "44f2337cd7100dfe150aafbc8038525615fc7abc46db4ff8f6aa4eff9aac720d",
-          "imported_sha256": "863b7a72707b10fc65174de27b29caa21308b9e6ddb4bef898b4d7f82c208210",
-          "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
-          ]
-        },
-        {
-          "path": "Higher Order Functions/Filter Function.py",
-          "source_sha256": "728e5bc64197e696a5ee4cae42325de174c98872ee60608b05f5544256da241b",
-          "imported_sha256": "728e5bc64197e696a5ee4cae42325de174c98872ee60608b05f5544256da241b",
-          "modifications": []
-        },
-        {
-          "path": "Higher Order Functions/Lambda Function.py",
-          "source_sha256": "5f8c40353ed5907a6ac94d8ac294eef40438cc2d496c6d72583d0cb4e56ee634",
-          "imported_sha256": "5f8c40353ed5907a6ac94d8ac294eef40438cc2d496c6d72583d0cb4e56ee634",
-          "modifications": []
-        },
-        {
-          "path": "Higher Order Functions/Map Function.py",
-          "source_sha256": "cb3c897fc38ca706d30ee81be39ec3ad38c486a2690579031a66b40a5e71f8cf",
-          "imported_sha256": "cb3c897fc38ca706d30ee81be39ec3ad38c486a2690579031a66b40a5e71f8cf",
-          "modifications": []
-        },
-        {
-          "path": "Higher Order Functions/Problem Solving.py",
-          "source_sha256": "2e235b4d9d722a35ea84d098f8ad0b95c2706250f04f5e2729f1b648d27a08ec",
-          "imported_sha256": "2e235b4d9d722a35ea84d098f8ad0b95c2706250f04f5e2729f1b648d27a08ec",
-          "modifications": []
-        },
-        {
-          "path": "Higher Order Functions/Reduce Function.py",
-          "source_sha256": "3db1c789e15ffde05130cb632fe3ec32033337ed2df1096cfc4d06efdbe280d3",
-          "imported_sha256": "3db1c789e15ffde05130cb632fe3ec32033337ed2df1096cfc4d06efdbe280d3",
-          "modifications": []
-        },
-        {
-          "path": "Higher Order Functions/Zip Function.py",
-          "source_sha256": "a70ba2c401f900cf505b4e04b08adbfef709f2324ee3c8fff984f11a8d1fa58f",
-          "imported_sha256": "a70ba2c401f900cf505b4e04b08adbfef709f2324ee3c8fff984f11a8d1fa58f",
-          "modifications": []
-        },
-        {
-          "path": "Iterators/python-iterators-and-iterables/Iterators.ipynb",
-          "source_sha256": "16e6f9115c80ebbc08253a948c344fb2603933b49ae4161dee42fffdb96a3cd8",
-          "imported_sha256": "9edd31a95219a2b376dc7b03ecc740650fd932633b50a80361c2ebd43defa2e5",
-          "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
-          ]
-        },
-        {
-          "path": "Iterators/python-iterators-and-iterables/README.md",
-          "source_sha256": "c57ae11adef77d67641599503dc0ed117fc1a7113941c757f47d719ad0a0b910",
-          "imported_sha256": "c57ae11adef77d67641599503dc0ed117fc1a7113941c757f47d719ad0a0b910",
-          "modifications": []
-        },
-        {
-          "path": "Iterators/python-iterators-and-iterables/countup.py",
-          "source_sha256": "9ec9a7fc4d6b41ee4e479b4c5ec766bc216078ced00d719ca20e641917ce2e3d",
-          "imported_sha256": "9ec9a7fc4d6b41ee4e479b4c5ec766bc216078ced00d719ca20e641917ce2e3d",
-          "modifications": []
-        },
-        {
-          "path": "Iterators/python-iterators-and-iterables/countup_iterator.py",
-          "source_sha256": "bd6b1fe3580d5ae10302095e2aead39b2cb886b3308cc2f2cf93bce4e077d4c2",
-          "imported_sha256": "bd6b1fe3580d5ae10302095e2aead39b2cb886b3308cc2f2cf93bce4e077d4c2",
-          "modifications": []
-        },
-        {
-          "path": "List & Dictionary Comprehension/List & Dictionary Comprehension.py",
-          "source_sha256": "9a8ff9398cebdd69e605df4e8a0bc7e9a8c5e687661e76db91dcc5a74fe800b3",
-          "imported_sha256": "9a8ff9398cebdd69e605df4e8a0bc7e9a8c5e687661e76db91dcc5a74fe800b3",
-          "modifications": []
-        },
-        {
-          "path": "Namespaces,Assert and Decorators/Namespaces_and_Decorators.ipynb",
-          "source_sha256": "9ad7f999ea2fa42be9bf0848144b4537e107941d898cf272a20915766a21d4aa",
-          "imported_sha256": "32334cf570d41dcbd55670ce6e51112434ef2babd7148dd84097bc52818744ca",
-          "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
-          ]
-        },
-        {
-          "path": "Namespaces,Assert and Decorators/assert.ipynb",
-          "source_sha256": "2fda09bee0587a656028fd4ac5960835217c8288a16319dd7e2abcaa0774632d",
-          "imported_sha256": "2ea4615b3060130f15329864bab1d364524d4ff819c024a95d180a9cab363f33",
-          "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
-          ]
-        },
-        {
-          "path": "Pathlib/Pathlib Tutorial.ipynb",
-          "source_sha256": "08a2dbe2c5fdd74c51b37af469a6719b96285d8e93ba092f6379cf9bd573250b",
-          "imported_sha256": "ebd0c982d0044eb8eb212d7f4893d32ac289fb29d2c43284189ea9c173cbbdc5",
-          "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            },
-            {
-              "kind": "embedded widget state/attachments removed from public snapshot"
-            }
-          ]
-        },
-        {
-          "path": "Pathlib/Pathlib.py",
-          "source_sha256": "1766b137e17e471d4f786ef09a42ea9495cd1edc01c75d68caef717f79222746",
-          "imported_sha256": "1766b137e17e471d4f786ef09a42ea9495cd1edc01c75d68caef717f79222746",
-          "modifications": []
-        },
-        {
-          "path": "Recursion/Recursion_intro.py",
-          "source_sha256": "aa3335d10c136acf38236d0fd10d50c6fd56afa40294dafeab2075f7252282da",
-          "imported_sha256": "aa3335d10c136acf38236d0fd10d50c6fd56afa40294dafeab2075f7252282da",
-          "modifications": []
-        },
-        {
-          "path": "Recursion/list_Sum.py",
-          "source_sha256": "9a8e518d16317179e0b9d233532136d58265fdf2e0d5b991eb86c1de3faf5469",
-          "imported_sha256": "9a8e518d16317179e0b9d233532136d58265fdf2e0d5b991eb86c1de3faf5469",
-          "modifications": []
-        },
-        {
-          "path": "Recursion/powersetproblem.py",
-          "source_sha256": "5e40bb59c6745cb29b2c44e94e4554b0a433c13dd1475df479051c83f3b13222",
-          "imported_sha256": "5e40bb59c6745cb29b2c44e94e4554b0a433c13dd1475df479051c83f3b13222",
-          "modifications": []
-        }
-      ],
-      "excluded_files": [
-        ".idea/workspace.xml",
-        "File Handling/.ipynb_checkpoints/File Handling-checkpoint.ipynb",
-        "File Handling/.ipynb_checkpoints/Untitled-checkpoint.ipynb",
-        "Higher Order Functions/.idea/.gitignore",
-        "Higher Order Functions/.idea/Higher Order Functions.iml",
-        "Higher Order Functions/.idea/inspectionProfiles/Project_Default.xml",
-        "Higher Order Functions/.idea/inspectionProfiles/profiles_settings.xml",
-        "Higher Order Functions/.idea/misc.xml",
-        "Higher Order Functions/.idea/modules.xml",
-        "Higher Order Functions/.idea/vcs.xml",
-        "Iterators/python-iterators-and-iterables/__pycache__/countup_iterator.cpython-313.pyc",
-        "List & Dictionary Comprehension/.idea/.gitignore",
-        "List & Dictionary Comprehension/.idea/List & Dictionary Comprehension.iml",
-        "List & Dictionary Comprehension/.idea/inspectionProfiles/Project_Default.xml",
-        "List & Dictionary Comprehension/.idea/inspectionProfiles/profiles_settings.xml",
-        "List & Dictionary Comprehension/.idea/misc.xml",
-        "List & Dictionary Comprehension/.idea/modules.xml",
-        "Namespaces,Assert and Decorators/.ipynb_checkpoints/Namespaces_and_Decorators-checkpoint.ipynb",
-        "Namespaces,Assert and Decorators/.ipynb_checkpoints/assert-checkpoint.ipynb"
-      ],
-      "external_data_assets": [
-        {
-          "path": "File Handling/Test.txt",
-          "source_sha256": "e2cdaa75fc90d386b057ba3ff79ee65de3cd664218bc6f7c51195ca622ffbfbf",
-          "imported_sha256": "e2cdaa75fc90d386b057ba3ff79ee65de3cd664218bc6f7c51195ca622ffbfbf",
-          "modifications": [],
-          "local_path": "completed-work/python/advanced/File Handling/Test.txt"
-        },
-        {
-          "path": "File Handling/test2.txt",
-          "source_sha256": "e2cdaa75fc90d386b057ba3ff79ee65de3cd664218bc6f7c51195ca622ffbfbf",
-          "imported_sha256": "e2cdaa75fc90d386b057ba3ff79ee65de3cd664218bc6f7c51195ca622ffbfbf",
-          "modifications": [],
-          "local_path": "completed-work/python/advanced/File Handling/test2.txt"
-        }
-      ]
-    },
-    {
-      "repository": "generators-and-decorators",
-      "url": "https://github.com/AMMARKHALID2004/generators-and-decorators",
-      "source_commit": "63637b7d60533736de0497344c5fb23cc4d83a84",
-      "destination": "completed-work/python/generators-decorators",
-      "files": [
-        {
-          "path": "generators/aggregate.py",
-          "source_sha256": "c135c8ce6026e98edd21885a8c4a680ebc94595c89092cf279375909d8b8e775",
-          "imported_sha256": "c135c8ce6026e98edd21885a8c4a680ebc94595c89092cf279375909d8b8e775",
-          "modifications": []
-        },
-        {
-          "path": "generators/filter.py",
-          "source_sha256": "90d708c0cf9b4447279d2a0888e34a0c22ec93dd61d0b8e35d36f580e1a14cf6",
-          "imported_sha256": "90d708c0cf9b4447279d2a0888e34a0c22ec93dd61d0b8e35d36f580e1a14cf6",
-          "modifications": []
-        },
-        {
-          "path": "generators/pipeline.py",
-          "source_sha256": "0c2349a9c34e32c9af9e563d2c2ca2f2e85478229dea1c7cb9eb9cdbab2e4f2c",
-          "imported_sha256": "0c2349a9c34e32c9af9e563d2c2ca2f2e85478229dea1c7cb9eb9cdbab2e4f2c",
-          "modifications": []
-        },
-        {
-          "path": "generators/sandbox.py",
-          "source_sha256": "6213c122f16a87a2d79d88f7ddd82d371c7f61fe8acba2bce7a1f3bf8ad6226f",
-          "imported_sha256": "6213c122f16a87a2d79d88f7ddd82d371c7f61fe8acba2bce7a1f3bf8ad6226f",
-          "modifications": []
-        },
-        {
-          "path": "generators/source.py",
-          "source_sha256": "5a4bccfaad21ed9284563deb4f04fd01684183995f129e19df80e51a4c75b544",
-          "imported_sha256": "5a4bccfaad21ed9284563deb4f04fd01684183995f129e19df80e51a4c75b544",
-          "modifications": []
-        },
-        {
-          "path": "generators/transformer.py",
-          "source_sha256": "12e8f82c53e63eb2a8fc2aac1bdfe6666a4f48b95b64353fb75cd7e5cd97e979",
-          "imported_sha256": "12e8f82c53e63eb2a8fc2aac1bdfe6666a4f48b95b64353fb75cd7e5cd97e979",
-          "modifications": []
-        },
-        {
-          "path": "pytoolkit/caching.py",
-          "source_sha256": "ec153b47f60e0a717004069e723c6084703be33a93fbff18f55d4640f4ceeb85",
-          "imported_sha256": "ec153b47f60e0a717004069e723c6084703be33a93fbff18f55d4640f4ceeb85",
-          "modifications": []
-        },
-        {
-          "path": "pytoolkit/demo.py",
-          "source_sha256": "0aa196c6c0deb2d1f839f8a12d80f162cc49bc8451553a2e6b9611e8a79b3bca",
-          "imported_sha256": "0aa196c6c0deb2d1f839f8a12d80f162cc49bc8451553a2e6b9611e8a79b3bca",
-          "modifications": []
-        },
-        {
-          "path": "pytoolkit/logging_deco.py",
-          "source_sha256": "78c25012a00aae0b5c70a09944b229d4d478f9a736f8189b541ce12c141bfaf7",
-          "imported_sha256": "78c25012a00aae0b5c70a09944b229d4d478f9a736f8189b541ce12c141bfaf7",
-          "modifications": []
-        },
-        {
-          "path": "pytoolkit/rate_limit.py",
-          "source_sha256": "a15748911fe238533cb9b4b450611341bc1a6e9f26e9b4db8dafa6595f282db6",
-          "imported_sha256": "a15748911fe238533cb9b4b450611341bc1a6e9f26e9b4db8dafa6595f282db6",
-          "modifications": []
-        },
-        {
-          "path": "pytoolkit/retry.py",
-          "source_sha256": "5e697dcf9a94c4ce5898d2ff48d2b0e4f8e9ec3a5f20dc0ced77dee76cba7b9d",
-          "imported_sha256": "5e697dcf9a94c4ce5898d2ff48d2b0e4f8e9ec3a5f20dc0ced77dee76cba7b9d",
-          "modifications": []
-        },
-        {
-          "path": "pytoolkit/scope_warmup.py",
-          "source_sha256": "bd074b681608b4870653741d84dbc20906913522ab61a3cc2cda38aed98f28ec",
-          "imported_sha256": "bd074b681608b4870653741d84dbc20906913522ab61a3cc2cda38aed98f28ec",
-          "modifications": []
-        },
-        {
-          "path": "pytoolkit/test.py",
-          "source_sha256": "39bb67907650d972c097e6a3d293650322484561b5688300f9c6659acaaa76c3",
-          "imported_sha256": "39bb67907650d972c097e6a3d293650322484561b5688300f9c6659acaaa76c3",
-          "modifications": []
-        },
-        {
-          "path": "pytoolkit/timer.py",
-          "source_sha256": "ada02e9775f0c60f7ab189c9c00eeab617598cf4aed88f55c8fbb47c1a33d7b8",
-          "imported_sha256": "ada02e9775f0c60f7ab189c9c00eeab617598cf4aed88f55c8fbb47c1a33d7b8",
-          "modifications": []
-        }
-      ],
-      "excluded_files": [
-        "generators/__pycache__/filter.cpython-313.pyc",
-        "generators/__pycache__/pipeline.cpython-313.pyc",
-        "generators/__pycache__/source.cpython-313.pyc",
-        "generators/__pycache__/transformer.cpython-313.pyc",
-        "pytoolkit/__pycache__/caching.cpython-313.pyc",
-        "pytoolkit/__pycache__/logging_deco.cpython-313.pyc",
-        "pytoolkit/__pycache__/rate_limit.cpython-313.pyc",
-        "pytoolkit/__pycache__/retry.cpython-313.pyc",
-        "pytoolkit/__pycache__/timer.cpython-313.pyc"
-      ],
-      "external_data_assets": [
-        {
-          "path": "generators/file.txt",
-          "source_sha256": "3cd5a22fc2b00823ef731917b9ffd9638c4597a39c1b5210183db570c0a296cf",
-          "imported_sha256": "3cd5a22fc2b00823ef731917b9ffd9638c4597a39c1b5210183db570c0a296cf",
-          "modifications": [],
-          "local_path": "completed-work/python/generators-decorators/generators/file.txt"
-        }
-      ]
-    },
     {
       "repository": "Numpy",
       "url": "https://github.com/AMMARKHALID2004/Numpy",
-      "source_commit": "3d0946ef8f7655f2faceb3d16ee49da47c3813b2",
-      "destination": "completed-work/numpy",
+      "source_commit": "e05b96d2b5091df5ff21280d9e7153dd127626df",
+      "destination": "numpy/notebooks",
       "files": [
         {
           "path": "Numpy/Advanced Indexing.ipynb",
           "source_sha256": "a21c37fd4f9ab970b6b72b8d09679d6dd6bd7528da0efbd79a31122c65b3f22e",
           "imported_sha256": "9cc48a48175c2790aa4d023e69d413e48607564cdc6d299438f839bb7d7d766b",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -574,9 +21,7 @@
           "source_sha256": "a434159648352bd4ad124726cf1768bac8e4fba68af5ded71f65eb24966d373a",
           "imported_sha256": "b922ea40a4e1f9e54f3b740174ecf242272d7bc4ee3fee3ffaf535e6c5d2abcb",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -584,9 +29,7 @@
           "source_sha256": "47dc5f9b7309a12e6fac3333471c565422a198dd1afec08ede1c1092b998b4a5",
           "imported_sha256": "d5eb64f156414e81cbf83b72fd93f346db680b2972088944871d28a103679a39",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -594,9 +37,7 @@
           "source_sha256": "fd6adafa2e708b9fc83595a45f1ddf3858c963f0a7596c2bcedc36caac6c5698",
           "imported_sha256": "13caac5ae895deb257b0667612fab15028c3b2e61fc0180506dca693ab1fc39b",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -604,9 +45,7 @@
           "source_sha256": "e96a8cd6b7572f08355fa008e905279ebbfc8d804ea0ebf81b12a7d26ea4d2c1",
           "imported_sha256": "de311e378e1a3cef8ae86665a3753aa301b83db801ddfb9406ae40121a26e531",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -614,9 +53,7 @@
           "source_sha256": "0846e99bdb273c552745247cd2de05da34dd94167beaba947aa419791d30c5e1",
           "imported_sha256": "f2dabc3f91c6fe974db95c95dd2f8408888648177a95f4ac158b683441d92edd",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -624,9 +61,7 @@
           "source_sha256": "4570460096db1ec69ff83c74db377826a34b6e716df17b8288bc5accf956e0e7",
           "imported_sha256": "56c6a9db0092ad7bac32be0ce20bd35bfa56bf44419d4f5b022f38911ab751ab",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -634,9 +69,7 @@
           "source_sha256": "e25b91d9bec181fc2c002dddb0b748c1aee08b6d06d08cd2284e46e7cb5f98cc",
           "imported_sha256": "6b60581ba60d9bee80b036ab4202c09e42c3fc1229fe1cdfa89cb5b5058a1b0d",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -644,9 +77,7 @@
           "source_sha256": "7eeb8fc63385775482bcdeb7370d083417875b2946cf55f16d9441f407928c57",
           "imported_sha256": "01f20bb24609ee728dfec8cd17c01b033d10566e680cb8950808c092d887e011",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -654,9 +85,7 @@
           "source_sha256": "8e20962dd365f824acc87df44ed0be5570a8099afcacb5867f22e98761cb2ac6",
           "imported_sha256": "2a3af13f900208d39e8ce3b6fcbcfb7ad51a61d29c6937e7a87def8b146262d3",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -664,9 +93,7 @@
           "source_sha256": "8288bf2e72452c35318a850ec79d3cf13023e458edc8924f55555793183edf82",
           "imported_sha256": "3cc8d48bd0540b9c8db0fa387ebc3de2ed55a4d9530f6722311d8a01261b4cdb",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -674,9 +101,7 @@
           "source_sha256": "97072a809a971c64c11fd2ac52daca8766ec3c18dfb9a2a4241821e9caa9d3b2",
           "imported_sha256": "b185658b6765ce99fba36255923f43653a1e71009be7bf5ca72e38dbde0cf1f7",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -684,9 +109,7 @@
           "source_sha256": "0625d11ae9864dd420acfa9df3994f558c775b738f493a4693fc41d889cc149c",
           "imported_sha256": "2ce2e04c988a1aa89d44b12c47059a0c77cd31d318cc310b4c358929cc4ff124",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -694,9 +117,7 @@
           "source_sha256": "36e06b6de0cdd1a9249153928baf2c718e37b52e227c009ddab8313eb1374258",
           "imported_sha256": "63bb897bf038bb1661cfbe78577237539f0e14140fab4e3573573023692fa543",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -715,13 +136,14 @@
       "excluded_files": [
         ".gitignore"
       ],
-      "external_data_assets": []
+      "external_data_assets": [],
+      "verified_on": "2026-10-15"
     },
     {
       "repository": "Numpy-100-Problems",
       "url": "https://github.com/AMMARKHALID2004/Numpy-100-Problems",
       "source_commit": "6429dce2bcb966b629197243a6419d126f905672",
-      "destination": "completed-work/numpy-exercises",
+      "destination": "numpy/exercises/reference",
       "files": [
         {
           "path": "100_Numpy_exercises.ipynb",
@@ -817,207 +239,85 @@
         ".gitignore",
         "runtime.txt"
       ],
-      "external_data_assets": []
+      "external_data_assets": [],
+      "verified_on": "2026-10-15"
     },
     {
       "repository": "Pandas",
       "url": "https://github.com/AMMARKHALID2004/Pandas",
-      "source_commit": "9ea847764391ab2be6e3e088432e02e2bd615f08",
-      "destination": "completed-work/pandas",
+      "source_commit": "26f59fd03a675f404fa758d1bd2fe34eef0d5047",
+      "destination": "pandas/notebooks",
       "files": [
         {
           "path": "Pandas Session  7 (Pivot Table).ipynb",
           "source_sha256": "1585eb2e8c80c36c590506d08aa5ac6e690e3f056229fefc59c74f8a64c277f7",
-          "imported_sha256": "426e36fc9cb5811dc20b5840aa6b1ca29aa51d1e98eac28fd489de122245a049",
+          "imported_sha256": "28c625551e2da66f67b7adb2b51d3597cb6c3798990ec8d9b85b41ebbf538328",
           "modifications": [
-            {
-              "cell": 14,
-              "kind": "portable dataset path",
-              "asset": "Datasets/expense_data.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Pandas Session 1 (Series).ipynb",
           "source_sha256": "b6e44983394fcdf8f7938083030a16c9a2b56758f96c8a946e5628b538ee68c0",
-          "imported_sha256": "71039aa218a70fecad7755a3fb2cb03e4f649af05a792273d4ae1fd66c426790",
+          "imported_sha256": "98f7ed04e206d9db5eafd57284d003b8c82f854f6c7fa6bce05517fdaddd1887",
           "modifications": [
-            {
-              "cell": 18,
-              "kind": "portable dataset path",
-              "asset": "Datasets/subs.csv"
-            },
-            {
-              "cell": 19,
-              "kind": "portable dataset path",
-              "asset": "Datasets/kohli_ipl.csv"
-            },
-            {
-              "cell": 20,
-              "kind": "portable dataset path",
-              "asset": "Datasets/bollywood.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Pandas Session 2 (Dataframes).ipynb",
           "source_sha256": "528050719d510b1d015ddaf02e8d6a135b2e24daa783e334fdcc496347965ae3",
-          "imported_sha256": "6276b87c55c12a910cb88c45e96ab3a422bae1a880bdd7a8aa1832c17c066957",
+          "imported_sha256": "146d7191ecf62db49a4e541a1453ba4993716eb79c47993ee72ecab741490802",
           "modifications": [
-            {
-              "cell": 5,
-              "kind": "portable dataset path",
-              "asset": "Datasets/movies.csv"
-            },
-            {
-              "cell": 6,
-              "kind": "portable dataset path",
-              "asset": "Datasets/ipl-matches.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Pandas Session 3 (DataFrame Methods).ipynb",
           "source_sha256": "e7fa0acdf7038e8048d6a123029381bca5abb968042ea20eb1ddc440ea2b665a",
-          "imported_sha256": "dbad1df9fc7e5fe806c310e9aef1427db86d972906d6d2379c1e5eb4bd23fa36",
+          "imported_sha256": "816a523624b9ad6e6f25d690e818afc0da8789e267bf21b8667f0e153380b202",
           "modifications": [
-            {
-              "cell": 2,
-              "kind": "portable dataset path",
-              "asset": "Datasets/movies.csv"
-            },
-            {
-              "cell": 3,
-              "kind": "portable dataset path",
-              "asset": "Datasets/ipl-matches.csv"
-            },
-            {
-              "cell": 13,
-              "kind": "portable dataset path",
-              "asset": "Datasets/batsman_runs_ipl.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Pandas Session 4 (GroupBy).ipynb",
           "source_sha256": "207ece8f07ee29c926c281ded37f68fb2557d231a6ca3736feb5566aadd6382c",
-          "imported_sha256": "2917c78c40a730b37d946321a83cf93ba1cae942da23a145f8f4d7cf28a82e51",
+          "imported_sha256": "1af14a33b1d1ece575e41103b93cd752cb4c15b1589835d83d9f69533cfa02f4",
           "modifications": [
-            {
-              "cell": 2,
-              "kind": "portable dataset path",
-              "asset": "Datasets/imdb-top-1000.csv"
-            },
-            {
-              "cell": 44,
-              "kind": "portable dataset path",
-              "asset": "Datasets/PSL.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Pandas Session 5 (Merge,Join and Concatenation).ipynb",
           "source_sha256": "a0399057bbfe02b45f64c3d03699cb9944efe63ba5d66a33c5250552e1f91913",
-          "imported_sha256": "e670d80afe3865d13633582f5a90273cc222d09608859fc528a5e2b9e71759eb",
+          "imported_sha256": "23e4f597c36baf18f78bc4a9f708b0266f2e7fd0148fceb7286be926b2980db4",
           "modifications": [
-            {
-              "cell": 2,
-              "kind": "portable dataset path",
-              "asset": "Datasets/deliveries.csv"
-            },
-            {
-              "cell": 2,
-              "kind": "portable dataset path",
-              "asset": "Datasets/matches.csv"
-            },
-            {
-              "cell": 2,
-              "kind": "portable dataset path",
-              "asset": "Datasets/reg-month2.csv"
-            },
-            {
-              "cell": 2,
-              "kind": "portable dataset path",
-              "asset": "Datasets/reg-month1.csv"
-            },
-            {
-              "cell": 2,
-              "kind": "portable dataset path",
-              "asset": "Datasets/courses.csv"
-            },
-            {
-              "cell": 2,
-              "kind": "portable dataset path",
-              "asset": "Datasets/students.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Pandas Session 6 (MultiIndex Series and DataFrames).ipynb",
           "source_sha256": "d440971f1613f9dad7857ab0b884688082ecaf0a6523957c55579f50aae61e63",
-          "imported_sha256": "5db7433e0ce351cbc12b1116493dc088da6fa859f698decb545697be3b3fe639",
+          "imported_sha256": "a8a3eb02671cc2a6814c47caf323fbb16151337131e7bce5419fd1ec6ebbafa2",
           "modifications": [
-            {
-              "cell": 45,
-              "kind": "portable dataset path",
-              "asset": "Datasets/time-series_death.csv"
-            },
-            {
-              "cell": 45,
-              "kind": "portable dataset path",
-              "asset": "Datasets/time-series_confirm.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Pandas Session 7 (DateTime).ipynb",
           "source_sha256": "6a0dd8c97b1ad9fd6c43a857bb9680d5a6273fb8a7c704c5e905805d415ae8ec",
-          "imported_sha256": "8dd8b6010b396047802ebe7b9b480ccec34e54ef82b0eb94075cddf6f72bff9d",
+          "imported_sha256": "8e0b6435ecd701a63fd6a68ee59c36d7b82afe58fbe2b97b0f34798f4307fb4e",
           "modifications": [
-            {
-              "cell": 35,
-              "kind": "portable dataset path",
-              "asset": "Datasets/expense_data.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Pandas Session 7 (Pandas Strings).ipynb",
           "source_sha256": "2852857801a2b51c1cca291fa77a708d319de8909665177efc06ecbdc0fc3468",
-          "imported_sha256": "deffb88cead7ed690169778fd8038a8d9c43e632a22f1431b1fb5af0402f7c86",
+          "imported_sha256": "fd7b03e52f97e921a0cd0b28785ffcaf7a0d0425b107d94d5006e66640b71484",
           "modifications": [
-            {
-              "cell": 6,
-              "kind": "portable dataset path",
-              "asset": "Datasets/titanic.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -1031,9 +331,7 @@
           "source_sha256": "30697c9b0d3ed0b6d8bdf55a9339117b23fc7f4cfd30152ebce222622956d656",
           "imported_sha256": "49bb63ffd8f5293ff5d772b9f8c9562a6ee5bfbf9882b2e2a9b761c34c41161f",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -1055,215 +353,157 @@
           "source_sha256": "d61be09897082b0bb814f2bc3f1de621eccf3b6977eafc1e15a2463f967a25a3",
           "imported_sha256": "d61be09897082b0bb814f2bc3f1de621eccf3b6977eafc1e15a2463f967a25a3",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/PSL.csv"
+          "local_path": "pandas/notebooks/Datasets/PSL.csv"
         },
         {
           "path": "Datasets/batsman_runs_ipl.csv",
           "source_sha256": "3b60ff06eba3eb9f0c180eb8ded77622c55aace0b29d9f9c6ff876cb49d017ff",
           "imported_sha256": "3b60ff06eba3eb9f0c180eb8ded77622c55aace0b29d9f9c6ff876cb49d017ff",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/batsman_runs_ipl.csv"
+          "local_path": "pandas/notebooks/Datasets/batsman_runs_ipl.csv"
         },
         {
           "path": "Datasets/bollywood.csv",
           "source_sha256": "18298caf73c3b4fb97bc75e731889e9358b700a0ff0fe3ddaa11b5c7d9c459ea",
           "imported_sha256": "18298caf73c3b4fb97bc75e731889e9358b700a0ff0fe3ddaa11b5c7d9c459ea",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/bollywood.csv"
+          "local_path": "pandas/notebooks/Datasets/bollywood.csv"
         },
         {
           "path": "Datasets/courses.csv",
           "source_sha256": "3841aa97c1b8628d9de1829882dfaa46abd41d26e6621589575e5f640ebbbbca",
           "imported_sha256": "3841aa97c1b8628d9de1829882dfaa46abd41d26e6621589575e5f640ebbbbca",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/courses.csv"
+          "local_path": "pandas/notebooks/Datasets/courses.csv"
         },
         {
           "path": "Datasets/deliveries.csv",
           "source_sha256": "412dca480d2bfd89138828331d45d687c29d7fb402f6b002803dd16952107314",
           "imported_sha256": "412dca480d2bfd89138828331d45d687c29d7fb402f6b002803dd16952107314",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/deliveries.csv"
+          "local_path": "pandas/notebooks/Datasets/deliveries.csv"
         },
         {
           "path": "Datasets/diabetes.csv",
           "source_sha256": "d765aa828a47e8d3ba2f4de925891be77803fd0e9568d7c213cdf10c8e83d0b2",
           "imported_sha256": "d765aa828a47e8d3ba2f4de925891be77803fd0e9568d7c213cdf10c8e83d0b2",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/diabetes.csv"
+          "local_path": "pandas/notebooks/Datasets/diabetes.csv"
         },
         {
           "path": "Datasets/expense_data.csv",
           "source_sha256": "b7e5cc0bca39f51fe6de8ae64a95edd78e71bdecb88952860385b10ea092e090",
           "imported_sha256": "b7e5cc0bca39f51fe6de8ae64a95edd78e71bdecb88952860385b10ea092e090",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/expense_data.csv"
+          "local_path": "pandas/notebooks/Datasets/expense_data.csv"
         },
         {
           "path": "Datasets/imdb-top-1000.csv",
           "source_sha256": "31a07c3dbb25ef99f1de290615b3ff0736b70e337f9ad5244512cbc81f86a4b3",
           "imported_sha256": "31a07c3dbb25ef99f1de290615b3ff0736b70e337f9ad5244512cbc81f86a4b3",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/imdb-top-1000.csv"
+          "local_path": "pandas/notebooks/Datasets/imdb-top-1000.csv"
         },
         {
           "path": "Datasets/ipl-matches.csv",
           "source_sha256": "63bd6920b1e1664e7c0094c0662e2e3aaaa19e622247d3b3535ef4f6baafc72a",
           "imported_sha256": "63bd6920b1e1664e7c0094c0662e2e3aaaa19e622247d3b3535ef4f6baafc72a",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/ipl-matches.csv"
+          "local_path": "pandas/notebooks/Datasets/ipl-matches.csv"
         },
         {
           "path": "Datasets/kohli_ipl.csv",
           "source_sha256": "ac0ee53bd9554b2c36f485eb3156e7cd4174d7c3a308cc9290ae2227f3d68066",
           "imported_sha256": "ac0ee53bd9554b2c36f485eb3156e7cd4174d7c3a308cc9290ae2227f3d68066",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/kohli_ipl.csv"
+          "local_path": "pandas/notebooks/Datasets/kohli_ipl.csv"
         },
         {
           "path": "Datasets/matches.csv",
           "source_sha256": "813b61f95c07978918ed4d0ed2ddf4887ec99a5df89037d54723884df9e18e10",
           "imported_sha256": "813b61f95c07978918ed4d0ed2ddf4887ec99a5df89037d54723884df9e18e10",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/matches.csv"
+          "local_path": "pandas/notebooks/Datasets/matches.csv"
         },
         {
           "path": "Datasets/movies.csv",
           "source_sha256": "3fb7622b0caf752244cec17750a071696f1fa6b1f60de9163914bf634732502e",
           "imported_sha256": "3fb7622b0caf752244cec17750a071696f1fa6b1f60de9163914bf634732502e",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/movies.csv"
+          "local_path": "pandas/notebooks/Datasets/movies.csv"
         },
         {
           "path": "Datasets/reg-month1.csv",
           "source_sha256": "2ad89490ff0622a248a8dcb41d323b763178d4e0e98f89fc6f3254f9937f8003",
           "imported_sha256": "2ad89490ff0622a248a8dcb41d323b763178d4e0e98f89fc6f3254f9937f8003",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/reg-month1.csv"
+          "local_path": "pandas/notebooks/Datasets/reg-month1.csv"
         },
         {
           "path": "Datasets/reg-month2.csv",
           "source_sha256": "d956c613a06a2fb318a11bc7ee70e89f6ba19ca67ee06a84a3dcd43869cb1c54",
           "imported_sha256": "d956c613a06a2fb318a11bc7ee70e89f6ba19ca67ee06a84a3dcd43869cb1c54",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/reg-month2.csv"
+          "local_path": "pandas/notebooks/Datasets/reg-month2.csv"
         },
         {
           "path": "Datasets/students.csv",
           "source_sha256": "03098467f53b9725df683882bb7d99f1a6f9311df61e80a89bb1501465823cd4",
           "imported_sha256": "03098467f53b9725df683882bb7d99f1a6f9311df61e80a89bb1501465823cd4",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/students.csv"
+          "local_path": "pandas/notebooks/Datasets/students.csv"
         },
         {
           "path": "Datasets/subs.csv",
           "source_sha256": "eed91f1439a438f3f8da7d83238e3f17ac59e29bd6485ebad84c26c271a57296",
           "imported_sha256": "eed91f1439a438f3f8da7d83238e3f17ac59e29bd6485ebad84c26c271a57296",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/subs.csv"
+          "local_path": "pandas/notebooks/Datasets/subs.csv"
         },
         {
           "path": "Datasets/time-series_confirm.csv",
           "source_sha256": "502e6f5846839aba912ee12bb4b7f4ab21289054b8bf417d190f53872944b19a",
           "imported_sha256": "502e6f5846839aba912ee12bb4b7f4ab21289054b8bf417d190f53872944b19a",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/time-series_confirm.csv"
+          "local_path": "pandas/notebooks/Datasets/time-series_confirm.csv"
         },
         {
           "path": "Datasets/time-series_death.csv",
           "source_sha256": "58fcb66746e92be9b034f147dea27904a30bf986f0bd0f19c586530ddd393695",
           "imported_sha256": "58fcb66746e92be9b034f147dea27904a30bf986f0bd0f19c586530ddd393695",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/time-series_death.csv"
+          "local_path": "pandas/notebooks/Datasets/time-series_death.csv"
         },
         {
           "path": "Datasets/titanic.csv",
           "source_sha256": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f",
           "imported_sha256": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f",
           "modifications": [],
-          "local_path": "completed-work/pandas/Datasets/titanic.csv"
+          "local_path": "pandas/notebooks/Datasets/titanic.csv"
         }
-      ]
+      ],
+      "verified_on": "2026-10-15"
     },
     {
       "repository": "Matplotlib",
       "url": "https://github.com/AMMARKHALID2004/Matplotlib",
-      "source_commit": "5bf468d0e605a8ac6b84784a0b878ae248e5c83d",
-      "destination": "completed-work/matplotlib",
+      "source_commit": "be79ccd914c98df2d5d81ca74b6c07b53dfeebb6",
+      "destination": "matplotlib/notebooks",
       "files": [
         {
           "path": "Matplotlib Part 1.ipynb",
           "source_sha256": "265005127def16bbfeaae59e68434dcd3d03030c55fdd4808ad44ae418dbd6b1",
-          "imported_sha256": "f803744ecf20bf87520e304be8a26713d4adc506885c27b8b5b5f8ef3ab1389e",
+          "imported_sha256": "efde2e2c78fd486c63bc9cd6c6d332d0fd753923abc0892222db9eab943ab642",
           "modifications": [
-            {
-              "cell": 4,
-              "kind": "portable dataset path",
-              "asset": "Datasets/sharma-kohli.csv"
-            },
-            {
-              "cell": 19,
-              "kind": "portable dataset path",
-              "asset": "Datasets/results.csv"
-            },
-            {
-              "cell": 25,
-              "kind": "portable dataset path",
-              "asset": "Datasets/batter.csv"
-            },
-            {
-              "cell": 39,
-              "kind": "portable dataset path",
-              "asset": "Datasets/batsman_season_record.csv"
-            },
-            {
-              "cell": 52,
-              "kind": "portable dataset path",
-              "asset": "Datasets/vk.csv"
-            },
-            {
-              "cell": 54,
-              "kind": "portable dataset path",
-              "asset": "Datasets/big-array.npy"
-            },
-            {
-              "cell": 55,
-              "kind": "portable dataset path",
-              "asset": "Datasets/big-array.npy"
-            },
-            {
-              "cell": 59,
-              "kind": "portable dataset path",
-              "asset": "Datasets/gayle-175.csv"
-            },
-            {
-              "cell": 67,
-              "kind": "portable dataset path",
-              "asset": "Datasets/big-array.npy"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Matplotlib Session 2.ipynb",
           "source_sha256": "ae79540ddf10d803e79889b84e36c937f6e794d89007b87dedd05fe8e9336944",
-          "imported_sha256": "5e90dd01633e077255ab3bcf52d7d0aceb248d42d992edf0822e00d851c47083",
+          "imported_sha256": "b4d977fd67762728f91c5b8aeefed8fdce653f1169216472272013aeef50f14e",
           "modifications": [
-            {
-              "cell": 6,
-              "kind": "portable dataset path",
-              "asset": "Datasets/batter.csv"
-            },
-            {
-              "cell": 16,
-              "kind": "portable dataset path",
-              "asset": "Datasets/batter.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -1289,64 +529,65 @@
           "source_sha256": "6ecb12e469bb417e9bf0ae0dfbabd52769b324f17431760a3071b7fc12cfe0d3",
           "imported_sha256": "6ecb12e469bb417e9bf0ae0dfbabd52769b324f17431760a3071b7fc12cfe0d3",
           "modifications": [],
-          "local_path": "completed-work/matplotlib/Datasets/batsman_season_record.csv"
+          "local_path": "matplotlib/notebooks/Datasets/batsman_season_record.csv"
         },
         {
           "path": "Datasets/batter.csv",
           "source_sha256": "9015eda76421e3db2268aacb228e87b73daa4ca9010706f8b93bf738e2d17631",
           "imported_sha256": "9015eda76421e3db2268aacb228e87b73daa4ca9010706f8b93bf738e2d17631",
           "modifications": [],
-          "local_path": "completed-work/matplotlib/Datasets/batter.csv"
+          "local_path": "matplotlib/notebooks/Datasets/batter.csv"
         },
         {
           "path": "Datasets/big-array.npy",
           "source_sha256": "274d68dc8699705f61164f244ec6bee3e6426e4c7a299b41be3d608322984276",
           "imported_sha256": "274d68dc8699705f61164f244ec6bee3e6426e4c7a299b41be3d608322984276",
           "modifications": [],
-          "local_path": "completed-work/matplotlib/Datasets/big-array.npy"
+          "local_path": "matplotlib/notebooks/Datasets/big-array.npy"
         },
         {
           "path": "Datasets/fours-sixes.csv",
           "source_sha256": "131b97b19081086a464c16a6c64f2aa747647030502bd0dab3878a358207c410",
           "imported_sha256": "131b97b19081086a464c16a6c64f2aa747647030502bd0dab3878a358207c410",
           "modifications": [],
-          "local_path": "completed-work/matplotlib/Datasets/fours-sixes.csv"
+          "local_path": "matplotlib/notebooks/Datasets/fours-sixes.csv"
         },
         {
           "path": "Datasets/gayle-175.csv",
           "source_sha256": "132c03ccee6f901d195368de7e2089890d485c373e6c9209fb995ccf3bfcf991",
           "imported_sha256": "132c03ccee6f901d195368de7e2089890d485c373e6c9209fb995ccf3bfcf991",
           "modifications": [],
-          "local_path": "completed-work/matplotlib/Datasets/gayle-175.csv"
+          "local_path": "matplotlib/notebooks/Datasets/gayle-175.csv"
         },
         {
           "path": "Datasets/results.csv",
           "source_sha256": "7c6922d24ef888f5e0c11dc5de80b818cdd1b3f9d8fe4db6c19b5a1311463fd1",
           "imported_sha256": "7c6922d24ef888f5e0c11dc5de80b818cdd1b3f9d8fe4db6c19b5a1311463fd1",
           "modifications": [],
-          "local_path": "completed-work/matplotlib/Datasets/results.csv"
+          "local_path": "matplotlib/notebooks/Datasets/results.csv"
         },
         {
           "path": "Datasets/sharma-kohli.csv",
           "source_sha256": "66ac3f0f1fdf03930546131842eaecbc11b5d7dcea997e1a9739c368a546c180",
           "imported_sha256": "66ac3f0f1fdf03930546131842eaecbc11b5d7dcea997e1a9739c368a546c180",
           "modifications": [],
-          "local_path": "completed-work/matplotlib/Datasets/sharma-kohli.csv"
+          "local_path": "matplotlib/notebooks/Datasets/sharma-kohli.csv"
         },
         {
           "path": "Datasets/vk.csv",
           "source_sha256": "8dd6cfe31b1b5c9604bcd72988e6abb01df64957d37e3d7f0d1b5553119e14d7",
           "imported_sha256": "8dd6cfe31b1b5c9604bcd72988e6abb01df64957d37e3d7f0d1b5553119e14d7",
           "modifications": [],
-          "local_path": "completed-work/matplotlib/Datasets/vk.csv"
+          "local_path": "matplotlib/notebooks/Datasets/vk.csv"
         }
-      ]
+      ],
+      "verified_on": "2026-10-15"
     },
     {
       "repository": "Seaborn",
       "url": "https://github.com/AMMARKHALID2004/Seaborn",
-      "source_commit": "d0a24f0ed5ccbfc61fa2be83ab1404c3332a440e",
-      "destination": "completed-work/seaborn",
+      "source_commit": "7af9f648b944a041669dad4283e675fffc9e11db",
+      "destination": "seaborn/notebooks",
       "files": [
         {
           "path": "README.md",
@@ -1359,9 +600,7 @@
           "source_sha256": "c3dbcdd626027055c0570b9756794e826b5c5b8892fd0a528ab1aaabed006ae2",
           "imported_sha256": "d641b065c70368efa3e48a56e2948e771459fa20dcc7c6be44b1c9797ee4a9f5",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -1369,9 +608,7 @@
           "source_sha256": "96d719097e10a1d064a7b8325b63c8a067a8ecdd56d835b1f1724482f266ba88",
           "imported_sha256": "48839abe180beb1fb59ac5c31fde0ce9510f0ac9a6e42f18eaf76292c3323cf9",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -1384,13 +621,14 @@
       "excluded_files": [
         ".gitignore"
       ],
-      "external_data_assets": []
+      "external_data_assets": [],
+      "verified_on": "2026-10-15"
     },
     {
       "repository": "Working-with-different-files",
       "url": "https://github.com/AMMARKHALID2004/Working-with-different-files",
       "source_commit": "ce980db84675fe3f36c6d31ac6305fa8be761aed",
-      "destination": "completed-work/data-loading",
+      "destination": "machine-learning/data-collection/notebooks",
       "files": [
         {
           "path": "API and Web Scraping.ipynb",
@@ -1415,7 +653,7 @@
             {
               "cell": 2,
               "kind": "portable shared dataset path",
-              "asset": "completed-work/pandas/Datasets/deliveries.csv"
+              "asset": "pandas/notebooks/Datasets/deliveries.csv"
             },
             {
               "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
@@ -1461,99 +699,100 @@
           "source_sha256": "88dfd1591f1531a213f010b4b02be797e559273b3d11f7b99d0ace4222ba1a02",
           "imported_sha256": "88dfd1591f1531a213f010b4b02be797e559273b3d11f7b99d0ace4222ba1a02",
           "modifications": [],
-          "local_path": "completed-work/data-loading/Batsman Runs.csv"
+          "local_path": "machine-learning/data-collection/notebooks/Batsman Runs.csv"
         },
         {
           "path": "IPL Matches 2008-2020.csv",
           "source_sha256": "5acab954e8638b3c05921842fc962a0750518a1f4787e77072527c8b49be8be7",
           "imported_sha256": "5acab954e8638b3c05921842fc962a0750518a1f4787e77072527c8b49be8be7",
           "modifications": [],
-          "local_path": "completed-work/data-loading/IPL Matches 2008-2020.csv"
+          "local_path": "machine-learning/data-collection/notebooks/IPL Matches 2008-2020.csv"
         },
         {
           "path": "aug_train.csv",
           "source_sha256": "8b78da3482032500df40d5359c36ba4a59e28ccd6fc272b050dcf6dee37f114c",
           "imported_sha256": "8b78da3482032500df40d5359c36ba4a59e28ccd6fc272b050dcf6dee37f114c",
           "modifications": [],
-          "local_path": "completed-work/data-loading/aug_train.csv"
+          "local_path": "machine-learning/data-collection/notebooks/aug_train.csv"
         },
         {
           "path": "batter_heatmap.html",
           "source_sha256": "d1313096ef087a92c2bb9f8cb710ffd2954679f29f82c91f8bfc5371063a853e",
           "imported_sha256": "d1313096ef087a92c2bb9f8cb710ffd2954679f29f82c91f8bfc5371063a853e",
           "modifications": [],
-          "local_path": "completed-work/data-loading/batter_heatmap.html"
+          "local_path": "machine-learning/data-collection/notebooks/batter_heatmap.html"
         },
         {
           "path": "ipl.json",
           "source_sha256": "911e75431a3c49f5fbad78f407081dc2a18b4bbdcb5ad5ae3f2a99d32c7ac977",
           "imported_sha256": "911e75431a3c49f5fbad78f407081dc2a18b4bbdcb5ad5ae3f2a99d32c7ac977",
           "modifications": [],
-          "local_path": "completed-work/data-loading/ipl.json"
+          "local_path": "machine-learning/data-collection/notebooks/ipl.json"
         },
         {
           "path": "movie_titles_metadata.tsv",
           "source_sha256": "95e936bdf90e8af623420a5b843b3b13b37045c8ad6669b0da8b53d8aa15903b",
           "imported_sha256": "95e936bdf90e8af623420a5b843b3b13b37045c8ad6669b0da8b53d8aa15903b",
           "modifications": [],
-          "local_path": "completed-work/data-loading/movie_titles_metadata.tsv"
+          "local_path": "machine-learning/data-collection/notebooks/movie_titles_metadata.tsv"
         },
         {
           "path": "pandas_practice_data.txt",
           "source_sha256": "ddae66d2957d52c83d06484dd38dd1d8d9eeed5b21d0120c7b3a80c1ae1fb675",
           "imported_sha256": "ddae66d2957d52c83d06484dd38dd1d8d9eeed5b21d0120c7b3a80c1ae1fb675",
           "modifications": [],
-          "local_path": "completed-work/data-loading/pandas_practice_data.txt"
+          "local_path": "machine-learning/data-collection/notebooks/pandas_practice_data.txt"
         },
         {
           "path": "pandas_practice_dataset.xlsx",
           "source_sha256": "99f47d4245eb27e42431a46a186043f0f0583c39d2c1d1f39a41719b1e17db47",
           "imported_sha256": "99f47d4245eb27e42431a46a186043f0f0583c39d2c1d1f39a41719b1e17db47",
           "modifications": [],
-          "local_path": "completed-work/data-loading/pandas_practice_dataset.xlsx"
+          "local_path": "machine-learning/data-collection/notebooks/pandas_practice_dataset.xlsx"
         },
         {
           "path": "rideshare.db",
           "source_sha256": "ec7f13845ed47bb7e6a1f4e2064a3a9f37bd270787f6f0828bc7df92e39cd0f7",
           "imported_sha256": "ec7f13845ed47bb7e6a1f4e2064a3a9f37bd270787f6f0828bc7df92e39cd0f7",
           "modifications": [],
-          "local_path": "completed-work/data-loading/rideshare.db"
+          "local_path": "machine-learning/data-collection/notebooks/rideshare.db"
         },
         {
           "path": "test.csv",
           "source_sha256": "eeefb4035563279d7fa74e46e6df27e1bf6ca3a8ac6af62b99a789decc8b7e3d",
           "imported_sha256": "eeefb4035563279d7fa74e46e6df27e1bf6ca3a8ac6af62b99a789decc8b7e3d",
           "modifications": [],
-          "local_path": "completed-work/data-loading/test.csv"
+          "local_path": "machine-learning/data-collection/notebooks/test.csv"
         },
         {
           "path": "test.xlsx",
           "source_sha256": "1c3f0b09f5017dceb21f0155ed1ff86a432bb4b497240a9e55a62ce216a8e0d4",
           "imported_sha256": "1c3f0b09f5017dceb21f0155ed1ff86a432bb4b497240a9e55a62ce216a8e0d4",
           "modifications": [],
-          "local_path": "completed-work/data-loading/test.xlsx"
+          "local_path": "machine-learning/data-collection/notebooks/test.xlsx"
         },
         {
           "path": "train.json",
           "source_sha256": "f18e7e568d1c606774bfb134ece51ef0a143cd5069e6f9241bb6036b45b7d2b0",
           "imported_sha256": "f18e7e568d1c606774bfb134ece51ef0a143cd5069e6f9241bb6036b45b7d2b0",
           "modifications": [],
-          "local_path": "completed-work/data-loading/train.json"
+          "local_path": "machine-learning/data-collection/notebooks/train.json"
         },
         {
           "path": "zomato.csv",
           "source_sha256": "100f5b85699357666b8e8e7ae57d18c723c47fe2a6b47f59809cbbe9d19d21b2",
           "imported_sha256": "100f5b85699357666b8e8e7ae57d18c723c47fe2a6b47f59809cbbe9d19d21b2",
           "modifications": [],
-          "local_path": "completed-work/data-loading/zomato.csv"
+          "local_path": "machine-learning/data-collection/notebooks/zomato.csv"
         }
-      ]
+      ],
+      "verified_on": "2026-10-15"
     },
     {
       "repository": "Data-Cleaning",
       "url": "https://github.com/AMMARKHALID2004/Data-Cleaning",
       "source_commit": "1147bbabad00c6769acae1b07c14d9b9fd88e765",
-      "destination": "completed-work/data-cleaning",
+      "destination": "machine-learning/data-cleaning/notebooks",
       "files": [
         {
           "path": "Data Wrangling.ipynb",
@@ -1591,50 +830,51 @@
           "source_sha256": "5ba1c1f373a375c3dcc37921df3dc832f2b991ecfc3c27a9a8da01ce13c212c8",
           "imported_sha256": "5ba1c1f373a375c3dcc37921df3dc832f2b991ecfc3c27a9a8da01ce13c212c8",
           "modifications": [],
-          "local_path": "completed-work/data-cleaning/adverse_reactions.csv"
+          "local_path": "machine-learning/data-cleaning/notebooks/adverse_reactions.csv"
         },
         {
           "path": "clinical_trials.xlsx",
           "source_sha256": "750bb1249395c0c86d9e743b343182393d22742b8e229489a068891d7466458a",
           "imported_sha256": "750bb1249395c0c86d9e743b343182393d22742b8e229489a068891d7466458a",
           "modifications": [],
-          "local_path": "completed-work/data-cleaning/clinical_trials.xlsx"
+          "local_path": "machine-learning/data-cleaning/notebooks/clinical_trials.xlsx"
         },
         {
           "path": "patients.csv",
           "source_sha256": "05e395950cbf046c78664b7120a61afe633be9a5125a2c272688dfaeb9ce324b",
           "imported_sha256": "05e395950cbf046c78664b7120a61afe633be9a5125a2c272688dfaeb9ce324b",
           "modifications": [],
-          "local_path": "completed-work/data-cleaning/patients.csv"
+          "local_path": "machine-learning/data-cleaning/notebooks/patients.csv"
         },
         {
           "path": "treatments.csv",
           "source_sha256": "f809e02de3b10b0715a85ddef58c836b84833435e982098e5d38d4f986fc69d1",
           "imported_sha256": "f809e02de3b10b0715a85ddef58c836b84833435e982098e5d38d4f986fc69d1",
           "modifications": [],
-          "local_path": "completed-work/data-cleaning/treatments.csv"
+          "local_path": "machine-learning/data-cleaning/notebooks/treatments.csv"
         },
         {
           "path": "treatments_cut.csv",
           "source_sha256": "1d111745941cb8faed78fd6316a1ebc9b00960bed1cceaae150520e94b10401a",
           "imported_sha256": "1d111745941cb8faed78fd6316a1ebc9b00960bed1cceaae150520e94b10401a",
           "modifications": [],
-          "local_path": "completed-work/data-cleaning/treatments_cut.csv"
+          "local_path": "machine-learning/data-cleaning/notebooks/treatments_cut.csv"
         },
         {
           "path": "untidy.png",
           "source_sha256": "c4c5631afb82ad6c7d9c6f680ab32edeffc9389207fff154fffe11a98e83e0c8",
           "imported_sha256": "c4c5631afb82ad6c7d9c6f680ab32edeffc9389207fff154fffe11a98e83e0c8",
           "modifications": [],
-          "local_path": "completed-work/data-cleaning/untidy.png"
+          "local_path": "machine-learning/data-cleaning/notebooks/untidy.png"
         }
-      ]
+      ],
+      "verified_on": "2026-10-15"
     },
     {
       "repository": "EDA",
       "url": "https://github.com/AMMARKHALID2004/EDA",
       "source_commit": "1918023702a8934cb324795a249565459cde9e94",
-      "destination": "completed-work/eda",
+      "destination": "machine-learning/exploratory-data-analysis/notebooks/reference",
       "files": [
         {
           "path": "session_on_eda.ipynb",
@@ -1654,15 +894,16 @@
           "source_sha256": "e062be28968d7c90c30f67af3b25987e712591e062fcac591bf38958383cca34",
           "imported_sha256": "e062be28968d7c90c30f67af3b25987e712591e062fcac591bf38958383cca34",
           "modifications": [],
-          "local_path": "completed-work/eda/Comprehensive_EDA_Reference_Guide.docx"
+          "local_path": "machine-learning/exploratory-data-analysis/notebooks/reference/Comprehensive_EDA_Reference_Guide.docx"
         }
-      ]
+      ],
+      "verified_on": "2026-10-15"
     },
     {
       "repository": "EDA-Project",
       "url": "https://github.com/AMMARKHALID2004/EDA-Project",
       "source_commit": "d6571bf8f910eacc0b872ae24167944be0408214",
-      "destination": "completed-work/eda-project",
+      "destination": "machine-learning/exploratory-data-analysis/notebooks/projects",
       "files": [
         {
           "path": "Bivariate Analysis.ipynb",
@@ -1696,82 +937,53 @@
         }
       ],
       "excluded_files": [],
-      "external_data_assets": []
+      "external_data_assets": [],
+      "verified_on": "2026-10-15"
     },
     {
       "repository": "Machine-Learning",
       "url": "https://github.com/AMMARKHALID2004/Machine-Learning",
-      "source_commit": "a9dc8fa8e57724851a2bd72dac41773484776083",
-      "destination": "completed-work/sklearn-preprocessing",
+      "source_commit": "fdc57ebf953198645cba2aac414c8d937cce1bbc",
+      "destination": "machine-learning/preprocessing/notebooks",
       "files": [
         {
           "path": "Column Transformer/Column Transformer.ipynb",
           "source_sha256": "27dbd61c1ae85f0df6da44c28f67a082c81a38862ee697c80622781f267cabd9",
           "imported_sha256": "27dbd61c1ae85f0df6da44c28f67a082c81a38862ee697c80622781f267cabd9",
           "modifications": [
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Normalization/Normalization.ipynb",
           "source_sha256": "5e51f2ca9aefd67d399049dd6db408f0df0e7d57169a2b03561958b54bb03b94",
-          "imported_sha256": "3c853416fa5a291aa5d298063b9527d5fba4714d3ace6d685b69a1ba13adfc65",
+          "imported_sha256": "70b2d97368f0162f2d16b8dc54426ed64e24c7c38b5b14ac21b519440681cb96",
           "modifications": [
-            {
-              "cell": 2,
-              "kind": "portable dataset path",
-              "asset": "Normalization/Datasets/wine_data.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "One hot encoder/One hot encoder.ipynb",
           "source_sha256": "729021f3aea43c415739bcf4c329b19f4bd6ee976af15bc5afa5579a0e7bbc1f",
-          "imported_sha256": "d712c6b5424f5d75710e98fe2225ec14e5f2bc04d6db09b7cb32c8081d8b6411",
+          "imported_sha256": "f0b26f573ccef461f9fc6c37443d89e4dc3f643d7f2ccbb1dab3d8592d52a048",
           "modifications": [
-            {
-              "cell": 1,
-              "kind": "portable dataset path",
-              "asset": "One hot encoder/Datasets/cars.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Ordinal Encoding/Ordinal and Label Encoding.ipynb",
           "source_sha256": "1fd6d24046bcf03f45e311f807721bfb05f4df41b2d91606ad0c933b32f9138c",
-          "imported_sha256": "8a8f93bcc52a719c7cbc6854758437f47ce0df76a925458fefa6a7f737b5e77d",
+          "imported_sha256": "ac22ecd4b7802782307d1cbc6c2d79dba422c8fd2824a5fb83f21cc5bd080d16",
           "modifications": [
-            {
-              "cell": 1,
-              "kind": "portable dataset path",
-              "asset": "Ordinal Encoding/Datasets/customer.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
           "path": "Power Transformer/Power Transformer.ipynb",
           "source_sha256": "b9c67573160a960a7a45587df5cc6b1c20fc0b3e47142c6d4851b005b272cda6",
-          "imported_sha256": "5d6052fa9f09972a5f5f64744e7615a4cb5917cebdcf098382aa1982ec3b6b4c",
+          "imported_sha256": "f49a191d16a28731eee4239d2a1ce60695335e25ea341e2ae136badc43828b4d",
           "modifications": [
-            {
-              "cell": 1,
-              "kind": "portable dataset path",
-              "asset": "Power Transformer/Dataset/concrete_data.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -1783,16 +995,9 @@
         {
           "path": "Standardization (Z-score Normalization)/Standardization.ipynb",
           "source_sha256": "fda97da128442872abb0ea287093b10463b45e29204e245fd7582e7c31ad04ff",
-          "imported_sha256": "f09ffc866c2192d9d53878bd8aac31c215d2f46c2a149b08cdfe4a7b993bf01c",
+          "imported_sha256": "a8de4c29680963aef4715ab79edaf3bd533d68124afbda561e788570186b31c4",
           "modifications": [
-            {
-              "cell": 1,
-              "kind": "portable dataset path",
-              "asset": "Standardization (Z-score Normalization)/Datasets/Social_Network_Ads.csv"
-            },
-            {
-              "kind": "historical outputs and execution counts cleared for public import; original results remain in source repo"
-            }
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
           ]
         },
         {
@@ -1818,130 +1023,135 @@
           "source_sha256": "ad40d0b4d8725a52db65610b458e00dbfee1c7adea6bb700460fd9f3a09ffd77",
           "imported_sha256": "ad40d0b4d8725a52db65610b458e00dbfee1c7adea6bb700460fd9f3a09ffd77",
           "modifications": [],
-          "local_path": "completed-work/sklearn-preprocessing/Column Transformer/Datasets/covid_toy.csv"
+          "local_path": "machine-learning/preprocessing/notebooks/Column Transformer/Datasets/covid_toy.csv"
         },
         {
           "path": "Normalization/Datasets/wine_data.csv",
           "source_sha256": "6be6b1203f3d51df0b553a70e57b8a723cd405683958204f96d23d7cd6aea659",
           "imported_sha256": "6be6b1203f3d51df0b553a70e57b8a723cd405683958204f96d23d7cd6aea659",
           "modifications": [],
-          "local_path": "completed-work/sklearn-preprocessing/Normalization/Datasets/wine_data.csv"
+          "local_path": "machine-learning/preprocessing/notebooks/Normalization/Datasets/wine_data.csv"
         },
         {
           "path": "One hot encoder/Datasets/cars.csv",
           "source_sha256": "799574aa39bc78d546e59c05ca41269006e359d05f50df3c6bc8178a347c27e3",
           "imported_sha256": "799574aa39bc78d546e59c05ca41269006e359d05f50df3c6bc8178a347c27e3",
           "modifications": [],
-          "local_path": "completed-work/sklearn-preprocessing/One hot encoder/Datasets/cars.csv"
+          "local_path": "machine-learning/preprocessing/notebooks/One hot encoder/Datasets/cars.csv"
         },
         {
           "path": "Ordinal Encoding/Datasets/customer.csv",
           "source_sha256": "9f19b761feeb7e2f55e8f78d17a3ddd8a43054609f43d41def94e7fa46412f7b",
           "imported_sha256": "9f19b761feeb7e2f55e8f78d17a3ddd8a43054609f43d41def94e7fa46412f7b",
           "modifications": [],
-          "local_path": "completed-work/sklearn-preprocessing/Ordinal Encoding/Datasets/customer.csv"
+          "local_path": "machine-learning/preprocessing/notebooks/Ordinal Encoding/Datasets/customer.csv"
         },
         {
           "path": "Power Transformer/Dataset/concrete_data.csv",
           "source_sha256": "760f99240f86420e1333863b9ffc1e96e32e7a1b3b08d68ca906f7b748fbb29b",
           "imported_sha256": "760f99240f86420e1333863b9ffc1e96e32e7a1b3b08d68ca906f7b748fbb29b",
           "modifications": [],
-          "local_path": "completed-work/sklearn-preprocessing/Power Transformer/Dataset/concrete_data.csv"
+          "local_path": "machine-learning/preprocessing/notebooks/Power Transformer/Dataset/concrete_data.csv"
         },
         {
           "path": "Standardization (Z-score Normalization)/Datasets/Social_Network_Ads.csv",
           "source_sha256": "0904954f013068b32ce10606bb26ef45da020732cdd48d0f1d61f4bcc14b3742",
           "imported_sha256": "0904954f013068b32ce10606bb26ef45da020732cdd48d0f1d61f4bcc14b3742",
           "modifications": [],
-          "local_path": "completed-work/sklearn-preprocessing/Standardization (Z-score Normalization)/Datasets/Social_Network_Ads.csv"
+          "local_path": "machine-learning/preprocessing/notebooks/Standardization (Z-score Normalization)/Datasets/Social_Network_Ads.csv"
         }
-      ]
+      ],
+      "verified_on": "2026-10-15"
+    },
+    {
+      "repository": "Cricket-Match-Win-Probability-Predictor",
+      "url": "https://github.com/AMMARKHALID2004/Cricket-Match-Win-Probability-Predictor",
+      "source_commit": "d846ec32c6a7e8254048521d2f0d03cd75ad05ee",
+      "destination": "machine-learning/projects/cricket-win-probability",
+      "files": [
+        {
+          "path": ".python-version",
+          "source_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
+          "imported_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
+          "modifications": []
+        },
+        {
+          "path": "Data Cleaning.ipynb",
+          "source_sha256": "b0a76120535860d8b70d059a19ca0bfa68799ec9de4f90ba66fc56decc0e815f",
+          "imported_sha256": "15f5834504f54a28ee24d315d54f7124e149e969cd25e0005cc0a6c4fec396d2",
+          "modifications": [
+            "Cleared copied notebook outputs, execution counts, and transient execution/widget metadata."
+          ]
+        },
+        {
+          "path": "Dockerfile",
+          "source_sha256": "37754db2ae31610d98ce45238b025b833aee0750129432492549bc8dbe652ff1",
+          "imported_sha256": "37754db2ae31610d98ce45238b025b833aee0750129432492549bc8dbe652ff1",
+          "modifications": []
+        },
+        {
+          "path": "LICENSE",
+          "source_sha256": "8cc05563b66ef37013b052bce06a38b4efd6aca473c9f182e7f1f03c39ca7d4d",
+          "imported_sha256": "8cc05563b66ef37013b052bce06a38b4efd6aca473c9f182e7f1f03c39ca7d4d",
+          "modifications": []
+        },
+        {
+          "path": "README.md",
+          "source_sha256": "2788be9bcf47cac5ebc32e03d9240b0083a990f200a84d6f0c9606fb2bb30f25",
+          "imported_sha256": "2788be9bcf47cac5ebc32e03d9240b0083a990f200a84d6f0c9606fb2bb30f25",
+          "modifications": []
+        },
+        {
+          "path": "backend/main.py",
+          "source_sha256": "a7ea0bffa557dfd137c4c3630d8be515f5fae55ddddcb2b4ad993dab10f3e10c",
+          "imported_sha256": "a7ea0bffa557dfd137c4c3630d8be515f5fae55ddddcb2b4ad993dab10f3e10c",
+          "modifications": []
+        },
+        {
+          "path": "data/data_prep.py",
+          "source_sha256": "16645b963f8d4f8e204f928c8028266423ef95c058b061f8790c33a4506e8a43",
+          "imported_sha256": "16645b963f8d4f8e204f928c8028266423ef95c058b061f8790c33a4506e8a43",
+          "modifications": []
+        },
+        {
+          "path": "data/feature_engineering.py",
+          "source_sha256": "731f3834af41608510a68e5a0fb510ea74138d110116139f6266c74365f76a30",
+          "imported_sha256": "731f3834af41608510a68e5a0fb510ea74138d110116139f6266c74365f76a30",
+          "modifications": []
+        },
+        {
+          "path": "frontend/app.py",
+          "source_sha256": "239f365e4d9d3ad2f9d2a0101a870e1c649d97b0e52914e7d4e01097ec1ad438",
+          "imported_sha256": "239f365e4d9d3ad2f9d2a0101a870e1c649d97b0e52914e7d4e01097ec1ad438",
+          "modifications": []
+        },
+        {
+          "path": "models/train_model.py",
+          "source_sha256": "3469d2a4aa389afebe2c0f1702ef96019caac7e6f75c6f74de0ab820b092523a",
+          "imported_sha256": "3469d2a4aa389afebe2c0f1702ef96019caac7e6f75c6f74de0ab820b092523a",
+          "modifications": []
+        },
+        {
+          "path": "pyproject.toml",
+          "source_sha256": "3506786a2528fa657903d6b88d4baba749cd51958cc026cabe536021fcfdcc4d",
+          "imported_sha256": "3506786a2528fa657903d6b88d4baba749cd51958cc026cabe536021fcfdcc4d",
+          "modifications": []
+        },
+        {
+          "path": "requirements.txt",
+          "source_sha256": "8e101e4f84d07f8394ad9ff01b3ecb44965f9bedb2ea0079a73fd817a666b904",
+          "imported_sha256": "8e101e4f84d07f8394ad9ff01b3ecb44965f9bedb2ea0079a73fd817a666b904",
+          "modifications": []
+        },
+        {
+          "path": "uv.lock",
+          "source_sha256": "da644efa2470590151d324d58af09df6d20b482b2f852148a6a3beba9536a48d",
+          "imported_sha256": "da644efa2470590151d324d58af09df6d20b482b2f852148a6a3beba9536a48d",
+          "modifications": []
+        }
+      ],
+      "external_data_assets": [],
+      "verified_on": "2026-10-15"
     }
-  ],
-  "external_dependencies": [
-    {
-      "repository": "Advance-Python",
-      "notebook": "Generators/generators-demo.ipynb",
-      "cell": 20,
-      "kind": "external local file or directory missing",
-      "asset": "Sad"
-    },
-    {
-      "repository": "Advance-Python",
-      "notebook": "Pathlib/Pathlib Tutorial.ipynb",
-      "cell": 26,
-      "kind": "external local file or directory missing",
-      "asset": "anaconda3"
-    },
-    {
-      "repository": "Advance-Python",
-      "notebook": "Pathlib/Pathlib Tutorial.ipynb",
-      "cell": 28,
-      "kind": "external local file or directory missing",
-      "asset": "anaconda3"
-    },
-    {
-      "repository": "Advance-Python",
-      "notebook": "Pathlib/Pathlib Tutorial.ipynb",
-      "cell": 34,
-      "kind": "external local file or directory missing",
-      "asset": "__future__.py"
-    },
-    {
-      "repository": "Matplotlib",
-      "notebook": "Matplotlib Session 2.ipynb",
-      "cell": 2,
-      "kind": "external local file or directory missing",
-      "asset": "iris.csv"
-    },
-    {
-      "repository": "Matplotlib",
-      "notebook": "Matplotlib Session 2.ipynb",
-      "cell": 29,
-      "kind": "external local file or directory missing",
-      "asset": "IPL_Ball_by_Ball_2008_2022.csv"
-    },
-    {
-      "repository": "Working-with-different-files",
-      "notebook": "Working with SQL,JSON.ipynb",
-      "cell": 7,
-      "kind": "external local file or directory missing",
-      "asset": "yourname"
-    },
-    {
-      "repository": "EDA",
-      "notebook": "session_on_eda.ipynb",
-      "cell": 52,
-      "kind": "external local file or directory missing",
-      "asset": "test.csv"
-    },
-    {
-      "repository": "EDA-Project",
-      "notebook": "Bivariate Analysis.ipynb",
-      "cell": 1,
-      "kind": "external local file or directory missing",
-      "asset": "stops.parquet"
-    },
-    {
-      "repository": "EDA-Project",
-      "notebook": "Data_Cleaning .ipynb",
-      "cell": 2,
-      "kind": "external local file or directory missing",
-      "asset": "stops.csv"
-    },
-    {
-      "repository": "EDA-Project",
-      "notebook": "EDA.ipynb",
-      "cell": 1,
-      "kind": "external local file or directory missing",
-      "asset": "stops.csv"
-    }
-  ],
-  "publication_scope": "Notebook/source copies only. Historical outputs remain in original repos. Dataset/assets remain local or can be downloaded from original repos.",
-  "counts": {
-    "published_source_files": 134,
-    "notebooks": 55,
-    "external_assets": 56,
-    "source_repositories": 14
-  }
+  ]
 }

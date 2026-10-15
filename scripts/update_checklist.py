@@ -10,7 +10,6 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from track_learning import ROOT, MODULES, Tracker, now, read_json, save_json, write
-from playlist_catalog import render_playlist
 
 
 def parse_checklist(body):
@@ -77,26 +76,18 @@ def sync_checklist(body, root=ROOT):
     save_json(tracker.root / 'tracking/checklist-status.json', {'issue': issue_url, 'modules': counts}, tracker.changed)
     write(tracker.root / 'tracking/CHECKLIST.md', body.rstrip() + '\n', tracker.changed)
     tracker.render()
-    render_playlist(tracker, tasks)
     # Update topic counts without inventing study dates or supervisor approval.
-    row_names = {
-        'refresh': '1 Python/data/Git refresh', 'pipeline': 'Personalized Pipeline bridge',
-        'course1': '2 ML Specialization Course 1', 'course2': '3 ML Specialization Course 2',
-        'unsupervised': '4 Course 3 — optional', 'pytorch': '5 PyTorch Basics',
-        'videos': '6 PyTorch Beginner Series', 'deep-learning': '7 Deep-learning practice',
-        'evaluation': '8 Evaluation study — optional',
-    }
     progress = tracker.root / 'docs/PROGRESS.md'
     if progress.exists():
         lines = progress.read_text().splitlines()
-        for module, label in row_names.items():
+        for module, (_, label) in MODULES.items():
             if not counts[module]['total']:
                 continue
             status = f'Checklist: {counts[module]["complete"]}/{counts[module]["total"]} topics checked'
             for index, line in enumerate(lines):
                 if line.startswith(f'| {label} |'):
                     columns = line.split('|')
-                    if 'reviewed' not in columns[2].lower():
+                    if len(columns) == 8 and 'reviewed' not in columns[2].lower():
                         columns[2] = f' {status} '
                         lines[index] = '|'.join(columns)
             readme = tracker.root / MODULES[module][0] / 'README.md'

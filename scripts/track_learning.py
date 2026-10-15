@@ -15,22 +15,23 @@ from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULES = {
-    'refresh': ('modules/01-python-data-git', 'Python and data libraries'),
-    'pipeline': ('practice/sklearn-pipelines', 'ColumnTransformer and Pipeline'),
-    'course1': ('modules/02-supervised-ml', 'Supervised ML'),
-    'course2': ('modules/03-advanced-ml', 'Advanced ML and model comparison'),
-    'unsupervised': ('modules/04-unsupervised-optional', 'Optional unsupervised ML'),
-    'pytorch': ('modules/05-pytorch-basics', 'PyTorch Basics'),
-    'videos': ('modules/06-pytorch-video-practice', 'PyTorch video practice'),
-    'deep-learning': ('modules/07-deep-learning-practice', 'MLP and CNN practice'),
-    'evaluation': ('modules/08-evaluation-optional', 'Optional evaluation study'),
-}
-PLAYLIST_PATH = ROOT / 'tracking/campusx-playlist.json'
-if PLAYLIST_PATH.exists():
-    _playlist = json.loads(PLAYLIST_PATH.read_text(encoding='utf-8'))
-    MODULES.update({section['key']: (section['folder'], section['title'])
-                    for section in _playlist['sections']})
+MODULES = {'numpy': ('numpy', 'NumPy'),
+ 'pandas': ('pandas', 'Pandas'),
+ 'matplotlib': ('matplotlib', 'Matplotlib'),
+ 'seaborn': ('seaborn', 'Seaborn'),
+ 'ml-foundations': ('machine-learning/foundations', 'ML foundations'),
+ 'ml-data': ('machine-learning/data-collection', 'Data collection'),
+ 'ml-cleaning': ('machine-learning/data-cleaning', 'Data cleaning'),
+ 'ml-eda': ('machine-learning/exploratory-data-analysis', 'Exploratory data analysis'),
+ 'ml-preprocessing': ('machine-learning/preprocessing', 'Preprocessing and feature engineering'),
+ 'ml-pca': ('machine-learning/dimensionality-reduction', 'Dimensionality reduction'),
+ 'ml-regression': ('machine-learning/regression', 'Regression'),
+ 'ml-classification': ('machine-learning/classification', 'Classification'),
+ 'ml-trees': ('machine-learning/decision-trees', 'Decision trees'),
+ 'ml-ensembles': ('machine-learning/ensembles', 'Ensemble methods'),
+ 'ml-clustering': ('machine-learning/clustering', 'Clustering'),
+ 'ml-model-selection': ('machine-learning/model-selection', 'Model selection and evaluation'),
+ 'ml-projects': ('machine-learning/projects', 'Independent ML projects')}
 BEGIN = '<!-- learning-tracker:start -->'
 END = '<!-- learning-tracker:end -->'
 
@@ -82,13 +83,19 @@ def link(root, document, target):
 def infer_module(title):
     title = title.lower().replace('_', ' ').replace('-', ' ')
     rules = [
-        ('pipeline', r'\bpipeline\b|column\s*transformer|normalization|standardization|encoding|encoder|imputer|preprocessing|power transformer'),
-        ('deep-learning', r'\b(cnn|mlp|convolution)\b'),
-        ('course1', r'linear regression|logistic regression|gradient descent'),
-        ('course2', r'random forest|decision tree|boosting|model comparison'),
-        ('unsupervised', r'\b(clustering|pca|kmeans|k means|recommender)\b'),
-        ('pytorch', r'\b(pytorch|autograd|tensor|dataloader)\b'),
-        ('refresh', r'\b(numpy|pandas|matplotlib|seaborn|python|eda)\b'),
+        ('numpy', r'\bnumpy\b'),
+        ('pandas', r'\bpandas\b'),
+        ('matplotlib', r'\bmatplotlib\b'),
+        ('seaborn', r'\bseaborn\b'),
+        ('ml-preprocessing', r'\bpipeline\b|column\s*transformer|normalization|standardization|encoding|encoder|imputer|preprocessing|power transformer|binning|binarization'),
+        ('ml-regression', r'linear regression|gradient descent|ridge|lasso|elasticnet'),
+        ('ml-classification', r'logistic regression|naive bayes|support vector|\bsvm\b|nearest neighbou?r'),
+        ('ml-trees', r'decision tree'),
+        ('ml-ensembles', r'random forest|boosting|stacking|bagging'),
+        ('ml-clustering', r'\b(clustering|kmeans|k means|dbscan)\b'),
+        ('ml-pca', r'\bpca\b|dimensionality'),
+        ('ml-eda', r'\beda\b|exploratory'),
+        ('ml-cleaning', r'data cleaning'),
     ]
     hits = {module for module, pattern in rules if re.search(pattern, title)}
     return hits.pop() if len(hits) == 1 else None

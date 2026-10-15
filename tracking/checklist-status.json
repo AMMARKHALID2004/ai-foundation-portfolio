@@ -1,87 +1,71 @@
 {
   "issue": "https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1",
   "modules": {
-    "refresh": {
-      "complete": 6,
-      "total": 6
-    },
-    "pipeline": {
+    "numpy": {
       "complete": 1,
-      "total": 3
-    },
-    "course1": {
-      "complete": 0,
-      "total": 4
-    },
-    "course2": {
-      "complete": 0,
-      "total": 3
-    },
-    "unsupervised": {
-      "complete": 0,
       "total": 1
     },
-    "pytorch": {
-      "complete": 0,
-      "total": 3
+    "pandas": {
+      "complete": 1,
+      "total": 1
     },
-    "videos": {
-      "complete": 0,
-      "total": 2
+    "matplotlib": {
+      "complete": 1,
+      "total": 1
     },
-    "deep-learning": {
-      "complete": 0,
-      "total": 3
-    },
-    "evaluation": {
-      "complete": 0,
+    "seaborn": {
+      "complete": 1,
       "total": 1
     },
     "ml-foundations": {
-      "complete": 14,
-      "total": 14
+      "complete": 5,
+      "total": 5
     },
     "ml-data": {
-      "complete": 8,
-      "total": 8
+      "complete": 2,
+      "total": 2
     },
-    "ml-features": {
-      "complete": 9,
-      "total": 23
+    "ml-cleaning": {
+      "complete": 1,
+      "total": 1
+    },
+    "ml-eda": {
+      "complete": 3,
+      "total": 3
+    },
+    "ml-preprocessing": {
+      "complete": 7,
+      "total": 13
     },
     "ml-pca": {
       "complete": 0,
-      "total": 4
+      "total": 1
     },
     "ml-regression": {
       "complete": 0,
-      "total": 20
+      "total": 4
     },
-    "ml-logistic": {
-      "complete": 0,
-      "total": 12
-    },
-    "ml-bayes": {
-      "complete": 0,
-      "total": 9
-    },
-    "ml-neighbors-svm": {
-      "complete": 0,
-      "total": 6
-    },
-    "ml-trees": {
+    "ml-classification": {
       "complete": 0,
       "total": 4
     },
+    "ml-trees": {
+      "complete": 0,
+      "total": 1
+    },
     "ml-ensembles": {
       "complete": 0,
-      "total": 27
+      "total": 3
     },
     "ml-clustering": {
       "complete": 0,
-      "total": 5
+      "total": 1
     },
-    "ml-tuning": {
+    "ml-model-selection": {
+      "complete": 0,
+      "total": 3
+    },
+    "ml-projects": {
       "complete": 0,
       "total": 2
     }

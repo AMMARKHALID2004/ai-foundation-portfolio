@@ -20,12 +20,15 @@ def main():
     if args.repo:
         sources = [source for source in sources if source["repository"] == args.repo]
         if not sources:
-            parser.error("Unknown source repository; see completed-work/README.md")
+            parser.error("Unknown source repository; see docs/IMPORTED_WORK.md")
     for source in sources:
         for asset in source["external_data_assets"]:
             destination = (root / asset["local_path"]).resolve()
-            if not destination.is_relative_to(root / "completed-work"):
-                raise ValueError("Asset path must stay inside completed-work")
+            source_folder = (root / source["destination"]).resolve()
+            if (not source_folder.is_relative_to(root)
+                    or source_folder == root
+                    or not destination.is_relative_to(source_folder)):
+                raise ValueError("Asset path must stay inside its recorded source folder")
             expected = asset["source_sha256"]
             if args.list:
                 print(f"{source['repository']}: {asset['path']}")
