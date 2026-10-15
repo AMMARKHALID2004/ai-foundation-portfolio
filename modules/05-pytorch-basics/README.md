@@ -2,7 +2,7 @@
 
 Guide priority: **Essential**. Planning estimate: 1–2 weeks.
 
-My status: **Not confirmed**. I have not recorded my study dates. My supervisor has not reviewed this module. I will add my work here.
+My status: **Checklist: 0/3 topics checked**. I have not recorded my study dates. My supervisor has not reviewed this module. I will add my work here.
 
 ## Learning objectives
 

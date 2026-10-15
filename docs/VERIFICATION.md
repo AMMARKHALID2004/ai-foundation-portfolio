@@ -43,4 +43,10 @@ The dataset helper passed a real GitHub CLI download and hash check using a smal
 - The initial GitHub scan succeeded for all 14 configured repositories. It recorded no new learning claims.
 - A second local scan made no file changes.
 - The tracker uses the Python standard library. It does not execute notebook code.
-- The hourly schedule is active in this Codex chat. Future unattended runs still depend on the computer, app, network, and GitHub login being available.
+- The initial Codex hourly schedule was later disabled at my request. The replacement is a GitHub issue checklist and GitHub Actions.
+
+## GitHub checklist checks — 2026-10-15
+
+- Thirteen tests pass, including ticking, unticking, repeat runs, new topics, removed topics, and preserved reflection notes and supervisor reviews.
+- The checklist starts with only my five previously reported completed topics checked.
+- Check counts update automatically. Study dates and supervisor approval are not inferred.

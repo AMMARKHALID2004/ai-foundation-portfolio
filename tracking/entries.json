@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "id": "4f2bcdf243764ec9",
+    "topic": "NumPy",
+    "module": "refresh",
+    "folder": "modules/01-python-data-git/learning/numpy-4f2bcdf243764ec9",
+    "first_recorded": "2026-10-15T13:31:03+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://github.com/AMMARKHALID2004/ai-foundation-portfolio/blob/main/completed-work/numpy/SOURCE.md"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T13:31:03+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "4894f5a44c246d66",
+    "topic": "Pandas",
+    "module": "refresh",
+    "folder": "modules/01-python-data-git/learning/pandas-4894f5a44c246d66",
+    "first_recorded": "2026-10-15T13:31:03+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://github.com/AMMARKHALID2004/ai-foundation-portfolio/blob/main/completed-work/pandas/SOURCE.md"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T13:31:03+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "bac7b0a203eedfb4",
+    "topic": "Matplotlib",
+    "module": "refresh",
+    "folder": "modules/01-python-data-git/learning/matplotlib-bac7b0a203eedfb4",
+    "first_recorded": "2026-10-15T13:31:03+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://github.com/AMMARKHALID2004/ai-foundation-portfolio/blob/main/completed-work/matplotlib/SOURCE.md"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T13:31:03+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "1777b6ae57f26c7e",
+    "topic": "Seaborn",
+    "module": "refresh",
+    "folder": "modules/01-python-data-git/learning/seaborn-1777b6ae57f26c7e",
+    "first_recorded": "2026-10-15T13:31:03+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://github.com/AMMARKHALID2004/ai-foundation-portfolio/blob/main/completed-work/seaborn/SOURCE.md"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T13:31:03+05:00",
+    "origin": "checklist"
+  },
+  {
+    "id": "8aad4eb28a17c27f",
+    "topic": "scikit-learn through ColumnTransformer",
+    "module": "pipeline",
+    "folder": "practice/sklearn-pipelines/learning/scikit-learn-through-columntransformer-8aad4eb28a17c27f",
+    "first_recorded": "2026-10-15T13:31:03+05:00",
+    "learned_on": null,
+    "note": "I marked this topic complete in my checklist. I have not recorded its study date.",
+    "source": {
+      "url": "https://github.com/AMMARKHALID2004/ai-foundation-portfolio/blob/main/completed-work/sklearn-preprocessing/SOURCE.md"
+    },
+    "status": "Reported complete (checklist)",
+    "last_recorded": "2026-10-15T13:31:03+05:00",
+    "origin": "checklist"
+  }
+]

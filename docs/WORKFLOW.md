@@ -1,6 +1,6 @@
 # How I use this portfolio
 
-I now use [automatic tracking](AUTOMATIC_TRACKING.md) for routine file detection and learning records. I add lessons without code in [my Jupyter tracking notebook](../Track_my_learning.ipynb). The steps below explain how I prepare evidence and record full module completion.
+I use [my GitHub checklist](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1) to record topic completion. GitHub Actions updates my tracker after I tick a box. [Tracking instructions](AUTOMATIC_TRACKING.md) explain how I add topics. The steps below explain how I prepare evidence.
 
 I use this page each time I finish a lesson, exercise, or module. I use short sentences and direct instructions in my notes. I follow the writing principles of [ASD-STE100](https://www.asd-ste100.org/about_STE.html).
 
@@ -22,13 +22,11 @@ I save my notebook in `notebooks/` or my program in `src/` inside the module. I 
 
 I restart the Jupyter kernel and run the notebook from the first cell. I check that all required cells work. I inspect the notebook before I publish it. I remove credentials, private data, and large or restricted datasets. I link a dataset source when I cannot publish the file.
 
-## 3. Change the progress tracker
+## 3. Tick my completed topic
 
-I find the correct row in [PROGRESS.md](PROGRESS.md). I add a link to my evidence. I use the actual study dates if I know them. I leave the dates as `Unknown` if I do not know them.
+I open my GitHub checklist and tick the topic. GitHub Actions adds a module record and updates my topic counts. I do not edit the generated counts by hand. I add my actual study dates and supervisor feedback in [PROGRESS.md](PROGRESS.md) when I have them.
 
-I use **In progress** while I work. I use **Evidence added** when the work and its run instructions are ready for review. I use **Complete — reviewed** only after my supervisor reviews that work. I put the real review date and feedback in the supervision log. A course video or a copied tutorial does not complete an original implementation requirement.
-
-I also update the module README. I check only the tasks I completed. If I finish a required output, I update the **Minimum outputs** table in PROGRESS.md.
+My checklist records topic completion. I keep full module requirements and the **Minimum outputs** table under review. I use **Complete — reviewed** only after my supervisor reviews the work.
 
 ## 4. Save the change on GitHub
 
@@ -47,7 +45,7 @@ The `git add` paths are an example for the Pipeline exercise. I replace them wit
 
 ## Example: I finish the Pipeline exercise
 
-I complete [exercise.ipynb](../practice/sklearn-pipelines/exercise.ipynb) in Jupyter Notebook. I add my own model, run steps, metric, figure, and reflection. I check the notebook from a fresh kernel. I update the Pipeline row in PROGRESS.md from **Not started** to **Evidence added**. I link the notebook and record the actual finish date if I know it.
+I complete [exercise.ipynb](../practice/sklearn-pipelines/exercise.ipynb) in Jupyter Notebook. I add my own model, run steps, metric, figure, and reflection. I check the notebook from a fresh kernel. I tick **My independent Pipeline exercise** in my checklist. I link the notebook and record the actual finish date if I know it.
 
 I do not mark Course 1 or the three-model comparison complete from this exercise alone. If I later compare three models with a sound test plan, I link that evidence in Module 3. I record the result only after I measure it.
 

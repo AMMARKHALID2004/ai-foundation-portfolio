@@ -1,91 +1,66 @@
-# How I track new learning
+# How I use my GitHub checklist
 
-I use two inputs: files I save in this portfolio and changes I push to my 14 linked learning repositories. The active **Track my AI learning** schedule in this Codex chat checks once each hour. I keep my computer on and Codex running for local checks. I can also run a check myself. [OpenAI's scheduling guide](https://learn.chatgpt.com/docs/automations?surface=app) explains this requirement.
+**[Open my learning checklist](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1).**
 
-The first scan records the existing files as a baseline. Later scans detect new and changed `.ipynb` and `.py` files. A saved file shows activity. It does not prove that I learned a topic or completed a module.
+I use the checkboxes in this GitHub issue to record completed topics. GitHub Actions updates my portfolio after I change the issue. This runs on GitHub. I do not need Codex, an AI service, or a running local computer.
 
-## My normal routine
+## When I finish a topic
 
-1. I save my notebook in the matching module's `notebooks/` folder, or push it to a linked learning repository.
-2. I let the scheduled check record the change. I can run a check now if I need it sooner.
-3. I open [my learning log](LEARNING_LOG.md) to find the new record.
-4. I add my measured results and reflection in that record's folder.
+1. I open my checklist while signed in to GitHub.
+2. I tick the completed topic.
+3. I wait for the [checklist workflow](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/actions/workflows/learning-checklist.yml) to finish.
+4. I open [my progress tracker](PROGRESS.md) or [my learning log](LEARNING_LOG.md).
 
-For a lesson with no code, I open [Track_my_learning.ipynb](../Track_my_learning.ipynb). I select **FYP AI (Anaconda)**. I enter a topic, module, and short learning note. I run the first two code cells. I add a study date only if I know it.
+The first five checked topics are the libraries and preprocessing work that I already reported complete. Their study dates remain unknown.
 
-I can use the same form to explain a detected notebook. I enter its path in the `notebook` field. The tracker updates the same record.
+## What updates after a tick
 
-## What updates automatically
+- My checked-topic counts in PROGRESS.md and the module README.
+- A record under the matching module's `learning/` folder.
+- A link to my source file, if I include one in the checkbox text.
+- Experiment and reflection forms for the new record.
+- The module index and my learning log.
 
-- A topic folder under the matching module's `learning/` folder.
-- A source link to my notebook or the exact GitHub commit.
-- Blank forms for my experiment and reflection, if the forms do not exist yet.
-- The module's learning index and a link from its README.
-- [My learning log](LEARNING_LOG.md) and the automatic section in [PROGRESS.md](PROGRESS.md).
+My tick means that I report the topic complete. It does not confirm supervisor review or completion of all course requirements. I add measured results and my own reflection to the new record. The workflow preserves those notes.
 
-The tracker keeps my original notebook where I saved it. GitHub entries link to the original file. It preserves my existing notes. Repeat scans update the same record. It does not run notebook cells.
+If I untick a topic, the counts decrease. Its record changes to **Not checked**. Its existing notes remain available. If I remove a topic from the issue, its record changes to **Removed from checklist**.
 
-My study dates, results, module completion, and supervisor review need actual evidence. A file starts with the status **File detected; review pending**. My own note changes the entry to **Reported learning**. This topic status does not complete the full module.
+## Add a new topic
 
-## Where I save local work
+I edit the issue description. Under the matching module heading, I add a line such as:
 
-| Module key | Folder |
+```markdown
+- [ ] My feature selection practice
+```
+
+I can also link my notebook:
+
+```markdown
+- [ ] [My feature selection practice](https://github.com/AMMARKHALID2004/Machine-Learning/blob/main/feature-selection.ipynb)
+```
+
+The link above is a format example. I replace it with my actual file link. I save the issue description and tick the item after I complete the work. I keep each topic name unique within its module. I keep the module keys at the start of the headings.
+
+| Key | My work |
 | --- | --- |
-| `refresh` | `modules/01-python-data-git/notebooks/` |
-| `pipeline` | `practice/sklearn-pipelines/` |
-| `course1` | `modules/02-supervised-ml/notebooks/` |
-| `course2` | `modules/03-advanced-ml/notebooks/` |
-| `unsupervised` | `modules/04-unsupervised-optional/notebooks/` |
-| `pytorch` | `modules/05-pytorch-basics/notebooks/` |
-| `videos` | `modules/06-pytorch-video-practice/notebooks/` |
-| `deep-learning` | `modules/07-deep-learning-practice/notebooks/` |
-| `evaluation` | `modules/08-evaluation-optional/notebooks/` |
+| `refresh` | Python, NumPy, Pandas, plotting, and EDA |
+| `pipeline` | Preprocessing and Pipeline practice |
+| `course1` | Linear/logistic regression and supervised ML |
+| `course2` | Advanced ML and model comparison |
+| `unsupervised` | Optional clustering and related work |
+| `pytorch` | PyTorch Basics |
+| `videos` | PyTorch video practice |
+| `deep-learning` | My MLP and CNN implementations |
+| `evaluation` | Optional evaluation study |
 
-The tracker also scans `.py` files in these module folders. It skips generated learning records and notebook checkpoints. It leaves the imported snapshots in `completed-work/` intact.
+## Where I put my notebooks
 
-If I am unsure about a folder, I save the file in `learning-inbox/`. A clear title, such as `numpy-arrays.ipynb`, can identify its module. If the title is unclear, the tracker reports that it needs a module. I assign the module with the Jupyter form and the notebook path. Inbox files stay local until they are reviewed for publication.
+I save new code in the matching module's `notebooks/` or `src/` folder. I can also keep it in an existing learning repository and link it in the checklist. The workflow creates the learning record in the correct module. It does not move or run my notebook, copy datasets, or guess what I learned from file activity.
 
-## Run a check now
+GitHub Actions saves its updates on GitHub. To get them in my local Anaconda workspace, I run `git pull --ff-only` from the repository root. I commit my own local edits before I pull.
 
-From my repository root, in my Anaconda environment:
+## If an update fails
 
-```bash
-python scripts/track_learning.py sync --github
-```
+I open the workflow link above and read the failed run. After I fix the issue, I select **Re-run jobs**. I can also select **Run workflow** on `main` to rebuild from the current issue. The workflow always reads the latest issue description. It does not force-push over other changes.
 
-GitHub checks use my existing `gh` login. I can check it with `gh auth status`. I run `gh auth login` if I need to sign in. Local checks work without GitHub:
-
-```bash
-python scripts/track_learning.py sync
-```
-
-For faster local checks while I study, I can keep this command open in another terminal:
-
-```bash
-python scripts/track_learning.py watch --seconds 30
-```
-
-I press Ctrl+C to stop it. The local watcher checks files every 30 seconds. The hourly check handles GitHub changes. The local watcher uses Linux or macOS file locks, as used by this workspace.
-
-## Add a learning note from the terminal
-
-This is an example. I replace the topic, note, and notebook path with my actual work:
-
-```bash
-python scripts/track_learning.py add "Pipeline practice" \
-  --module pipeline \
-  --note "I learned how to fit preprocessing inside each training fold." \
-  --notebook practice/sklearn-pipelines/exercise.ipynb
-```
-
-I can add `--date YYYY-MM-DD` for a known study date. I omit `--notebook` for a lesson without a code file. I can list module keys with `python scripts/track_learning.py modules`.
-
-## My GitHub publication
-
-The tracker script updates local files. It does not commit or push them. The scheduled Codex check reviews new records and eligible source files, then commits and pushes the changes through Git and GitHub CLI. It keeps restricted data, credentials, and unreviewed notebook outputs local. It does not change my original repositories or publish their datasets again.
-
-If a file needs my explanation, a module choice, or publication review, the check tells me. It stays quiet when nothing changes. It cannot detect a lesson I watch or read unless I save a file or add a note.
-
-The repository list is in [tracking/config.json](../tracking/config.json). Its `file_modules` map can assign an unclear GitHub file to a module. The key is `AMMARKHALID2004/repository:path/to/file.ipynb`. The value is a module key such as `course1`. Unclear Machine-Learning files stay pending until they have a module.
-
-The recorded entries are in [tracking/entries.json](../tracking/entries.json). Detection state stays in the ignored `.learning-tracker/` folder on this computer. If that state is removed, the next scan starts a new baseline. I keep it while I use automatic tracking. The hourly schedule belongs to this Codex chat; cloning the repository does not install that schedule on another computer.
+The repository copy in [tracking/CHECKLIST.md](../tracking/CHECKLIST.md) is an automatic mirror. I edit the GitHub issue to change my ticks. My earlier local tools and [Jupyter entry form](../Track_my_learning.ipynb) remain optional. They run only when I start them. The former Codex hourly schedule is disabled.

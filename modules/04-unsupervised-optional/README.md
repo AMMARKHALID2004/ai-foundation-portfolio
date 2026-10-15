@@ -2,7 +2,7 @@
 
 Guide priority: **High; optional**. Planning estimate: 3 weeks if chosen.
 
-My status: **Optional / deferred**. I have not recorded my study dates. My supervisor has not reviewed this module. I will add my work if I choose this module.
+My status: **Checklist: 0/1 topics checked**. I have not recorded my study dates. My supervisor has not reviewed this module. I will add my work if I choose this module.
 
 ## Learning objectives
 

@@ -1,6 +1,6 @@
 # Working preferences for this portfolio
 
-- When Ammar reports new learning, use `scripts/track_learning.py add` to record his actual note and the matching module. Use known dates only. For automatic detection, use `sync --github`. Read `docs/AUTOMATIC_TRACKING.md`. Preserve manual progress sections, original source snapshots, and notes in generated record folders. Automatic detection never proves module completion or supervisor review.
+- Ammar does not want Codex to run tracking automation. Keep its hourly schedule disabled. The source of truth is GitHub issue #1, My learning checklist. GitHub Actions runs `scripts/update_checklist.py` after checkbox edits. Read `docs/AUTOMATIC_TRACKING.md`. Preserve manual notes, source snapshots, actual dates, and supervisor review. A tick records reported topic completion, not supervisor approval.
 - Write student-facing portfolio pages in Ammar's first-person voice ("I" and "my"). Use ASD-STE100 principles: short sentences, direct verbs, one clear action per step, and consistent terms. Keep source snapshots and attribution intact. Do not claim formal ASD-STE100 compliance without a full standard check.
 - Use GitHub CLI (`gh`) and Git for GitHub work; prefer them over browser interaction.
 - The student uses Anaconda and Jupyter Notebook. Make that the primary documented workflow.

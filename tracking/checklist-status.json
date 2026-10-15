@@ -1,0 +1,41 @@
+{
+  "issue": "https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1",
+  "modules": {
+    "refresh": {
+      "complete": 4,
+      "total": 6
+    },
+    "pipeline": {
+      "complete": 1,
+      "total": 3
+    },
+    "course1": {
+      "complete": 0,
+      "total": 4
+    },
+    "course2": {
+      "complete": 0,
+      "total": 3
+    },
+    "unsupervised": {
+      "complete": 0,
+      "total": 1
+    },
+    "pytorch": {
+      "complete": 0,
+      "total": 3
+    },
+    "videos": {
+      "complete": 0,
+      "total": 2
+    },
+    "deep-learning": {
+      "complete": 0,
+      "total": 3
+    },
+    "evaluation": {
+      "complete": 0,
+      "total": 1
+    }
+  }
+}

@@ -15,3 +15,8 @@ I complete [exercise.ipynb](exercise.ipynb) with my own code. I start with a sim
 When I finish, I record my code, settings, validation scores, one useful figure, and final test result. I explain one error or limit. I add a reflection and link the work in [my tracker](../../docs/PROGRESS.md). [My workflow](../../docs/WORKFLOW.md) shows how to save it. If I later compare three models with a sound evaluation plan, I can link that work to Module 3 for review.
 
 The example uses locally generated data and seed 42. I record my Python and package versions for my own run. References: [scikit-learn composition](https://scikit-learn.org/stable/modules/compose.html) and [leakage pitfalls](https://scikit-learn.org/stable/common_pitfalls.html).
+
+<!-- learning-records -->
+## My tracked learning
+
+I open [my learning records](learning/README.md) to find new work and notes.

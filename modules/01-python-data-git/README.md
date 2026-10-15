@@ -2,7 +2,7 @@
 
 Guide priority: **Essential**. Planning estimate: 1–2 weeks; shorten verified areas.
 
-My status: **In progress**. I reported the data libraries complete. I still need to check the other objectives. I have not recorded my study dates. My supervisor has not reviewed this module. My earlier work is in [completed-work](../../completed-work/README.md). I will put my new diagnostic and evidence here.
+My status: **Checklist: 4/6 topics checked**. I reported the data libraries complete. I still need to check the other objectives. I have not recorded my study dates. My supervisor has not reviewed this module. My earlier work is in [completed-work](../../completed-work/README.md). I will put my new diagnostic and evidence here.
 
 ## Learning objectives
 
@@ -24,3 +24,8 @@ Python functions/OOP; NumPy arrays and broadcasting; Pandas cleaning; environmen
 - I link my work in [the tracker](../../docs/PROGRESS.md). I add supervisor feedback after review.
 
 I use the [module evidence](../../templates/module-evidence.md), [experiment](../../templates/experiment.md), and [reflection](../../templates/reflection.md) templates. I find resources in [the guide map](../../docs/GUIDE_MAPPING.md). I follow [my update steps](../../docs/WORKFLOW.md).
+
+<!-- learning-records -->
+## My tracked learning
+
+I open [my learning records](learning/README.md) to find new work and notes.

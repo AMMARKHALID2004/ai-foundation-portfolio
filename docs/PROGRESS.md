@@ -22,15 +22,15 @@ The folder links below show where I will put my evidence. Some module folders ha
 
 | Module | Status | Start | Finish | Repository / folder | Evidence reviewed |
 | --- | --- | --- | --- | --- | --- |
-| 1 Python/data/Git refresh | In progress: I have studied the data libraries; other objectives need evidence | Unknown | — | [Module 1](../modules/01-python-data-git/README.md), [existing repos](GITHUB_EVIDENCE.md) | My earlier work is linked; diagnostic and supervisor review pending |
-| Personalized Pipeline bridge | Not started | — | — | [Practice](../practice/sklearn-pipelines/README.md) | Supplied starter only |
-| 2 ML Specialization Course 1 | Not confirmed | — | — | [Module 2](../modules/02-supervised-ml/README.md) | My original linear/logistic regression has not been reviewed |
-| 3 ML Specialization Course 2 | Not confirmed | — | — | [Module 3](../modules/03-advanced-ml/README.md) | My three-model comparison has not been reviewed |
-| 4 Course 3 — optional | Optional / deferred | — | — | [Module 4](../modules/04-unsupervised-optional/README.md) | — |
-| 5 PyTorch Basics | Not confirmed | — | — | [Module 5](../modules/05-pytorch-basics/README.md) | — |
-| 6 PyTorch Beginner Series | Not confirmed | — | — | [Module 6](../modules/06-pytorch-video-practice/README.md) | — |
-| 7 Deep-learning practice | Not confirmed | — | — | [Module 7](../modules/07-deep-learning-practice/README.md) | — |
-| 8 Evaluation study — optional | Optional / deferred | — | — | [Module 8](../modules/08-evaluation-optional/README.md) | Apply evaluation to required projects regardless |
+| 1 Python/data/Git refresh | Checklist: 4/6 topics checked | Unknown | — | [Module 1](../modules/01-python-data-git/README.md), [existing repos](GITHUB_EVIDENCE.md) | My earlier work is linked; diagnostic and supervisor review pending |
+| Personalized Pipeline bridge | Checklist: 1/3 topics checked | — | — | [Practice](../practice/sklearn-pipelines/README.md) | Supplied starter only |
+| 2 ML Specialization Course 1 | Checklist: 0/4 topics checked | — | — | [Module 2](../modules/02-supervised-ml/README.md) | My original linear/logistic regression has not been reviewed |
+| 3 ML Specialization Course 2 | Checklist: 0/3 topics checked | — | — | [Module 3](../modules/03-advanced-ml/README.md) | My three-model comparison has not been reviewed |
+| 4 Course 3 — optional | Checklist: 0/1 topics checked | — | — | [Module 4](../modules/04-unsupervised-optional/README.md) | — |
+| 5 PyTorch Basics | Checklist: 0/3 topics checked | — | — | [Module 5](../modules/05-pytorch-basics/README.md) | — |
+| 6 PyTorch Beginner Series | Checklist: 0/2 topics checked | — | — | [Module 6](../modules/06-pytorch-video-practice/README.md) | — |
+| 7 Deep-learning practice | Checklist: 0/3 topics checked | — | — | [Module 7](../modules/07-deep-learning-practice/README.md) | — |
+| 8 Evaluation study — optional | Checklist: 0/1 topics checked | — | — | [Module 8](../modules/08-evaluation-optional/README.md) | Apply evaluation to required projects regardless |
 | Primary specialization | Unselected | — | — | [Selection plans](../blueprints/README.md) | Select after PyTorch; supervisor approval pending |
 | Capstone | Not confirmed | — | — | [Capstone plan](../blueprints/capstone.md) | Proposal approval pending |
 
@@ -53,19 +53,19 @@ The folder links below show where I will put my evidence. Some module folders ha
 <!-- learning-tracker:start -->
 ## My automatic activity record
 
-This section updates when new work is detected. My study dates and supervisor reviews require actual evidence.
+This section updates from my checklist and learning records. My study dates and supervisor reviews require actual evidence.
 I use [my learning log](LEARNING_LOG.md) to open each record.
 
-| Module | Learning records |
-| --- | --- |
-| Python and data libraries | 0 |
-| ColumnTransformer and Pipeline | 0 |
-| Supervised ML | 0 |
-| Advanced ML and model comparison | 0 |
-| Optional unsupervised ML | 0 |
-| PyTorch Basics | 0 |
-| PyTorch video practice | 0 |
-| MLP and CNN practice | 0 |
-| Optional evaluation study | 0 |
+| Module | Checked topics | Learning records |
+| --- | --- | --- |
+| Python and data libraries | 4 / 6 | 4 |
+| ColumnTransformer and Pipeline | 1 / 3 | 1 |
+| Supervised ML | 0 / 4 | 0 |
+| Advanced ML and model comparison | 0 / 3 | 0 |
+| Optional unsupervised ML | 0 / 1 | 0 |
+| PyTorch Basics | 0 / 3 | 0 |
+| PyTorch video practice | 0 / 2 | 0 |
+| MLP and CNN practice | 0 / 3 | 0 |
+| Optional evaluation study | 0 / 1 | 0 |
 
 <!-- learning-tracker:end -->

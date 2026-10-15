@@ -1,0 +1,40 @@
+name: Update my learning checklist
+
+on:
+  issues:
+    types: [edited, reopened]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/learning-checklist.yml'
+      - 'scripts/update_checklist.py'
+      - 'scripts/track_learning.py'
+      - 'tracking/checklist-issue.json'
+      - 'templates/**'
+      - 'tests/**'
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: learning-checklist
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main' && (github.event_name != 'issues' || github.event.issue.number == 1)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Read the latest portfolio
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+      - name: Check the tracker
+        run: python3 -m unittest discover -s tests -v
+      - name: Update records from the current checklist
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_checklist.py --publish

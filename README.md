@@ -10,6 +10,8 @@ I still need to check my evidence and add my own explanations. My supervisor has
 
 **My next task:** [move from ColumnTransformer to Pipeline](docs/NEXT_STEPS.md). I use [the progress tracker](docs/PROGRESS.md) to record each finished task. [How I add new work](docs/WORKFLOW.md) gives the exact steps.
 
+**Update my progress:** [tick a topic in my GitHub checklist](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1). GitHub Actions updates my tracker and module records.
+
 ## Repository map
 
 | Folder | What I put there |
@@ -49,9 +51,9 @@ I can run `python practice/sklearn-pipelines/example.py` to see a complete examp
 
 ## Record my work
 
-I use [automatic tracking](docs/AUTOMATIC_TRACKING.md) for saved notebooks and changes in my linked GitHub repositories. I can add a short note in [Track_my_learning.ipynb](Track_my_learning.ipynb). The tracker creates a module record and updates [my learning log](docs/LEARNING_LOG.md).
+I use [my GitHub checklist](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1) to record completed topics. GitHub Actions creates a module record and updates [my learning log](docs/LEARNING_LOG.md). I can use this with my computer off. [Tracking instructions](docs/AUTOMATIC_TRACKING.md) explain how I add a new topic.
 
-When I finish a task, I save my notebook or code in its module folder. I record the data source, run steps, results, and limits. I write what I learned. I update [PROGRESS.md](docs/PROGRESS.md), then commit and push my changes. [WORKFLOW.md](docs/WORKFLOW.md) shows each step and an example.
+When I finish a task, I save my notebook or code in its module folder. I record the data source, run steps, results, and limits. I write what I learned and tick the topic. The workflow updates the topic counts in [PROGRESS.md](docs/PROGRESS.md). I record actual study dates and supervisor feedback myself.
 
 My copied notebooks have clear source links and attribution. Their public copies have empty outputs. My original repositories retain their earlier results.
 

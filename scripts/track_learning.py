@@ -287,12 +287,15 @@ class Tracker:
         if progress.exists():
             original = progress.read_text()
             summary = [BEGIN, '## My automatic activity record', '',
-                       'This section updates when new work is detected. My study dates and supervisor reviews require actual evidence.',
+                       'This section updates from my checklist and learning records. My study dates and supervisor reviews require actual evidence.',
                        'I use [my learning log](LEARNING_LOG.md) to open each record.', '',
-                       '| Module | Learning records |', '| --- | --- |']
+                       '| Module | Checked topics | Learning records |', '| --- | --- | --- |']
+            checklist = read_json(self.root / 'tracking/checklist-status.json', {}).get('modules', {})
             for module, (_, title) in MODULES.items():
                 count = sum(e['module'] == module for e in self.entries)
-                summary.append(f'| {title} | {count} |')
+                tick = checklist.get(module)
+                checked = f'{tick["complete"]} / {tick["total"]}' if tick else '—'
+                summary.append(f'| {title} | {checked} | {count} |')
             summary.extend(['', END])
             block = '\n'.join(summary)
             if BEGIN in original and END in original:
