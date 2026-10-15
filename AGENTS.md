@@ -1,13 +1,8 @@
-# Working preferences for this portfolio
+# Portfolio preferences
 
-- Ammar does not want Codex to run tracking automation. Keep its hourly schedule disabled. The source of truth is GitHub issue #1, My learning checklist. GitHub Actions runs `scripts/update_checklist.py` after checkbox edits. Read `docs/AUTOMATIC_TRACKING.md`. Preserve manual notes, source snapshots, actual dates, and supervisor review. A tick records reported topic completion, not supervisor approval.
-- Write student-facing portfolio pages in Ammar's first-person voice ("I" and "my"). Use ASD-STE100 principles: short sentences, direct verbs, one clear action per step, and consistent terms. Keep source snapshots and attribution intact. Do not claim formal ASD-STE100 compliance without a full standard check.
-- Use GitHub CLI (`gh`) and Git for GitHub work; prefer them over browser interaction.
-- The student uses Anaconda and Jupyter Notebook. Make that the primary documented workflow.
-- Prefer uv for package installation. Keep a clearly documented pip alternative for other users.
-- Keep environments separate from Anaconda's base environment when installing new dependencies. Do not change the student's existing environments just to edit documentation.
-- Preserve prior completed work and source attribution. Record source repository/commit and any portability edits when importing notebooks.
-- Preserve historical notebook results in their original repositories. Public imported copies have cleared outputs; supporting assets stay ignored locally and are fetched with the GitHub CLI helper. Do not invent study dates, original contributions, topic completion or supervisor approval.
-- The student explicitly authorized merging the five portfolio updates on 2026-10-15. Do not ask again for those merges or routine fixes within the same authorized repository-organization task.
-
-- Keep the repository limited to NumPy, Pandas, Matplotlib, Seaborn, and machine learning. Use library and subject names for folders and checklist topics. Do not recreate future-stage scaffolding or use lesson numbers or course branding in the portfolio structure. Preserve source attribution inside source snapshots and SOURCE.md files. Route work using MODULES in scripts/track_learning.py.
+- This repository is a simple index of Ammar’s original work. Link directly to his original GitHub repositories. Do not copy notebooks, clear their outputs, add topic scaffolding, or create future-stage folders here.
+- Include Python programming, OOP, advanced Python, data libraries, and current ML work. Add links to new separate repositories only when they exist.
+- Tracking is manual. Use README.md, PROGRESS.md, and LEARNING_LOG.md. Do not restore GitHub Actions, generated trackers, notebook scanners, or Codex schedules. Keep the former Codex schedule disabled.
+- Follow the supervisor’s original AI_Learning_and_Specialization_Guide.md in the parent workspace for evidence and logging. Keep module/status/start/finish/repository/evidence-review fields. Record implementation, environment, results, reflection, and source attribution. Use actual dates and preserve supervisor review separately.
+- Write in Ammar’s first-person voice. Use short, direct ASD-STE100-style sentences. Do not claim formal compliance without a full standard check.
+- Use GitHub CLI and Git for repository work. Ammar uses Anaconda and Jupyter Notebook. Prefer uv and document pip as an alternative. Preserve existing environments and original repositories.

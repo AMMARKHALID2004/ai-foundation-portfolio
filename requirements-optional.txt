@@ -1,5 +1,0 @@
-# Optional packages used by selected historical EDA lessons.
-# Install in the dedicated fyp-ai environment only when those lessons need them.
-ydata-profiling
-pygwalker
-autoviz

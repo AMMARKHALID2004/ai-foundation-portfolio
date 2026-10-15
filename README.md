@@ -1,49 +1,60 @@
-# My data libraries and machine learning portfolio
+# My Python, data libraries, and ML portfolio
 
-I am Muhammad Ammar Khalid. I use this repository for NumPy, Pandas, Matplotlib, Seaborn, and machine learning.
+I am Muhammad Ammar Khalid. I use this repository as an index and a manual record of my learning. My complete notebooks, saved outputs, datasets, and source code stay in their original repositories. I open them through the links below.
 
-I have completed the four data libraries. My ML learning currently covers foundations, data work, and preprocessing through power transformations. My actual study dates are unknown. I keep my learning claims, independent exercises, and supervisor review separate.
+I follow my supervisor’s **AI Learning and Specialization Guide**, version 1.0, September 2026. I keep my current work here simple. I add links to new, separate repositories when I create them.
 
-## My folders
+**[My progress](PROGRESS.md)** · **[My learning log](LEARNING_LOG.md)**
 
-| Folder | My work |
-| --- | --- |
-| [numpy](numpy/README.md) | Arrays, indexing, broadcasting, operations, and reference exercises |
-| [pandas](pandas/README.md) | Series, DataFrames, grouping, joins, strings, and dates |
-| [matplotlib](matplotlib/README.md) | Plotting and figure practice |
-| [seaborn](seaborn/README.md) | Statistical plots and visual analysis |
-| [machine-learning](machine-learning/README.md) | Data collection, cleaning, EDA, preprocessing, models, evaluation, and projects |
+## My Python programming
 
-Each topic has space for my notebooks, notes, and results. My earlier GitHub work is stored in these folders. [My source records](docs/IMPORTED_WORK.md) identify each repository and commit.
+| My work | Original repository | What I keep there |
+| --- | --- | --- |
+| Python basics and revision | [Python-Revision](https://github.com/AMMARKHALID2004/Python-Revision) | My Python revision notebook. |
+| Object-oriented programming | [Python_OOP](https://github.com/AMMARKHALID2004/Python_OOP) | Classes, encapsulation, inheritance, abstraction, composition, and practice tasks. |
+| Advanced Python | [Advance-Python](https://github.com/AMMARKHALID2004/Advance-Python) | Functions, recursion, iterators, generators, comprehensions, decorators, file handling, and pathlib. |
+| Generators and decorators | [generators-and-decorators](https://github.com/AMMARKHALID2004/generators-and-decorators) | My generator, decorator, and lazy-pipeline practice. |
+| Python programming project | [File-System-Size-Calculator](https://github.com/AMMARKHALID2004/File-System-Size-Calculator) | My command-line file and folder size calculator. |
 
-**My next topic:** [binning and binarization](machine-learning/preprocessing/notebooks/binning-and-binarization.ipynb). I use this blank notebook for my own practice.
+## My data libraries
 
-**[Update my learning checklist](https://github.com/AMMARKHALID2004/ai-foundation-portfolio/issues/1).** GitHub Actions updates [my progress](docs/PROGRESS.md) and creates a record in the matching topic folder. [Tracking instructions](docs/AUTOMATIC_TRACKING.md) explain the steps.
+| My work | Original repository | What I keep there |
+| --- | --- | --- |
+| NumPy | [Numpy](https://github.com/AMMARKHALID2004/Numpy) | My array, indexing, broadcasting, and operation practice. |
+| NumPy reference exercises | [Numpy-100-Problems](https://github.com/AMMARKHALID2004/Numpy-100-Problems) | Reference exercises and supplied solutions. I keep their original attribution. |
+| Pandas | [Pandas](https://github.com/AMMARKHALID2004/Pandas) | My Series, DataFrame, grouping, joining, string, and date practice. |
+| Matplotlib | [Matplotlib](https://github.com/AMMARKHALID2004/Matplotlib) | My plotting notebooks and saved figures. |
+| Seaborn | [Seaborn](https://github.com/AMMARKHALID2004/Seaborn) | My statistical plotting notebooks. |
 
-## My Anaconda and Jupyter setup
+## My machine learning
 
-I work from this repository's root. I create the study environment once:
+| My work | Original repository | What I keep there |
+| --- | --- | --- |
+| Data collection and file formats | [Working-with-different-files](https://github.com/AMMARKHALID2004/Working-with-different-files) | My file, API, database, and web-data practice. |
+| Data cleaning | [Data-Cleaning](https://github.com/AMMARKHALID2004/Data-Cleaning) | My cleaning notebooks and exercises. |
+| Exploratory data analysis | [EDA](https://github.com/AMMARKHALID2004/EDA) | My EDA practice. |
+| EDA project | [EDA-Project](https://github.com/AMMARKHALID2004/EDA-Project) | My project notebooks and analysis. |
+| Machine learning | [Machine-Learning](https://github.com/AMMARKHALID2004/Machine-Learning) | My preprocessing and ML practice. I continue adding work here. |
+| Cricket prediction project | [Cricket-Match-Win-Probability-Predictor](https://github.com/AMMARKHALID2004/Cricket-Match-Win-Probability-Predictor) | My existing ML project, application code, setup, and results. |
 
-```bash
-conda env create -f environment.yml
-conda activate fyp-ai
-uv pip install -r requirements.txt
-python -m ipykernel install --user --name fyp-ai --display-name "FYP AI (Anaconda)"
-python -m notebook
-```
+## How I update this portfolio
 
-If `fyp-ai` already exists, I activate it and continue with the package command. I select the **FYP AI (Anaconda)** kernel in Jupyter Notebook. I keep my existing environments.
+1. I complete and commit my work in its original repository.
+2. I update its README with my objective, actual dates, implementation, setup, results, and reflection.
+3. I edit [PROGRESS.md](PROGRESS.md). I change the status and link the evidence. I enter dates only when I know them.
+4. I add a session or experiment entry to [LEARNING_LOG.md](LEARNING_LOG.md).
+5. I record supervisor feedback only after review. I commit these manual updates.
 
-**pip alternative:** I use `python -m pip install -r requirements.txt` in place of the uv command. [My environment guide](docs/ENVIRONMENT.md) has the full instructions.
+A repository link shows where my work is. It does not confirm that every topic is complete or that my supervisor reviewed it. I keep tutorial attribution and licences in the original repositories. Supplied solutions remain reference material.
 
-I can fetch the earlier lesson assets locally with `python scripts/fetch_learning_data.py`. They remain ignored by Git. The cricket project has its own dependencies and data requirements; I read its source notes before I run it.
+## My working environment
 
-## How I continue
+I use Anaconda and Jupyter Notebook in my code repositories. I activate the environment required by the chosen repository and select its matching Jupyter kernel. I keep my existing environments.
 
-1. I open the matching library or ML topic folder.
-2. I save my own notebook, notes, sources, and results there.
-3. I run my work from a fresh Jupyter kernel.
-4. I commit and push the files. I tick the completed topic in my GitHub issue.
-5. I wait for Actions, then commit any local edits and run `git pull --ff-only` to get its updates.
+I prefer `uv pip install -r requirements.txt`. My pip alternative is `python -m pip install -r requirements.txt`. I use these commands in the chosen code repository when it provides that requirements file. This index needs no package installation.
 
-I read [my workflow](docs/WORKFLOW.md) and [my next steps](docs/NEXT_STEPS.md) when I need more detail. Imported notebooks keep their source attribution. Their copied outputs are cleared; the original repositories retain historical results.
+## Add a separate repository later
+
+I add its clickable GitHub link to the matching table above. I add a row in my progress tracker and log what I implemented. I keep the code, environment files, results, and detailed reflection in that repository.
+
+All tracking is manual. This repository has no tracking workflow, notebook scanner, generated records, or scheduled updates.
