@@ -1,27 +1,28 @@
-# Your next tasks
+# My next steps
 
-## 1. Package what you already know
+## 1. Check my earlier work
 
-Your existing notebooks are now imported in [completed-work](../completed-work/README.md). Use them as evidence; do not repeat full beginner courses. Pick representative notebooks, restart the kernel and run all cells, replace absolute dataset paths, add setup and dataset provenance, and write one short independent extension and reflection. Record actual learning dates if known; otherwise leave them unknown.
+I have studied NumPy, Pandas, Matplotlib, and Seaborn. I have studied scikit-learn through ColumnTransformer. I use [my earlier notebooks](../completed-work/README.md) as evidence. I choose one or two notebooks for each topic. I run them with the **FYP AI (Anaconda)** kernel. I add data sources, run instructions, and a short explanation of what I did myself. I record an actual study date only when I know it.
 
-The reviewed ColumnTransformer notebook shows prior train/test splitting, imputation, one-hot and ordinal encoding. Its previous manual train and test arrays used different feature orders; that correction is now merged. Keep the same order and explain why equal shapes do not guarantee equivalent features. The merged notebook already uses a relative dataset path, `random_state`, and an unseen-category policy. A supplied correction is assistance; explain and reproduce it yourself.
+The [ColumnTransformer notebook](../completed-work/sklearn-preprocessing/SOURCE.md) has corrected feature order and a relative data path. I explain why train and test features must use the same order. I reproduce the corrected steps myself before I claim that I understand them.
 
-## 2. Bridge from ColumnTransformer to Pipeline
+## 2. Do the Pipeline exercise
 
-1. Run `python practice/sklearn-pipelines/example.py` from the repo root.
-2. Read the code: data split → preprocessing fitted inside a Pipeline → model → evaluation.
-3. Complete `practice/sklearn-pipelines/exercise.ipynb` independently.
-4. Explain why fitting imputation/scaling before splitting or before cross-validation leaks information.
-5. Add your metrics, one figure, a limitation, an original extension, and reflection; commit them.
+1. I run `python practice/sklearn-pipelines/example.py` from the repository root.
+2. I read how the example splits data before it fits preprocessing.
+3. I complete [exercise.ipynb](../practice/sklearn-pipelines/exercise.ipynb) with my own code.
+4. I explain how fitting preprocessing before a split can leak information.
+5. I record my metric, one useful figure, a limit, and a reflection.
+6. I follow [the portfolio workflow](WORKFLOW.md) to add evidence and update my status.
 
-References: [Pipelines and ColumnTransformer](https://scikit-learn.org/stable/modules/compose.html), [common pitfalls](https://scikit-learn.org/stable/common_pitfalls.html).
+The [scikit-learn Pipeline guide](https://scikit-learn.org/stable/modules/compose.html) and [common pitfalls guide](https://scikit-learn.org/stable/common_pitfalls.html) are references.
 
-## 3. Complete the required ML foundation
+## 3. Check Course 1, then complete missing work
 
-Start or verify Course 1 concepts: linear/logistic regression, loss, gradient descent, scaling and regularization. Preprocessing competence alone does not establish these. Publish original independent implementations, not graded assignment answers. Then cover Course 2, compare at least three models, and proceed to PyTorch.
+I check whether I can explain linear regression, logistic regression, loss, gradient descent, scaling, and regularization. My preprocessing work alone does not prove these skills. I write my own implementations and explanations in [Module 2](../modules/02-supervised-ml/README.md). I use course material as a reference and identify it.
 
-Optional Course 3 can be skipped or deferred without blocking the required foundation. Optional evaluation study is useful, while sound evaluation still belongs in every required project.
+Next, I study Course 2. I compare at least three models with a stated evaluation method in [Module 3](../modules/03-advanced-ml/README.md). I then continue with PyTorch. I can defer optional Course 3. I use sound evaluation in every required project, even if I defer the optional evaluation module.
 
-## 4. First supervision checkpoint
+## 4. Prepare for my supervisor
 
-Bring the evidence index, your independent Pipeline exercise, initial Course 1 implementation, and the updated progress tracker. Ask the supervisor to review the evidence and record review dates. Choose a track after the PyTorch foundation, as the guide requires.
+I bring [my tracker](PROGRESS.md), the Pipeline exercise, and my Course 1 work to the meeting. I ask my supervisor to review the evidence. I record the actual review date and agreed next action. I select a specialization only after I complete the PyTorch foundation and discuss my FYP topic.

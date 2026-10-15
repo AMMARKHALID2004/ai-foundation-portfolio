@@ -1,4 +1,4 @@
-"""Supplied synthetic teaching example; complete your own extension separately."""
+"""Supplied synthetic teaching example for the independent notebook exercise."""
 
 import json
 import platform

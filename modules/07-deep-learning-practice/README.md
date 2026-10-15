@@ -2,26 +2,26 @@
 
 Guide priority: **High; required minimum outputs**. Planning estimate: 2 weeks.
 
-Current status: **Prior completion not confirmed**. Start/finish dates: unknown. Supervisor review: pending. This folder is a scaffold.
+My status: **Not confirmed**. I have not recorded my study dates. My supervisor has not reviewed this module. I will add my work here.
 
 ## Learning objectives
 
-MLP, CNN, custom Dataset/DataLoader, student-written loops, checkpoints, metrics, early stopping and error analysis.
+MLP, CNN, custom Dataset/DataLoader, my own loops, checkpoints, metrics, early stopping and error analysis.
 
-## Required work
+## What I will do
 
-- [ ] Train one MLP and one CNN with student-written training and validation loops.
-- [ ] Implement a custom Dataset/DataLoader; document shapes, split and transformations.
-- [ ] Use train/eval modes and no-grad validation; track metrics and checkpoint the best validation model.
-- [ ] Apply early stopping using validation data, then perform one final held-out evaluation.
-- [ ] Write an error-analysis report with representative failures and proposed improvements.
+- [ ] I train one MLP and one CNN with my own training and validation loops.
+- [ ] I implement a custom Dataset/DataLoader. I document shapes, split and transformations.
+- [ ] I use train/eval modes and no-grad validation. I track metrics and checkpoint the best validation model.
+- [ ] I apply early stopping using validation data, then perform one final held-out evaluation.
+- [ ] I write an error-analysis report with representative failures and proposed improvements.
 
-## Evidence to add
+## What I will add
 
-- Original notebook/source in `notebooks/` or `src/`; restart and run all notebooks.
-- Representative results/figures in `results/`, with interpretation.
-- Environment specification (root requirements plus module-specific additions).
-- Actual completion dates, resource/dataset attribution, and a learning reflection.
-- A clickable folder/repository link and supervisor review in [the tracker](../../docs/PROGRESS.md).
+- I save my own notebook or source in `notebooks/` or `src/`. I restart the kernel and run the notebook.
+- I save useful results and figures in `results/`. I explain what they show.
+- I record my environment. I add module-specific packages when I need them.
+- I record actual dates when known. I identify my sources and write a reflection.
+- I link my work in [the tracker](../../docs/PROGRESS.md). I add supervisor feedback after review.
 
-Use [module evidence](../../templates/module-evidence.md), [experiment](../../templates/experiment.md), and [reflection](../../templates/reflection.md) templates. Resources are in [guide mapping](../../docs/GUIDE_MAPPING.md).
+I use the [module evidence](../../templates/module-evidence.md), [experiment](../../templates/experiment.md), and [reflection](../../templates/reflection.md) templates. I find resources in [the guide map](../../docs/GUIDE_MAPPING.md). I follow [my update steps](../../docs/WORKFLOW.md).

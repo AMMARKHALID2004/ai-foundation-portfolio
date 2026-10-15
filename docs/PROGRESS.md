@@ -1,8 +1,10 @@
-# Student progress tracker
+# My progress tracker
 
-Baseline: **2026-10-15 (Asia/Karachi)**. Learning dates are unknown unless entered by the student. Do not replace unknown dates with scaffold creation dates.
+I recorded my starting status on **2026-10-15 (Asia/Karachi)**. I have not recorded my earlier study dates. I enter a date only when I can confirm it.
 
-Status vocabulary: **Reported complete**, **In progress**, **Not confirmed**, **Not started**, **Optional / deferred**, **Complete — reviewed**. A linked file can show evidence exists without proving the module is complete. Only the supervisor can supply supervisor review/sign-off.
+I use these statuses: **Reported complete**, **In progress**, **Evidence added**, **Not confirmed**, **Not started**, **Optional / deferred**, and **Complete — reviewed**. A file link shows where my work is. It does not prove that my supervisor reviewed it. I use **Complete — reviewed** only after that review.
+
+When I finish new work, I follow [my update steps](WORKFLOW.md). I add a file link, my result, and an actual date if known. I record supervisor feedback in the log below. I read [NEXT_STEPS.md](NEXT_STEPS.md) to find the next task.
 
 ## Prior learning credit
 
@@ -16,14 +18,14 @@ Status vocabulary: **Reported complete**, **In progress**, **Not confirmed**, **
 
 ## Guide modules
 
-Local folder links below identify intended evidence locations. Future module folders remain scaffolds, while prior work is now in [completed-work](../completed-work/README.md). The published repo is [ai-foundation-portfolio](https://github.com/AMMARKHALID2004/ai-foundation-portfolio).
+The folder links below show where I will put my evidence. Some module folders have only a plan. My earlier work is in [completed-work](../completed-work/README.md). My published repository is [ai-foundation-portfolio](https://github.com/AMMARKHALID2004/ai-foundation-portfolio).
 
 | Module | Status | Start | Finish | Repository / folder | Evidence reviewed |
 | --- | --- | --- | --- | --- | --- |
-| 1 Python/data/Git refresh | In progress: data-library study credited; remaining objectives unconfirmed | Unknown | — | [Module 1](../modules/01-python-data-git/README.md), [existing repos](GITHUB_EVIDENCE.md) | Python/data/library snapshots imported; diagnostic and supervisor review pending |
+| 1 Python/data/Git refresh | In progress: I have studied the data libraries; other objectives need evidence | Unknown | — | [Module 1](../modules/01-python-data-git/README.md), [existing repos](GITHUB_EVIDENCE.md) | My earlier work is linked; diagnostic and supervisor review pending |
 | Personalized Pipeline bridge | Not started | — | — | [Practice](../practice/sklearn-pipelines/README.md) | Supplied starter only |
-| 2 ML Specialization Course 1 | Not confirmed | — | — | [Module 2](../modules/02-supervised-ml/README.md) | No original linear/logistic regression reviewed |
-| 3 ML Specialization Course 2 | Not confirmed | — | — | [Module 3](../modules/03-advanced-ml/README.md) | No qualifying comparison reviewed |
+| 2 ML Specialization Course 1 | Not confirmed | — | — | [Module 2](../modules/02-supervised-ml/README.md) | My original linear/logistic regression has not been reviewed |
+| 3 ML Specialization Course 2 | Not confirmed | — | — | [Module 3](../modules/03-advanced-ml/README.md) | My three-model comparison has not been reviewed |
 | 4 Course 3 — optional | Optional / deferred | — | — | [Module 4](../modules/04-unsupervised-optional/README.md) | — |
 | 5 PyTorch Basics | Not confirmed | — | — | [Module 5](../modules/05-pytorch-basics/README.md) | — |
 | 6 PyTorch Beginner Series | Not confirmed | — | — | [Module 6](../modules/06-pytorch-video-practice/README.md) | — |
@@ -40,7 +42,7 @@ Local folder links below identify intended evidence locations. Future module fol
 | Classical ML comparison of at least three models | Pending | Module 3 |
 | PyTorch MLP and CNN with own loops | Pending | Module 7 |
 | Error-analysis report | Pending | Use templates/error-analysis.md |
-| Evidence for every completed guide module | Existing work imported from 14 source repos | Review setup, originality, results and reflection |
+| Evidence for every completed guide module | I have imported earlier work from 14 source repos | I still need to check setup, originality, results, and reflection |
 
 ## Supervision log
 

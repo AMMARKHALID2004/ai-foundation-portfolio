@@ -12,7 +12,7 @@ Checked **2026-10-15**, in a temporary Python **3.12.14** environment with NumPy
 - Corrected ColumnTransformer notebook code cells run from both the notebook folder and repository root using its existing toy CSV.
 - Manual training/test feature order matches; ColumnTransformer outputs have matching widths and finite values.
 
-Example smoke-run metrics: CV F1 mean **0.8964**, standard deviation **0.0503**, held-out F1 **0.8525**. These are supplied-example results on artificial data, not the student's experiments or FYP performance. Do not use them to mark a module complete.
+Example smoke-run metrics: CV F1 mean **0.8964**, standard deviation **0.0503**, held-out F1 **0.8525**. These are supplied-example results on artificial data. They are not my experiments or FYP performance. I do not use them to mark a module complete.
 
 The exact core example dependency set is in `requirements-example-lock.txt`. The broader plotting/JupyterLab environment in `requirements.txt` and other historical notebooks have not all been validated. PyTorch/track/capstone work has not been implemented or claimed complete.
 
@@ -27,9 +27,9 @@ Five existing-repository patches were checked against their observed baselines. 
 - All five original pull requests were merged and GitHub confirmed their merge commits.
 - 134 public notebook/source hashes and 56 local-only asset hashes match the manifest; unchanged source files match their original hashes.
 - All 55 imported notebook schemas validate; new documentation links and `environment.yml` validate.
-- Representative imported NumPy, Pandas and corrected ColumnTransformer notebooks executed without errors in the student's installed Anaconda environment.
+- Representative imported NumPy, Pandas, and corrected ColumnTransformer notebooks executed without errors in my installed Anaconda environment.
 - The Pipeline starter also ran on Anaconda Python 3.14.6, NumPy 2.5.3, Pandas 3.0.6 and scikit-learn 1.9.0, with the same previously recorded synthetic-example scores.
-- Original saved outputs remain in their source repos; public imported notebook copies have outputs cleared. Verification runs were not saved over the student's original results. No base-environment changes were made.
+- Original saved outputs remain in their source repositories. Public notebook copies have empty outputs. Verification runs did not replace my original results. My base environment was not changed.
 
 The fresh conda environment YAML and uv/pip instructions are documented; a new conda environment was not installed for this documentation/import task. Full execution of every archived lesson is not claimed. Optional profiling/OpenCV packages, missing external datasets and API/database services are identified in [import notes](IMPORTED_WORK.md).
 

@@ -1,6 +1,6 @@
-# Supervision and final submission checklist
+# My supervision and submission checklist
 
-Leave gates unchecked until the work exists and can be explained independently.
+I check a milestone only after I finish the work and can explain it myself. I record my supervisor's review when it happens.
 
 | Milestone | Done | Evidence / supervisor note |
 | --- | --- | --- |
@@ -17,13 +17,13 @@ Leave gates unchecked until the work exists and can be explained independently.
 | Final repository reproducible | [ ] | |
 | Demo and report completed | [ ] | |
 
-## Final package
+## What I will submit
 
-- [ ] Foundation GitHub URL.
-- [ ] Chosen specialization GitHub URL.
-- [ ] Separate capstone GitHub URL.
-- [ ] Technical report PDF.
-- [ ] Short demo video or deployed demo link.
-- [ ] Model card or system card.
-- [ ] Evaluation results and failure analysis.
-- [ ] Individual contribution statement for a group project.
+- [ ] I add my foundation GitHub link.
+- [ ] I add my chosen specialization GitHub link.
+- [ ] I add my separate capstone GitHub link.
+- [ ] I add my technical report PDF.
+- [ ] I add a short demo video or live demo link.
+- [ ] I add a model card or system card.
+- [ ] I add my evaluation results and failure analysis.
+- [ ] I add my contribution statement if I work in a group.

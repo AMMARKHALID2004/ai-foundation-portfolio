@@ -1,24 +1,24 @@
-# Module evidence template
+# My module evidence
 
 Module and guide section: TO FILL
-Status: TO FILL
-Actual start date: UNKNOWN
-Actual finish date: UNKNOWN
-Repository / folder link: TO FILL
-Supervisor initials and review date: PENDING
+My status: TO FILL
+My actual start date: UNKNOWN
+My actual finish date: UNKNOWN
+My repository or folder link: TO FILL
+Supervisor review date and initials: PENDING
 
-## Objectives and implementation
+## What I did
 
-Describe the concepts and what you wrote independently. Distinguish supplied starter/tutorial code from your own extensions.
+I explain the concepts in my own words. I state which code I wrote myself. I identify tutorials and supplied starter code.
 
-## Reproduce
+## How I run it
 
-Python/framework versions, environment installation, dataset acquisition/licence and exact run command. Explain working directory and CPU/GPU requirements.
+I record Python and package versions. I give the data source, licence, and run command. I state the working folder and the CPU or GPU requirement.
 
-## Results and interpretation
+## What I measured
 
-Link actual metrics, figures, experiment configuration and seeds. Explain the findings; leave blank until measured.
+I link my metrics, figures, settings, and random seeds. I explain what the results show. I leave this section empty until I measure results.
 
-## Reflection, limitations and attribution
+## What I learned
 
-What failed, what changed, remaining gaps, course/tutorial and dataset attribution. Link your reflection and original extension.
+I describe a failure, the change I made, and the result. I state the limits of my work. I link my reflection and identify the course, tutorial, and dataset sources.

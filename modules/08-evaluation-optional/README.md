@@ -2,25 +2,25 @@
 
 Guide priority: **High; optional dedicated module**. Planning estimate: 1 week if chosen.
 
-Current status: **Optional / deferred**. Start/finish dates: unknown. Supervisor review: pending. This folder is a scaffold.
+My status: **Optional / deferred**. I have not recorded my study dates. My supervisor has not reviewed this module. I will add my work if I choose this module.
 
 ## Learning objectives
 
 Train/validation/test discipline, leakage, imbalance, precision/recall/F1/AUC, calibration, subgroup analysis, bias and limitations.
 
-## Required work
+## What I will do
 
-- [ ] Audit one existing project for leakage and justify its evaluation protocol.
-- [ ] Use appropriate metrics beyond accuracy, including per-class or subgroup views when meaningful.
-- [ ] Document calibration awareness, failure cases, bias, intended use and limitations.
-- [ ] Apply these practices to required projects even if this dedicated study module is deferred.
+- [ ] I audit one existing project for leakage and justify its evaluation protocol.
+- [ ] I use appropriate metrics beyond accuracy, including per-class or subgroup views when meaningful.
+- [ ] I document calibration awareness, failure cases, bias, intended use and limitations.
+- [ ] I apply these practices to required projects even if this dedicated study module is deferred.
 
-## Evidence to add
+## What I will add
 
-- Original notebook/source in `notebooks/` or `src/`; restart and run all notebooks.
-- Representative results/figures in `results/`, with interpretation.
-- Environment specification (root requirements plus module-specific additions).
-- Actual completion dates, resource/dataset attribution, and a learning reflection.
-- A clickable folder/repository link and supervisor review in [the tracker](../../docs/PROGRESS.md).
+- I save my own notebook or source in `notebooks/` or `src/`. I restart the kernel and run the notebook.
+- I save useful results and figures in `results/`. I explain what they show.
+- I record my environment. I add module-specific packages when I need them.
+- I record actual dates when known. I identify my sources and write a reflection.
+- I link my work in [the tracker](../../docs/PROGRESS.md). I add supervisor feedback after review.
 
-Use [module evidence](../../templates/module-evidence.md), [experiment](../../templates/experiment.md), and [reflection](../../templates/reflection.md) templates. Resources are in [guide mapping](../../docs/GUIDE_MAPPING.md).
+I use the [module evidence](../../templates/module-evidence.md), [experiment](../../templates/experiment.md), and [reflection](../../templates/reflection.md) templates. I find resources in [the guide map](../../docs/GUIDE_MAPPING.md). I follow [my update steps](../../docs/WORKFLOW.md).

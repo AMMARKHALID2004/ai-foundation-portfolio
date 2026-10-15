@@ -1,19 +1,17 @@
-# ColumnTransformer to Pipeline practice
+# My ColumnTransformer to Pipeline practice
 
-This is a supplied teaching starter, not evidence that the student has completed ML Course 1 or an original model-comparison project.
+This folder gives me a teaching example and a notebook exercise. The example is supplied code. I do not count it as my own Course 1 implementation or model comparison.
 
-Run from the foundation repository root:
+I run the example from the repository root:
 
 ```bash
 python practice/sklearn-pipelines/example.py
 ```
 
-The example generates a small synthetic mixed-type classification dataset, splits it before fitting preprocessing, and fits a `ColumnTransformer` and logistic regression together in a `Pipeline`. Five-fold stratified cross-validation uses only the training partition; the separate test partition is evaluated after fitting. The printed metrics demonstrate the mechanics on synthetic data, not real-world performance.
+The example makes synthetic classification data. It splits the data before it fits preprocessing. It puts a `ColumnTransformer` and logistic regression in one `Pipeline`. It uses five-fold cross-validation on the training data. It then evaluates a separate test set. The printed scores show how the example works on synthetic data.
 
-Use [exercise.ipynb](exercise.ipynb) to implement an original extension independently. Start with a dummy baseline and compare at least three meaningful models once you understand their assumptions. Declare your metric and selection procedure before final testing. For repeated model development, use validation/cross-validation rather than repeatedly consulting the test set.
+I complete [exercise.ipynb](exercise.ipynb) with my own code. I start with a simple baseline. I state my metric before I compare models. I use validation data or cross-validation while I develop the model. I use the test data after I make my model choices.
 
-Completion evidence: your own code, configurations, validation scores and spread, one justified figure, held-out result after selection, an error-analysis note and learning reflection. Link these in the progress tracker. The completed three-model comparison can then contribute to Module 3 after review.
+When I finish, I record my code, settings, validation scores, one useful figure, and final test result. I explain one error or limit. I add a reflection and link the work in [my tracker](../../docs/PROGRESS.md). [My workflow](../../docs/WORKFLOW.md) shows how to save it. If I later compare three models with a sound evaluation plan, I can link that work to Module 3 for review.
 
-Data source: locally generated synthetic data; no external dataset, API or medical use. Seed: 42. Python and dependency versions should be recorded with your experiment.
-
-References: [scikit-learn composition](https://scikit-learn.org/stable/modules/compose.html) and [leakage pitfalls](https://scikit-learn.org/stable/common_pitfalls.html).
+The example uses locally generated data and seed 42. I record my Python and package versions for my own run. References: [scikit-learn composition](https://scikit-learn.org/stable/modules/compose.html) and [leakage pitfalls](https://scikit-learn.org/stable/common_pitfalls.html).

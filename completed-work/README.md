@@ -1,6 +1,6 @@
-# Your existing foundation work
+# My earlier foundation work
 
-Imported from **14 existing GitHub repositories** on 2026-10-15: **55 notebooks within 134 notebook/source files**, plus source notes and this index. Another 56 supporting asset files are available through the original repos and the download command below. Historical results remain available in the linked original repositories; copied notebooks start with cleared outputs. The library-study completion reported by the student is credited in [the progress tracker](../docs/PROGRESS.md); imports alone do not establish supervisor approval or complete the remaining ML/PyTorch pathway.
+I brought work from **14 of my GitHub repositories** into this portfolio on 2026-10-15. It includes **55 notebooks within 134 notebook/source files**. Another 56 supporting files are available from the original repositories. My original saved results remain there. The public notebook copies have empty outputs. I record my reported library progress in [the tracker](../docs/PROGRESS.md). My supervisor has not reviewed these modules yet.
 
 | Work | Notebooks | Published notebook/source files | Source |
 | --- | --- | --- | --- |
@@ -19,7 +19,7 @@ Imported from **14 existing GitHub repositories** on 2026-10-15: **55 notebooks 
 | [EDA-Project](eda-project/SOURCE.md) | 3 | 3 | [Original repo](https://github.com/AMMARKHALID2004/EDA-Project) |
 | [Machine-Learning](sklearn-preprocessing/SOURCE.md) | 6 | 8 | [Original repo](https://github.com/AMMARKHALID2004/Machine-Learning) |
 
-## Start with your completed library material
+## Review the libraries I studied
 
 - [NumPy arrays/indexing/broadcasting](numpy/SOURCE.md).
 - [Pandas, joins, GroupBy, strings and dates](pandas/SOURCE.md).
@@ -28,11 +28,11 @@ Imported from **14 existing GitHub repositories** on 2026-10-15: **55 notebooks 
 
 Python practice, data loading/cleaning and EDA are also kept here. The NumPy-100 collection retains its upstream MIT licence and attribution; supplied solutions are reference material, not a claim of independent completion.
 
-Use the [Anaconda + uv + Jupyter Notebook setup](../docs/ENVIRONMENT.md). Open each notebook from its folder; run scripts from the relevant lesson folder when they use local imports. [Import notes](../docs/IMPORTED_WORK.md) identify missing external datasets, optional tools, API/local-database lessons and deliberate error demonstrations. [The manifest](../docs/import-manifest.json) records source commits, per-file hashes and modifications.
+I use [my Anaconda, uv, and Jupyter Notebook setup](../docs/ENVIRONMENT.md). I open each notebook from its folder. I run scripts from their lesson folder when they use local imports. [The import notes](../docs/IMPORTED_WORK.md) list missing data, optional tools, API and database lessons, and intentional error examples. [The manifest](../docs/import-manifest.json) records source commits and file hashes.
 
 ## Get the lesson datasets locally
 
-After GitHub CLI is installed (and signed in where needed):
+After I sign in to GitHub CLI, I run:
 
 ```bash
 python scripts/fetch_learning_data.py
@@ -40,4 +40,4 @@ python scripts/fetch_learning_data.py
 python scripts/fetch_learning_data.py --repo Pandas
 ```
 
-The downloader uses each original repository's recorded commit and verifies file hashes. Assets are placed beside their lesson notebooks and ignored by Git; it does not upload them. Existing different local files are preserved. `--list` previews the files. The original datasets and their source permissions remain with the original repos.
+The script reads each source file at its recorded commit and checks its hash. It puts the file beside its lesson notebook. Git ignores the file. The script keeps an existing local file if its content differs. I use `--list` to see the files before I download them.

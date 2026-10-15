@@ -2,25 +2,25 @@
 
 Guide priority: **Essential**. Planning estimate: 1–2 weeks.
 
-Current status: **Prior completion not confirmed**. Start/finish dates: unknown. Supervisor review: pending. This folder is a scaffold.
+My status: **Not confirmed**. I have not recorded my study dates. My supervisor has not reviewed this module. I will add my work here.
 
 ## Learning objectives
 
 Tensors, datasets/DataLoaders, transforms, model construction, autograd, optimization and save/load.
 
-## Required work
+## What I will do
 
-- [ ] Reproduce tensor operations and explain shapes and gradients.
-- [ ] Build a small model and DataLoader, and write the optimization loop yourself.
-- [ ] Save and reload a checkpoint; verify predictions and document device/Python/torch versions.
-- [ ] Use the official PyTorch install selector appropriate to CPU/GPU; add an environment file.
+- [ ] I reproduce tensor operations and explain shapes and gradients.
+- [ ] I build a small model and DataLoader, and write the optimization loop myself.
+- [ ] I save and reload a checkpoint. I verify predictions and document device/Python/torch versions.
+- [ ] I use the official PyTorch install selector appropriate to CPU/GPU. I add an environment file.
 
-## Evidence to add
+## What I will add
 
-- Original notebook/source in `notebooks/` or `src/`; restart and run all notebooks.
-- Representative results/figures in `results/`, with interpretation.
-- Environment specification (root requirements plus module-specific additions).
-- Actual completion dates, resource/dataset attribution, and a learning reflection.
-- A clickable folder/repository link and supervisor review in [the tracker](../../docs/PROGRESS.md).
+- I save my own notebook or source in `notebooks/` or `src/`. I restart the kernel and run the notebook.
+- I save useful results and figures in `results/`. I explain what they show.
+- I record my environment. I add module-specific packages when I need them.
+- I record actual dates when known. I identify my sources and write a reflection.
+- I link my work in [the tracker](../../docs/PROGRESS.md). I add supervisor feedback after review.
 
-Use [module evidence](../../templates/module-evidence.md), [experiment](../../templates/experiment.md), and [reflection](../../templates/reflection.md) templates. Resources are in [guide mapping](../../docs/GUIDE_MAPPING.md).
+I use the [module evidence](../../templates/module-evidence.md), [experiment](../../templates/experiment.md), and [reflection](../../templates/reflection.md) templates. I find resources in [the guide map](../../docs/GUIDE_MAPPING.md). I follow [my update steps](../../docs/WORKFLOW.md).

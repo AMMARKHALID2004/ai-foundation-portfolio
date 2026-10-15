@@ -1,6 +1,6 @@
 # AI Agents specialization blueprint
 
-Entry: common foundation and PyTorch, followed by **HF LLM chapters 1–5 and 9** before agent specialization. Agent frameworks do not replace model/retrieval/evaluation understanding. Guide estimate: 10–14 weeks after LLM prerequisites.
+I can start this track after the common foundation and PyTorch. I will study **HF LLM chapters 1–5 and 9** first. I also need to understand models, retrieval, and evaluation. The guide estimates 10–14 weeks after the LLM prerequisites.
 
 ## Required course sequence
 
@@ -21,4 +21,4 @@ Entry: common foundation and PyTorch, followed by **HF LLM chapters 1–5 and 9*
 - [ ] Token, latency and cost analysis; injection/unauthorized-tool protections.
 - [ ] Graceful failure/recovery; reproducible repo, report and demo.
 
-Start with a single-agent baseline. Add multiple agents only if experiments demonstrate a measurable advantage. Discuss a research assistant, proposal-review agent, folder-audit assistant or secure knowledge workflow; no topic is selected here.
+I will start with a single-agent baseline. I will add more agents only if my experiments show a measurable gain. I can discuss a research assistant, proposal-review agent, folder-audit assistant, or secure knowledge system with my supervisor. I have not selected a topic.

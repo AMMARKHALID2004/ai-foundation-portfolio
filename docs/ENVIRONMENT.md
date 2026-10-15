@@ -1,33 +1,32 @@
-# Anaconda, uv and Jupyter Notebook
+# My Anaconda and Jupyter Notebook setup
 
-The student's preferred workflow is **Anaconda + Jupyter Notebook**, with **uv** for package installation. pip is supported for anyone using it instead. GitHub work uses `gh` and Git.
+I use Anaconda and Jupyter Notebook. I prefer uv to install Python packages. I keep pip commands for people who use pip. I use GitHub CLI and Git for repository work.
 
-## Anaconda with uv — primary workflow
+## My Anaconda setup
 
-From the repository root in Anaconda Prompt or a conda-enabled terminal:
+I run these commands from the repository root in a terminal with conda enabled:
 
 ```bash
 conda env create -f environment.yml
 conda activate fyp-ai
 uv pip install -r requirements.txt
 python -m ipykernel install --user --name fyp-ai --display-name "FYP AI (Anaconda)"
-python scripts/fetch_learning_data.py
 python -m notebook
 ```
 
-`environment.yml` creates the dedicated Python 3.12 environment and installs uv/pip from conda-forge. The activated conda environment is detected by uv. In Jupyter Notebook, select **FYP AI (Anaconda)** as the kernel. A server started from Anaconda's base environment can also use that registered kernel.
+The `environment.yml` file creates a Python 3.12 environment. I select **FYP AI (Anaconda)** in Jupyter Notebook. If `fyp-ai` already exists, I activate it and start with the `uv pip install` command. I can also register a different study environment with its own kernel name.
 
-If `fyp-ai` already exists, activate it and continue from dependency installation instead of recreating it. If you already have a suitable study environment, you can activate that environment and register a separate kernel name; changing base is unnecessary.
+I get data for earlier lessons with `python scripts/fetch_learning_data.py`. I can skip this command for the Pipeline starter. The script retrieves files from the original repositories and checks their hashes. It does not add them to Git.
 
-## pip alternative
+## pip option
 
-Use the same conda environment and replace the uv installation step with:
+I can replace the uv installation command with:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-Then register the kernel and launch Jupyter Notebook as above. Either installer uses the same dependency file.
+I then register the kernel and start Jupyter Notebook as shown above. Both installers use `requirements.txt`.
 
 ## uv without Anaconda
 
@@ -35,49 +34,37 @@ Then register the kernel and launch Jupyter Notebook as above. Either installer 
 uv venv --python 3.12
 uv pip install --python .venv -r requirements.txt
 source .venv/bin/activate
-# Windows PowerShell: .venv\Scripts\Activate.ps1
 python -m notebook
 ```
 
-Select the virtual environment's Python kernel, or activate `.venv` and register it with a distinct name. On macOS/Linux, activation is `source .venv/bin/activate`; in Windows PowerShell it is `.venv\Scripts\Activate.ps1`.
+On Windows PowerShell, I activate the environment with `.venv\Scripts\Activate.ps1`. I select this environment's Python kernel in Jupyter Notebook.
 
 ## pip without Anaconda
 
 ```bash
 python -m venv .venv
-```
-
-Activate `.venv` for your platform, then:
-
-```bash
+source .venv/bin/activate
 python -m pip install -r requirements.txt
 python -m notebook
 ```
 
-## Optional historical lessons
+On Windows PowerShell, I use `.venv\Scripts\Activate.ps1` to activate the environment.
 
-Selected EDA lessons import ydata-profiling, PyGWalker and AutoViz; one generator demo imports OpenCV. They are separated from the core environment:
+## Optional packages and earlier lessons
+
+Some earlier EDA lessons use ydata-profiling, PyGWalker, or AutoViz. One generator example uses OpenCV. I install these packages only when I need them:
 
 ```bash
 conda activate fyp-ai
 uv pip install -r requirements-optional.txt
-# pip alternative:
-python -m pip install -r requirements-optional.txt
 ```
 
-Those optional libraries and external API/database lessons are not required to reproduce the offline Pipeline starter. Some archived notebooks deliberately demonstrate errors or need datasets/local services not present in the source repositories; consult [import notes](IMPORTED_WORK.md).
+I can use `python -m pip install -r requirements-optional.txt` instead. Some earlier lessons need an external API or a local database. Other lessons show errors on purpose. I read [the import notes](IMPORTED_WORK.md) before I run them.
 
-## Run and record your work
+## Record my environment
 
-```bash
-python practice/sklearn-pipelines/example.py
-uv pip freeze > requirements-lock.txt
-# pip alternative:
-python -m pip freeze > requirements-lock.txt
-```
+I record Python and package versions with each experiment. I open each notebook from its folder when it uses relative data paths. I restart the kernel and run all required cells before I report a result. I can run `python practice/sklearn-pipelines/example.py` from the repository root to check the core setup.
 
-Record Python/package versions with each experiment. Open notebooks from their stored folders so their relative data paths work. The public snapshots have cleared outputs; original historical results stay in the source repos. Retrieve supporting data with `python scripts/fetch_learning_data.py` and rerun individual lessons when reviewing your own evidence.
+On 2026-10-15, my installed Anaconda base had Python 3.14.6, NumPy 2.5.3, Pandas 3.0.6, scikit-learn 1.9.0, Matplotlib 3.11.0, Seaborn 0.13.2, and Notebook 7.5.7. The `environment.yml` file requests Python 3.12 for a new `fyp-ai` environment.
 
-The local Anaconda installation was checked on 2026-10-15: Python 3.14.6, NumPy 2.5.3, Pandas 3.0.6, scikit-learn 1.9.0, Matplotlib 3.11.0, Seaborn 0.13.2 and Notebook 7.5.7. The documented fresh environment targets Python 3.12 for the broader optional library ecosystem; the student's base environment was not changed.
-
-References: [uv environment discovery](https://docs.astral.sh/uv/pip/environments/), [conda environments](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html), [IPython kernel registration](https://ipython.readthedocs.io/en/stable/install/kernel_install.html).
+References: [uv environment discovery](https://docs.astral.sh/uv/pip/environments/), [conda environments](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html), and [IPython kernel registration](https://ipython.readthedocs.io/en/stable/install/kernel_install.html).

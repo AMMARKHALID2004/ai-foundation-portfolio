@@ -1,6 +1,6 @@
 # Computer Vision specialization blueprint
 
-Entry: common foundation, PyTorch competence, selected/approved track. Guide estimate: 12–16 weeks.
+I can start this track after the common foundation and PyTorch. I will confirm the choice with my supervisor. The guide estimates 12–16 weeks.
 
 ## Required course sequence
 
@@ -20,4 +20,4 @@ Entry: common foundation, PyTorch competence, selected/approved track. Guide est
 - [ ] Inference app/API; model card with intended use, bias and limitations.
 - [ ] Reproducible repo, report, demo and evaluation evidence.
 
-Choose one substantial problem with the supervisor: defect detection, medical-image classification, road detection, satellite segmentation, vision-language search or activity recognition. No topic is selected by this scaffold.
+I will choose one substantial problem with my supervisor. Possible topics include defect detection, medical-image classification, road detection, satellite segmentation, vision-language search, and activity recognition. I have not selected a topic.

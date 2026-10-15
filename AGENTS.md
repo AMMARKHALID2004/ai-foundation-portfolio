@@ -1,5 +1,6 @@
 # Working preferences for this portfolio
 
+- Write student-facing portfolio pages in Ammar's first-person voice ("I" and "my"). Use ASD-STE100 principles: short sentences, direct verbs, one clear action per step, and consistent terms. Keep source snapshots and attribution intact. Do not claim formal ASD-STE100 compliance without a full standard check.
 - Use GitHub CLI (`gh`) and Git for GitHub work; prefer them over browser interaction.
 - The student uses Anaconda and Jupyter Notebook. Make that the primary documented workflow.
 - Prefer uv for package installation. Keep a clearly documented pip alternative for other users.

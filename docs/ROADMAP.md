@@ -1,39 +1,39 @@
-# Personal roadmap
+# My learning roadmap
 
-Planning baseline: **2026-10-15 (Asia/Karachi)**. Weekly availability, deadline, prior ML theory and intended FYP topic are not yet confirmed, so this is a sequence rather than a dated promise.
+I recorded this plan on **2026-10-15 (Asia/Karachi)**. I have not set weekly study hours or an FYP deadline. I use this page for the order of work. I do not treat the estimates as promised finish dates.
 
-## Credit existing learning
+## Use my earlier learning
 
-NumPy, Pandas, Matplotlib and Seaborn are reported complete. Scikit-learn preprocessing is complete through ColumnTransformer. Preserve and document those notebooks, do a short independent diagnostic, and close Python/OOP/environment/Git gaps only if the diagnostic reveals them. The whole refresh module remains partially verified until all its objectives have evidence.
+I reported NumPy, Pandas, Matplotlib, and Seaborn complete. I reached ColumnTransformer in scikit-learn. I check representative notebooks and add my own explanations. I use a short diagnostic to find any gaps in Python, OOP, environments, and Git. I do not repeat a full beginner course when I can show the skill.
 
-## Common foundation, in guide order
+## Complete the common foundation
 
-| Order | Activity | Supervisor estimate | Evidence gate |
+| Order | What I do | Guide estimate | Evidence I add |
 | --- | --- | --- | --- |
-| 1 | Targeted Python/data/Git refresh | Guide: 1–2 weeks; shorten for verified skills | Representative existing work, independent extension, clean setup and Git workflow |
-| Bridge | Pipeline practice from current ColumnTransformer level | A few focused sessions; personalized addition | Leakage-safe workflow and explanation |
-| 2 | ML Specialization Course 1 | 3 weeks | Independent linear/logistic regression, loss/gradient/regularization explanations |
-| 3 | ML Specialization Course 2 | 6–8 weeks | Neural-network concepts, bias/variance, trees/forests/boosting and ≥3-model comparison |
-| 4 | Course 3, optional | 3 weeks if chosen | Clustering/anomaly/recommender/PCA experiments |
-| 5 | PyTorch Learn the Basics | 1–2 weeks | Tensors, data, autograd, optimization and checkpoint round-trip |
-| 6 | PyTorch Beginner Series | 1–2 weeks | Independent reproductions and debugging notes |
-| 7 | Deep-learning implementation practice | 2 weeks | Student-written MLP/CNN loops, custom data, early stopping and error report |
-| 8 | Evaluation foundation, optional module | 1 week if chosen | Leakage, imbalance, metrics and limitations audit |
+| 1 | Check Python, data libraries, and Git | 1–2 weeks in the guide | Earlier work, a new extension, setup, and Git history |
+| Bridge | Move from ColumnTransformer to Pipeline | A few focused sessions in my plan | My own Pipeline exercise and leakage explanation |
+| 2 | Study ML Course 1 | 3 weeks in the guide | My own linear/logistic regression and explanations |
+| 3 | Study ML Course 2 | 6–8 weeks in the guide | Neural-network concepts and a three-model comparison |
+| 4 | Study Course 3 if I choose it | 3 weeks in the guide | My optional clustering or related experiments |
+| 5 | Study PyTorch Basics | 1–2 weeks in the guide | Tensor, data, autograd, training, and save/load work |
+| 6 | Practice with the PyTorch beginner videos | 1–2 weeks in the guide | My own reproductions and debugging notes |
+| 7 | Build an MLP and a CNN | 2 weeks in the guide | My own loops, results, and error analysis |
+| 8 | Study evaluation as a separate module if I choose it | 1 week in the guide | An optional evaluation audit |
 
-Study loss functions, derivatives/gradients, matrix shapes and probability as needed alongside ML/PyTorch. This is supporting practice, not an extra compulsory course invented by the guide. Carry responsible evaluation through required outputs even if you omit its optional dedicated module.
+I study loss, gradients, matrix shapes, and probability when I need them. I use sound evaluation in my required projects, even if I skip the separate evaluation module. I update [my tracker](PROGRESS.md) after each task. [My workflow](WORKFLOW.md) shows how I add the evidence.
 
-The guide's approximately 14–19-week foundation estimate is a planning reference; it is not an estimate of your remaining time. Course completion is unconfirmed and existing implementations may shorten work after review.
+The guide gives about 14–19 weeks for the full foundation. I have already studied some topics. I will know my remaining time better after I check the evidence and set a schedule.
 
-## Select one specialization after PyTorch
+## Choose one specialization after PyTorch
 
-| Track | Required path | Guide estimate | Future repository |
+| Track | What I study | Guide estimate | Future repository |
 | --- | --- | --- | --- |
-| Computer Vision | CS231n + Hugging Face CV; selected fast.ai is optional | 12–16 weeks | `computer-vision-specialization` |
-| LLMs | HF LLM required core (1–7, 9) + selected Full Stack LLM Bootcamp; advanced 10–12, CS336 elective | 12–18 weeks | `llm-specialization` |
-| AI Agents | First HF LLM chapters 1–5 and 9; then HF Agents + MCP + selected Microsoft lessons | 10–14 weeks after LLM prerequisites | `ai-agents-specialization` |
+| Computer Vision | CS231n and Hugging Face CV; selected fast.ai work is optional | 12–16 weeks | `computer-vision-specialization` |
+| LLMs | Hugging Face LLM core chapters 1–7 and 9, plus selected Full Stack LLM Bootcamp work | 12–18 weeks | `llm-specialization` |
+| AI Agents | First Hugging Face LLM chapters 1–5 and 9; then HF Agents, MCP, and selected Microsoft lessons | 10–14 weeks after LLM prerequisites | `ai-agents-specialization` |
 
-No specialization is selected yet. Select based on the intended FYP problem and supervisor approval. Implement multi-agent systems only with a measured advantage over a simpler single-agent approach.
+I have not selected a track. I will discuss my FYP problem with my supervisor after I complete the PyTorch foundation. If I choose Agents, I will test whether a multi-agent design improves a simpler design.
 
-## Finish the capstone
+## Complete my capstone
 
-Use a separate `fyp-ai-capstone` repository. Complete the substantial evaluated project (guide: 3–5 weeks within track duration), then polish the repository, report and demo (1–2 weeks). Use [the capstone blueprint](../blueprints/capstone.md) and [submission checklist](SUBMISSION_CHECKLIST.md). Course availability and compute costs must be checked when enrolling or running experiments; the source guide's September 2026 access claims are not reverified here.
+I plan to use a separate `fyp-ai-capstone` repository. I will define the problem, collect permitted data, implement a baseline, and measure results. I will then write my report and prepare a demo. I use [the capstone plan](../blueprints/capstone.md) and [submission checklist](SUBMISSION_CHECKLIST.md).

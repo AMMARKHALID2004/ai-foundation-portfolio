@@ -12,7 +12,7 @@ The [AI foundation portfolio](https://github.com/AMMARKHALID2004/ai-foundation-p
 | Matplotlib | [PR #1](https://github.com/AMMARKHALID2004/Matplotlib/pull/1) | Merged | `be79ccd` |
 | Seaborn | [PR #1](https://github.com/AMMARKHALID2004/Seaborn/pull/1) | Merged | `7af9f64` |
 
-The student explicitly approved these merges on 2026-10-15. Each merge used its verified 40-character head commit reference; GitHub subsequently confirmed the MERGED state. The changes add README/setup/evidence documentation and ignore rules, with tested ColumnTransformer corrections in Machine-Learning.
+I approved these merges on 2026-10-15. Each merge used its verified 40-character head commit reference. GitHub confirmed the MERGED state. The changes add setup and evidence notes, ignore rules, and tested ColumnTransformer corrections in Machine-Learning.
 
 ## Consolidated foundation work
 

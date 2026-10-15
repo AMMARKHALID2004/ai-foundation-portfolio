@@ -36,7 +36,7 @@ These references could not be made fully self-contained because the source repos
 
 The NumPy-100 collection includes upstream exercises/solutions, licence and generators. Its `SOURCE.md` distinguishes it from independent student work. Other source repos may contain course/tutorial examples; original attribution stays with each snapshot, and dataset licences are not newly assigned by this import.
 
-The student reports NumPy/Pandas/Matplotlib/Seaborn completed and scikit-learn studied through ColumnTransformer. The imported Python/data/EDA work supplies additional foundation evidence, while a diagnostic, reflection and supervisor review are still needed for formal module completion. The ML/PyTorch minimum outputs remain pending unless their actual evidence is reviewed.
+I reported NumPy, Pandas, Matplotlib, and Seaborn complete. I studied scikit-learn through ColumnTransformer. My earlier Python, data, and EDA work gives me more foundation evidence. I still need a diagnostic, reflection, and supervisor review for formal module completion. The ML and PyTorch minimum outputs remain pending until their evidence is reviewed.
 
 ## Public payload and local datasets
 

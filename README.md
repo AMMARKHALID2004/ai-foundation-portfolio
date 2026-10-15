@@ -1,36 +1,36 @@
-# AI foundation portfolio
+# My AI foundation portfolio
 
-Common foundation portfolio for Muhammad Ammar Khalid's FYP preparation, following the supervisor's **AI Learning and Specialization Guide**, version 1.0 (September 2026).
+I am Muhammad Ammar Khalid. I use this repository to record my FYP preparation. I follow my supervisor's **AI Learning and Specialization Guide**, version 1.0 (September 2026).
 
-## Current position
+## Where I am now
 
-As reported on **2026-10-15**, NumPy, Pandas, Seaborn, and Matplotlib study is complete; scikit-learn study has reached **ColumnTransformer**. Existing GitHub repositories contain related notebooks. This records prior work without assuming the complete ML or PyTorch foundation is finished. Originality, reproducibility, learning reflections, and supervisor sign-off still need review.
+I reported on **2026-10-15** that I had completed NumPy, Pandas, Matplotlib, and Seaborn. I had studied scikit-learn through **ColumnTransformer**. My earlier notebooks are in [completed-work](completed-work/README.md). The dates when I studied each topic are unknown.
 
-**Your completed material:** [browse the imported work](completed-work/README.md).
+I still need to check my evidence and add my own explanations. My supervisor has not reviewed these modules yet. I do not mark the full ML or PyTorch foundation complete.
 
-**Start here:** [next tasks](docs/NEXT_STEPS.md), [roadmap](docs/ROADMAP.md), and [progress tracker](docs/PROGRESS.md).
+**My next task:** [move from ColumnTransformer to Pipeline](docs/NEXT_STEPS.md). I use [the progress tracker](docs/PROGRESS.md) to record each finished task. [How I add new work](docs/WORKFLOW.md) gives the exact steps.
 
-## Structure
+## Repository map
 
-| Folder | Purpose |
+| Folder | What I put there |
 | --- | --- |
-| `modules/01-python-data-git` | Prior Python/data/visualization evidence and a short diagnostic |
-| `modules/02-supervised-ml` | Course 1 concepts and original linear/logistic regression |
-| `modules/03-advanced-ml` | Course 2 concepts and a comparison of at least three models |
-| `modules/04-unsupervised-optional` | Optional Course 3 work |
-| `modules/05-pytorch-basics` | Tensors, autograd, datasets, training, saving/loading |
-| `modules/06-pytorch-video-practice` | Independent reproductions of the beginner series |
-| `modules/07-deep-learning-practice` | Student-written MLP/CNN loops and error analysis |
-| `modules/08-evaluation-optional` | Optional dedicated evaluation study; apply evaluation in projects |
-| `practice/sklearn-pipelines` | Bridge from ColumnTransformer to an end-to-end ML workflow |
-| `completed-work` | Imported notebooks, Python exercises, data-handling/EDA and preprocessing work from 14 existing repositories |
-| `templates` | Module evidence, experiments, reflection, dataset and model cards |
-| `docs` | Planning, progress, portfolio links and submission checklist |
-| `blueprints` | Plans for one future specialization repo and a separate capstone |
+| `modules/01-python-data-git` | My Python and data evidence, plus a short diagnostic |
+| `modules/02-supervised-ml` | My Course 1 notes and original linear/logistic regression |
+| `modules/03-advanced-ml` | My Course 2 work and comparison of at least three models |
+| `modules/04-unsupervised-optional` | My optional Course 3 work, if I choose it |
+| `modules/05-pytorch-basics` | My PyTorch Basics work |
+| `modules/06-pytorch-video-practice` | My independent practice from the beginner videos |
+| `modules/07-deep-learning-practice` | My MLP, CNN, training loops, and error analysis |
+| `modules/08-evaluation-optional` | My optional evaluation study |
+| `practice/sklearn-pipelines` | My next exercise after ColumnTransformer |
+| `completed-work` | Copies of my earlier notebooks and source files from 14 repositories |
+| `templates` | Forms I use to record experiments, results, and reflections |
+| `docs` | My plan, progress, evidence links, and instructions |
+| `blueprints` | Plans for my future specialization and capstone repositories |
 
-## Setup: Anaconda + Jupyter Notebook
+## Set up Anaconda and Jupyter Notebook
 
-The primary workflow uses **Anaconda**, **Jupyter Notebook**, and **uv**. Work from this repository's root:
+I work from the root of this repository. I use Anaconda, Jupyter Notebook, and uv:
 
 ```bash
 conda env create -f environment.yml
@@ -41,26 +41,24 @@ python scripts/fetch_learning_data.py
 python -m notebook
 ```
 
-The optional data-download step uses GitHub CLI to retrieve original lesson assets locally, verifies their hashes and keeps them out of Git. You can skip it for the synthetic Pipeline starter.
+I select the **FYP AI (Anaconda)** kernel in Jupyter Notebook. If `fyp-ai` already exists, I activate it. I then start at the `uv pip install` command. The data command is optional for the Pipeline exercise.
 
-In Jupyter Notebook, select the **FYP AI (Anaconda)** kernel. If the environment already exists, activate it and continue from dependency installation.
+**pip option:** I can use `python -m pip install -r requirements.txt` instead of `uv pip install -r requirements.txt`. Both commands use the same package list. [Environment instructions](docs/ENVIRONMENT.md) explain other setup options.
 
-**pip alternative:** replace `uv pip install -r requirements.txt` with `python -m pip install -r requirements.txt`. Both use the same dependency file. [Environment instructions](docs/ENVIRONMENT.md) also cover uv/venv and pip/venv, optional EDA libraries, and saving exact package versions.
+I can run `python practice/sklearn-pipelines/example.py` to see a complete example. Its data is synthetic. The example score is not my FYP result. I then complete [my Pipeline exercise](practice/sklearn-pipelines/exercise.ipynb) myself.
 
-Run `python practice/sklearn-pipelines/example.py` for the synthetic Pipeline starter. It needs no dataset downloads or API keys; its score is a teaching result, not FYP performance. Complete `practice/sklearn-pipelines/exercise.ipynb` independently. The verified smaller runtime is in `requirements-example-lock.txt` (Python 3.12). See [verification](docs/VERIFICATION.md) for the actual checks and their limits.
+## Record my work
 
-## Evidence and working habits
+When I finish a task, I save my notebook or code in its module folder. I record the data source, run steps, results, and limits. I write what I learned. I update [PROGRESS.md](docs/PROGRESS.md), then commit and push my changes. [WORKFLOW.md](docs/WORKFLOW.md) shows each step and an example.
 
-For each module, provide a README with objectives and actual dates, original source/notebooks, an environment file, measured results with interpretation, and a reflection. Add a repository/folder link and supervisor review to [PROGRESS.md](docs/PROGRESS.md). Commit meaningful increments as you learn.
+My copied notebooks have clear source links and attribution. Their public copies have empty outputs. My original repositories retain their earlier results. I do not claim that a tutorial or supplied starter is my own implementation. I keep credentials and private data out of Git.
 
-Your previous work is imported in [completed-work](completed-work/README.md), with source links, cleared notebook outputs, attribution and a record of portability edits. Dataset assets are fetched locally from the originals. Original topic repos remain linked in [GITHUB_EVIDENCE.md](docs/GITHUB_EVIDENCE.md). Do not relabel copied tutorials or generated starters as original implementations. Attribute courses and dataset sources; publish only permitted independent work. Keep restricted graded solutions, private data, credentials and API keys out of Git.
+## Foundation completion checks
 
-## Foundation completion gate
+- [ ] I explain and implement linear and logistic regression myself.
+- [ ] I compare at least three classical ML models with a stated evaluation method.
+- [ ] I write PyTorch training and validation loops for an MLP and a CNN.
+- [ ] I examine model errors and explain possible improvements.
+- [ ] I give my supervisor reproducible evidence for each completed module.
 
-- [ ] Original linear and logistic regression with loss and optimization explanations.
-- [ ] At least three classical ML models compared under a justified evaluation protocol.
-- [ ] A PyTorch MLP and CNN with student-written training and validation loops.
-- [ ] Error analysis explaining failures and proposed improvements.
-- [ ] Every completed module has evidence, reproducible setup, and review.
-
-Choose one specialization after PyTorch. Use the [blueprints](blueprints/README.md) when ready. Scaffold creation does not complete any of these gates.
+I choose one specialization after the PyTorch foundation. I use [the roadmap](docs/ROADMAP.md) and [track plans](blueprints/README.md) when I reach that point.

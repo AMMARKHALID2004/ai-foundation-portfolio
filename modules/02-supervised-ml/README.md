@@ -2,25 +2,25 @@
 
 Guide priority: **Essential**. Planning estimate: 3 weeks.
 
-Current status: **Prior completion not confirmed**. Start/finish dates: unknown. Supervisor review: pending. This folder is a scaffold.
+My status: **Not confirmed**. I have not recorded my study dates. My supervisor has not reviewed this module. I will add my work here.
 
 ## Learning objectives
 
 Supervised learning, linear/logistic regression, losses, gradient descent, feature scaling and regularization.
 
-## Required work
+## What I will do
 
-- [ ] Implement linear regression independently with NumPy; explain MSE, gradients and parameter updates.
-- [ ] Implement logistic regression independently; explain sigmoid, binary cross-entropy and decision thresholds.
-- [ ] Plot loss curves; compare to scikit-learn as a correctness check on a permitted dataset.
-- [ ] Record initialization, learning rate, iterations, split protocol, seed and a regularization experiment.
+- [ ] I implement linear regression independently with NumPy. I explain MSE, gradients and parameter updates.
+- [ ] I implement logistic regression independently. I explain sigmoid, binary cross-entropy and decision thresholds.
+- [ ] I plot loss curves. I compare to scikit-learn as a correctness check on a permitted dataset.
+- [ ] I record initialization, learning rate, iterations, split protocol, seed and a regularization experiment.
 
-## Evidence to add
+## What I will add
 
-- Original notebook/source in `notebooks/` or `src/`; restart and run all notebooks.
-- Representative results/figures in `results/`, with interpretation.
-- Environment specification (root requirements plus module-specific additions).
-- Actual completion dates, resource/dataset attribution, and a learning reflection.
-- A clickable folder/repository link and supervisor review in [the tracker](../../docs/PROGRESS.md).
+- I save my own notebook or source in `notebooks/` or `src/`. I restart the kernel and run the notebook.
+- I save useful results and figures in `results/`. I explain what they show.
+- I record my environment. I add module-specific packages when I need them.
+- I record actual dates when known. I identify my sources and write a reflection.
+- I link my work in [the tracker](../../docs/PROGRESS.md). I add supervisor feedback after review.
 
-Use [module evidence](../../templates/module-evidence.md), [experiment](../../templates/experiment.md), and [reflection](../../templates/reflection.md) templates. Resources are in [guide mapping](../../docs/GUIDE_MAPPING.md).
+I use the [module evidence](../../templates/module-evidence.md), [experiment](../../templates/experiment.md), and [reflection](../../templates/reflection.md) templates. I find resources in [the guide map](../../docs/GUIDE_MAPPING.md). I follow [my update steps](../../docs/WORKFLOW.md).

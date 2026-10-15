@@ -1,6 +1,6 @@
-# Separate FYP capstone repository blueprint
+# My separate FYP capstone plan
 
-Future repository: **fyp-ai-capstone**. First obtain topic/proposal approval and complete the prerequisites for the chosen track.
+My planned repository is **fyp-ai-capstone**. I will complete the track prerequisites and get topic approval before I start the capstone.
 
 ```text
 fyp-ai-capstone/
@@ -26,10 +26,10 @@ fyp-ai-capstone/
 
 ## Proposal and evaluation before building
 
-State the problem, intended users, scope, data permissions, simple baseline, selected specialist approach, success criteria and feasibility. Define train/validation/test or task-evaluation discipline before final testing. Record the supervisor's actual approval.
+I will state the problem, users, scope, data permissions, baseline, method, success criteria, and feasibility. I will define the evaluation plan before final testing. I will record my supervisor's actual approval.
 
 ## Implementation and delivery
 
-Use the selected [CV](computer-vision.md), [LLM](llms.md), or [Agents](ai-agents.md) capstone checklist. Document acquisition/setup/run/evaluation instructions, actual measured results, failures, bias and limitations. Keep secrets and restricted data out of Git. Create meaningful commits and clearly separate individual contributions.
+I will use the [CV](computer-vision.md), [LLM](llms.md), or [Agents](ai-agents.md) checklist for my chosen track. I will record setup, run steps, measured results, failures, bias, and limits. I will keep secrets and restricted data out of Git. I will identify each person's contribution in group work.
 
-The guide expects the substantial project/evaluation within track duration (3–5 weeks) and 1–2 weeks of final polish. Submit separate foundation/track/capstone URLs, technical report PDF, demo, model/system card, results/failure analysis and contribution statement. See [submission checklist](../docs/SUBMISSION_CHECKLIST.md).
+The guide plans 3–5 weeks for the substantial project and 1–2 weeks for final polish. I will submit separate foundation, track, and capstone links. I will add a report, demo, model or system card, results, failure analysis, and contribution statement. I use [my submission checklist](../docs/SUBMISSION_CHECKLIST.md).

@@ -1,6 +1,6 @@
 # LLM specialization blueprint
 
-Entry: common foundation, PyTorch competence, selected/approved track. Guide estimate: 12–18 weeks.
+I can start this track after the common foundation and PyTorch. I will confirm the choice with my supervisor. The guide estimates 12–18 weeks.
 
 ## Required course sequence
 
@@ -20,4 +20,4 @@ Entry: common foundation, PyTorch competence, selected/approved track. Guide est
 - [ ] Token/cost/latency measurements; privacy/safety/prompt-injection analysis.
 - [ ] Deployed interface/API, reproducible repo, report and demo.
 
-Discuss a regulations assistant, research-paper assistant, Urdu-English document intelligence or secure SOP assistant with the supervisor. No topic is selected here.
+I can discuss a regulations assistant, research-paper assistant, Urdu-English document system, or secure SOP assistant with my supervisor. I have not selected a topic.
