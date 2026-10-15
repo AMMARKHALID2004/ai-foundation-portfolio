@@ -76,3 +76,8 @@ artifacts/
 /completed-work/sklearn-preprocessing/Ordinal Encoding/Datasets/customer.csv
 /completed-work/sklearn-preprocessing/Power Transformer/Dataset/concrete_data.csv
 /completed-work/sklearn-preprocessing/Standardization (Z-score Normalization)/Datasets/Social_Network_Ads.csv
+
+# Local detection state and unsorted input stay on this computer.
+.learning-tracker/
+learning-inbox/*
+!learning-inbox/README.md

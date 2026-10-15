@@ -49,3 +49,23 @@ The folder links below show where I will put my evidence. Some module folders ha
 | Meeting date | Evidence presented | Supervisor initials / review date | Agreed next action |
 | --- | --- | --- | --- |
 | To be entered | | | |
+
+<!-- learning-tracker:start -->
+## My automatic activity record
+
+This section updates when new work is detected. My study dates and supervisor reviews require actual evidence.
+I use [my learning log](LEARNING_LOG.md) to open each record.
+
+| Module | Learning records |
+| --- | --- |
+| Python and data libraries | 0 |
+| ColumnTransformer and Pipeline | 0 |
+| Supervised ML | 0 |
+| Advanced ML and model comparison | 0 |
+| Optional unsupervised ML | 0 |
+| PyTorch Basics | 0 |
+| PyTorch video practice | 0 |
+| MLP and CNN practice | 0 |
+| Optional evaluation study | 0 |
+
+<!-- learning-tracker:end -->

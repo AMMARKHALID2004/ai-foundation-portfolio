@@ -49,6 +49,8 @@ I can run `python practice/sklearn-pipelines/example.py` to see a complete examp
 
 ## Record my work
 
+I use [automatic tracking](docs/AUTOMATIC_TRACKING.md) for saved notebooks and changes in my linked GitHub repositories. I can add a short note in [Track_my_learning.ipynb](Track_my_learning.ipynb). The tracker creates a module record and updates [my learning log](docs/LEARNING_LOG.md).
+
 When I finish a task, I save my notebook or code in its module folder. I record the data source, run steps, results, and limits. I write what I learned. I update [PROGRESS.md](docs/PROGRESS.md), then commit and push my changes. [WORKFLOW.md](docs/WORKFLOW.md) shows each step and an example.
 
 My copied notebooks have clear source links and attribution. Their public copies have empty outputs. My original repositories retain their earlier results.

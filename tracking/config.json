@@ -1,0 +1,61 @@
+{
+  "repositories": [
+    {
+      "repository": "AMMARKHALID2004/Python_OOP",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/Python-Revision",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/Advance-Python",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/generators-and-decorators",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/Numpy",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/Numpy-100-Problems",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/Pandas",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/Matplotlib",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/Seaborn",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/Working-with-different-files",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/Data-Cleaning",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/EDA",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/EDA-Project",
+      "module": "refresh"
+    },
+    {
+      "repository": "AMMARKHALID2004/Machine-Learning",
+      "module": "pipeline"
+    }
+  ],
+  "file_modules": {}
+}

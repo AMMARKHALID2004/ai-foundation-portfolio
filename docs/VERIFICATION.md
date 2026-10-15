@@ -36,3 +36,11 @@ The fresh conda environment YAML and uv/pip instructions are documented; a new c
 The final public payload contains notebook/source files only, with outputs and embedded widget/attachment data cleared. Supporting assets are excluded from public history and ignored locally; the GitHub CLI downloader retrieves them from recorded original commits.
 
 The dataset helper passed a real GitHub CLI download and hash check using a small existing cricket CSV. It also preserved a different local file and rejected an asset path outside the project.
+
+## Learning tracker checks — 2026-10-15
+
+- Seven tests cover baseline scans, new and changed files, repeat scans, preserved notes, GitHub failures, module assignment, and date/path checks.
+- The initial GitHub scan succeeded for all 14 configured repositories. It recorded no new learning claims.
+- A second local scan made no file changes.
+- The tracker uses the Python standard library. It does not execute notebook code.
+- The hourly schedule is active in this Codex chat. Future unattended runs still depend on the computer, app, network, and GitHub login being available.

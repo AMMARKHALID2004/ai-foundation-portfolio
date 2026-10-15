@@ -1,5 +1,7 @@
 # How I use this portfolio
 
+I now use [automatic tracking](AUTOMATIC_TRACKING.md) for routine file detection and learning records. I add lessons without code in [my Jupyter tracking notebook](../Track_my_learning.ipynb). The steps below explain how I prepare evidence and record full module completion.
+
 I use this page each time I finish a lesson, exercise, or module. I use short sentences and direct instructions in my notes. I follow the writing principles of [ASD-STE100](https://www.asd-ste100.org/about_STE.html).
 
 ## 1. Find the correct folder
