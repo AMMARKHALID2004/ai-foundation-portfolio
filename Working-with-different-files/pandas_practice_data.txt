@@ -1,0 +1,14 @@
+# Global Superstore Sales Extract — Log File
+# Generated: 2026-07-10
+# Note: Separator is a pipeline character '|'
+# Some rows contain metadata warnings that need to be skipped using bad lines configurations or commenting.
+
+TransactionID|Timestamp|Customer_Email|Product_SKU|Quantity|Price_USD|Payment_Status
+TXN-9901|2026-07-01 09:12:00|alice@email.com|ELEC-102|1|499.99|Completed
+TXN-9902|2026-07-01 10:45:12|bob@email.com|CLOTH-05|3|24.50|Completed
+# WARNING: NETWORK TIMEOUT DURING PROCESSING NEXT ROW
+TXN-9903|2026-07-02 11:22:05|charlie@email.com|HOME-88|2|89.00|Completed
+TXN-9904|2026-07-02 14:05:59|dan@email.com|BOOKS-12|1|15.99|Refunded
+TXN-9905|2026-07-03 16:40:22|eve@email.com|ELEC-44|1|1200.00|Completed|EXTRA_COLUMN_ERROR_HERE|ERROR_CODE_404
+TXN-9906|2026-07-03 17:15:00|frank@email.com|CLOTH-02|5|12.00|Completed
+TXN-9907|2026-07-04 18:30:11|grace@email.com|HOME-14|NULL|45.00|Failed
