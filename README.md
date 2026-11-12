@@ -1,9 +1,6 @@
 # AI Foundation Portfolio
 This repository is for keeping the track of my preparation for my FYP (Final Year Project). It will include all the things required for specialization in Computer Vision, Agentic AI and LLM's.
 
-### Supervisor: Dr. Muhammad Aksam Iftikhar
-
-
 
 # Progress Tracker
 
