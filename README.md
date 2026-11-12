@@ -11,7 +11,7 @@ The Python, numerical computing, data analysis, and visualization foundations ar
 ## Progress overview
 
 | Area | Status | Current evidence |
-|---|---|---|---|
+|---|---|---|
 | Git and repository workflow | Completed | Version-controlled portfolio with organized topic folders |
 | Core Python and OOP | Completed | OOP examples, classes, inheritance, abstraction, encapsulation, composition, and task exercises in [`Python_OOP`](./Python_OOP/) |
 | Advanced Python | Completed | Iterators, generators, decorators, recursion, comprehensions, higher-order functions, namespaces, assertions, `pathlib`, and file handling in [`Advance-Python`](./Advance-Python/) and [`generators-and-decorators`](./generators-and-decorators/) |
