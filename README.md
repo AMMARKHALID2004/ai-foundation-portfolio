@@ -6,7 +6,7 @@ This repository documents my preparation for a Final Year Project and my long-te
 
 The Python, numerical computing, data analysis, and visualization foundations are well established in this repository. The **Machine Learning section is still incomplete and actively under development**. The current ML work is concentrated on data preprocessing and pipeline building; model training, comparison, evaluation, and end-to-end projects are still ahead.
 
-> Progress below reflects the learning material currently present in the repository. “Completed” means the foundation has been practiced here; it does not mean the subject is permanently finished.
+> Progress below reflects the learning material currently present in the repository.
 
 ## Progress overview
 
