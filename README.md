@@ -20,7 +20,7 @@ The Python, numerical computing, data analysis, and visualization foundations ar
 | Data cleaning and file handling | Completed | CSV, Excel, JSON, text, SQL, APIs, web scraping, exporting, wrangling, and mixed-format exercises in [`Data-Cleaning`](./Data-Cleaning/) and [`Working-with-different-files`](./Working-with-different-files/) |
 | Exploratory data analysis | Completed | EDA notebook and reference guide in [`EDA`](./EDA/) |
 | Data visualization | Completed | Matplotlib and Seaborn practice, including sports and tabular datasets, in [`Matplotlib`](./Matplotlib/) and [`Seaborn`](./Seaborn/) |
-| Machine Learning | In progress | Preprocessing notebooks covering missing values, encoding, transformations, outliers, PCA, column transformers, and pipelines in [`Machine-Learning`](./Machine-Learning/) |
+| Machine Learning | In progress | Preprocessing plus introductory supervised learning: linear and multiple linear regression, regression metrics and assumptions, and gradient descent in [`Machine-Learning`](./Machine-Learning/) |
 | Deep Learning and PyTorch | Not started | No dedicated module in the repository yet |
 | Computer Vision | Not started | No dedicated module in the repository yet |
 | LLMs and Agentic AI | Not started | No dedicated module in the repository yet |
@@ -28,7 +28,7 @@ The Python, numerical computing, data analysis, and visualization foundations ar
 
 ## Machine Learning progress tracker
 
-The ML folder is intentionally marked **In progress**. It has meaningful work already, but it is not a finished machine learning curriculum yet.
+The ML folder is intentionally marked **In progress**. It now includes both preprocessing practice and first model-building work, while the broader model and project curriculum is still developing.
 
 ### Preprocessing topics currently covered
 
@@ -42,6 +42,16 @@ The ML folder is intentionally marked **In progress**. It has meaningful work al
 - [x] Column transformers
 - [x] Pipelines
 - [x] Principal Component Analysis (PCA), including visualization and selecting the number of components
+- [x] Linear regression: simple and multiple regression, a from-scratch implementation, and visualizing a fitted regression plane
+- [x] Regression evaluation: common regression metrics and linear regression assumptions
+- [x] Gradient descent: step-by-step exploration and a custom gradient descent regressor
+
+### Next areas to build out
+
+- Continue supervised learning with classification and additional regression models
+- Expand model evaluation, validation, and comparison across datasets
+- Build complete end-to-end machine learning projects
+- Add dedicated deep learning, computer vision, LLM, and agentic AI work
 
 ## Learning evidence map
 
@@ -57,7 +67,7 @@ The ML folder is intentionally marked **In progress**. It has meaningful work al
 | [`EDA`](./EDA/) | Exploratory analysis and analytical thinking |
 | [`Matplotlib`](./Matplotlib/) | Foundational plotting and visual reporting |
 | [`Seaborn`](./Seaborn/) | Statistical and relational visualization |
-| [`Machine-Learning`](./Machine-Learning/) | Active ML preprocessing and pipeline work |
+| [`Machine-Learning`](./Machine-Learning/) | Active ML preprocessing, regression, gradient descent, and pipeline work |
 
 ## How to use this repository
 
