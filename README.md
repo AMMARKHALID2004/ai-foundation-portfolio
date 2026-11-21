@@ -4,7 +4,7 @@ This repository documents my preparation for a Final Year Project and my long-te
 
 ## Current status
 
-The Python, numerical computing, data analysis, and visualization foundations are well established in this repository. The **Machine Learning section is still incomplete and actively under development**. The current ML work is concentrated on data preprocessing and pipeline building; model training, comparison, evaluation, and end-to-end projects are still ahead.
+The Python, numerical computing, data analysis, and visualization foundations are well established in this repository. The **Machine Learning section is still incomplete and actively under development**. Alongside preprocessing and pipelines, the ML work now includes introductory regression and classification, model evaluation concepts, and gradient descent implementations. Broader model comparison and end-to-end projects remain ahead.
 
 > Progress below reflects the learning material currently present in the repository.
 
@@ -20,7 +20,7 @@ The Python, numerical computing, data analysis, and visualization foundations ar
 | Data cleaning and file handling | Completed | CSV, Excel, JSON, text, SQL, APIs, web scraping, exporting, wrangling, and mixed-format exercises in [`Data-Cleaning`](./Data-Cleaning/) and [`Working-with-different-files`](./Working-with-different-files/) |
 | Exploratory data analysis | Completed | EDA notebook and reference guide in [`EDA`](./EDA/) |
 | Data visualization | Completed | Matplotlib and Seaborn practice, including sports and tabular datasets, in [`Matplotlib`](./Matplotlib/) and [`Seaborn`](./Seaborn/) |
-| Machine Learning | In progress | Preprocessing plus introductory supervised learning: linear and multiple linear regression, regression metrics and assumptions, and gradient descent in [`Machine-Learning`](./Machine-Learning/) |
+| Machine Learning | In progress | Preprocessing and pipelines plus introductory regression, logistic regression and perceptron, regression metrics and assumptions, and batch, stochastic, and mini-batch gradient descent in [`Machine-Learning`](./Machine-Learning/) |
 | Deep Learning and PyTorch | Not started | No dedicated module in the repository yet |
 | Computer Vision | Not started | No dedicated module in the repository yet |
 | LLMs and Agentic AI | Not started | No dedicated module in the repository yet |
@@ -43,12 +43,14 @@ The ML folder is intentionally marked **In progress**. It now includes both prep
 - [x] Pipelines
 - [x] Principal Component Analysis (PCA), including visualization and selecting the number of components
 - [x] Linear regression: simple and multiple regression, a from-scratch implementation, and visualizing a fitted regression plane
+- [x] Polynomial regression
+- [x] Introductory classification: logistic regression with gradient descent and perceptron-based examples
 - [x] Regression evaluation: common regression metrics and linear regression assumptions
-- [x] Gradient descent: step-by-step exploration and a custom gradient descent regressor
+- [x] Gradient descent: batch, stochastic, and mini-batch methods, step-by-step exploration, and a custom gradient descent regressor
 
 ### Next areas to build out
 
-- Continue supervised learning with classification and additional regression models
+- Continue supervised learning with additional classification and regression models
 - Expand model evaluation, validation, and comparison across datasets
 - Build complete end-to-end machine learning projects
 - Add dedicated deep learning, computer vision, LLM, and agentic AI work
@@ -67,7 +69,7 @@ The ML folder is intentionally marked **In progress**. It now includes both prep
 | [`EDA`](./EDA/) | Exploratory analysis and analytical thinking |
 | [`Matplotlib`](./Matplotlib/) | Foundational plotting and visual reporting |
 | [`Seaborn`](./Seaborn/) | Statistical and relational visualization |
-| [`Machine-Learning`](./Machine-Learning/) | Active ML preprocessing, regression, gradient descent, and pipeline work |
+| [`Machine-Learning`](./Machine-Learning/) | Active ML preprocessing, regression, introductory classification, gradient descent, and pipeline work |
 
 ## How to use this repository
 
